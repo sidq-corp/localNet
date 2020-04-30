@@ -1,0 +1,6 @@
+function correct(){
+
+}
+function error(){
+	
+}

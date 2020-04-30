@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+
+#registr{
+	position: absolute;
+	left:25%;
+	top:10%;
+	background-color: #d1d1d1;
+	height: 30%;
+	width: 20%;
+	border-radius:20px;
+}
+#login{
+	position: absolute;
+	left:55%;
+	top:10%;
+	background-color: #d1d1d1;
+	height: 30%;
+	width: 20%;
+	border-radius:20px;
+}
+
+.title{
+	position: absolute;
+	left:21%;
+	top:10%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	width: 100%;
+}
+
+#reg_form{
+	position: absolute;
+	left:15%;
+	top:40%;
+	height: 30%;
+	width: 80%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+}
