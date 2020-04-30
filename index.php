@@ -23,6 +23,13 @@
 		<div class="title">
 			ВХОД В АККАУНТ
 		</div>
+		<div id="login_form">
+			<form action="php/reg.php" method="get">
+				Логин: <input  type="text" name="user_login">
+				Пароль: <input type="text" name="user_pass">
+				<input type="submit" name="submit" value="Зарегистрироваться">
+			</form>
+		</div>
 	</div>
 </body>
 </html>
