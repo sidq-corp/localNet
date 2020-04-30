@@ -24,7 +24,7 @@
 			ВХОД В АККАУНТ
 		</div>
 		<div id="login_form">
-			<form action="php/reg.php" method="get">
+			<form action="php/login.php" method="get">
 				Логин: <input  type="text" name="user_login">
 				Пароль: <input type="text" name="user_pass">
 				<input type="submit" name="submit" value="Войти">
