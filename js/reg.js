@@ -3,5 +3,4 @@ function correct(){
 }
 function error(){
 	document.location.href='../index.php';
-
 }
