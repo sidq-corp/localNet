@@ -120,31 +120,32 @@ body{
     transform: translate3d(2px, 25%, 0);
   }
   30%{
-    transform: translate3d(-4px, 40%, 0);
+    transform: translate3d(-2px, 40%, 0);
   }
   40% {
-    transform: translate3d(4px, 80%, 0);
+    transform: translate3d(0, 80%, 0);
   }
   50% {
-    transform: translate3d(-4px, 190%, 0);
+    transform: translate3d(0, 190%, 0);
   }
   60% {
-    transform: translate3d(4px, 250%, 0);
+    transform: translate3d(0, 250%, 0);
   }
   70% {
-    transform: translate3d(-4px, 340%, 0);
+    transform: translate3d(0, 340%, 0);
   }
   80% {
-    transform: translate3d(2px, 400%, 0);
+    transform: translate3d(0, 400%, 0);
   }
   90% {
-    transform: translate3d(-1px, 500%, 0);
+    transform: translate3d(0, 500%, 0);
   }
 }
 
 .apply-shake {
-    animation:shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    animation:drop 0.82s cubic-bezier(.36,.07,.19,.97) both;
 }
 .apply-drop {
     animation:drop 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0px, 500%, 0)
 }
