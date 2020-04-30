@@ -1,0 +1,22 @@
+#global_chat{
+	position: absolute;
+	left: 45%;
+	top: 10%;
+	width: 20%;
+	height: 30%;
+	background-color: #e8e8e8;
+	border-radius: 10px;
+}
+#global_chat_1{
+	position: absolute;
+	left: 15%;
+	top: 10%;
+	width: 90%;
+	height: 90;
+}
+#result_form{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-height: 120px;
+	width: 80%;
+}

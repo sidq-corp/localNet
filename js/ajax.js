@@ -3,6 +3,7 @@ $( document ).ready(function() {
     $("#btn").click(
 		function(){
 			sendAjaxForm('result_form', 'ajax_form', '../php/chat_handler.php');
+            document.getElementById('messin').value = '';
 			return false; 
 		}
 	);

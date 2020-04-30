@@ -23,14 +23,18 @@
 			echo"<script>error()</script>";
 		}
 	?>
+<!-- Глобальный чат -->
+	<div id="global_chat">
+		<div id="global_chat_1">
+			<form method="post" id="ajax_form" action="" >
+		        <input type="text" name="mess" id="messin"><br>
+		        <input type="text" name="name" value="<?php echo $name; ?>">
+		        <input type="button" id="btn" value="Отправить" />
+		    </form>
 
-	<form method="post" id="ajax_form" action="" >
-        <input type="text" name="mess"><br>
-        <input type="text" name="name" value="<?php echo $name; ?>">
-        <input type="button" id="btn" value="Отправить" />
-    </form>
-
-    <div id="result_form"></div> 
-
+		    <div id="result_form"></div> 
+		</div>
+	</div>
+<!-- Глобальный чал -->
 </body>
 </html>
