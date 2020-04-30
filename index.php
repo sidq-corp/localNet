@@ -19,9 +19,11 @@
 			</form>
 		</div>
 	</div>
-	<div id="login">
+	<div id = 'logo' onclick="logo_drop()"tooltip = "О нас"></div>
+	<div id="login" class = 'input_form'>
+		
 		<div class="title">
-			ВХОД В АККАУНТ
+			Вход
 		</div>
 		<div id="login_form">
 			<form action="php/login.php" method="get">
