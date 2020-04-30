@@ -71,11 +71,16 @@ body{
 
 	opacity: 0.7;
 
-	transform: skewX(-12deg);
+	transform: skewX(-12deg) translateY(0%);
 	font-family: 'Proxima Black';
 	font-size: 150%;
 	color: white;
 	background-color: #e401cf;
+	transition: all 0.5s ease;
+}
+.input_form button:hover{
+	cursor: pointer;
+	transform: skewX(-12deg) translateY(5%);
 }
 
 
