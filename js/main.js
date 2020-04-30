@@ -1,3 +1,8 @@
+function init(){
+	document.getElementById("password").addEventListener("focus", () => check_focus_password(), true);
+	document.getElementById("password").addEventListener("blur", () => check_blur_password(), true);
+}
+
 function logo_drop(){
 	console.log('los')
 	sdrop(document.getElementById('logo'));
@@ -16,4 +21,7 @@ function shake(elem) {
 }
 function sdrop(elem) {
 	elem.classList.add("apply-drop");
+	elem.addEventListener("animationend", (e) => {
+	    elem.classList.add("apply-drop-end");
+	});
 }
