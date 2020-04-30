@@ -1,11 +1,11 @@
 function logo_drop(){
 	console.log('los')
-	shake(document.getElementById('logo'));
+	sdrop(document.getElementById('logo'));
 	setTimeout(logo_drop_f2,1000)
 }	
 function logo_drop_f2(){
-	document.getElementById('logo').style.transtion = "transform 3s linear"
-	document.getElementById('logo').style.transform = "translateY(500%)"
+	// document.getElementById('logo').style.transtion = "transform 3s linear"
+	// document.getElementById('logo').style.transform = "translateY(500%)"
 }
 
 function shake(elem) {
@@ -14,6 +14,6 @@ function shake(elem) {
 	    elem.classList.remove("apply-shake");
 	});
 }
-function drop(elem) {
+function sdrop(elem) {
 	elem.classList.add("apply-drop");
 }
