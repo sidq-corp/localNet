@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 	<title>Регестрация</title>
@@ -15,9 +14,11 @@
 		$all = fread($f,  filesize("account/$login.id"));
 		list($id, $login, $name, $pass) = explode("\n", $all);
 		// echo "$id $login $name $pass";
+		$ip = $_SERVER['REMOTE_ADDR'];
+		$secretkey = hash("sha256", "$login$id$ip");
 		if($pass == $pass_user){
 			echo "corret";
-			echo "<script>correct_login()</script>";
+			echo "<script>correct_login('$secretkey', '$login', '$id')</script>";
 		}else{
 			echo "error";
 			echo "<script>error_pass()</script>";
