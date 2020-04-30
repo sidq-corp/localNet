@@ -18,7 +18,7 @@
 		$secretkey = hash("sha256", "$login$id$ip");
 		if($pass == $pass_user){
 			echo "corret";
-			echo "<script>correct_login('$secretkey', '$login', '$id')</script>";
+			echo "<script>correct_login('$secretkey', '$login', '$id', '$name')</script>";
 		}else{
 			echo "error";
 			echo "<script>error_pass()</script>";
