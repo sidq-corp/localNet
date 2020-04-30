@@ -12,9 +12,9 @@
 		</div>
 		<div id="reg_form">
 			<form action="php/reg.php" method="get">
-				Логин: <input  type="text" name="reg_login">
-				Имя:    <input type="text" name="reg_name">
-				Пароль: <input type="text" name="reg_pass">
+				<p>Логин:</p> <input  type="text" name="reg_login">
+				<p>Имя: </p>   <input type="text" name="reg_name">
+				<p>Пароль:</p> <input type="text" name="reg_pass">
 				<input type="submit" name="submit" value="Зарегистрироваться">
 			</form>
 		</div>
