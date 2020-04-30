@@ -16,7 +16,7 @@
 		list($id, $login, $name, $pass) = explode("\n", $all);
 		echo "$id $login $name $pass";
 	}else{
-
+		echo "<script>login_not_found()</script>";
 	}
 	
 ?>
