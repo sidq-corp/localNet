@@ -22,7 +22,7 @@
 	}
 	$login = $_GET['reg_login'];
 	$name = $_GET['reg_name'];
-	$pass = $_GET['reg_pass'];
+	$pass = hash("sha256", $_GET['reg_pass']);
 	if(strlen($login) < 6 or strlen($pass) < 6 or strlen($name) < 2 or file_exists("account/$login.id")){
 		echo "<script>error()</script>";
 		echo "Ошибка регестраци";
