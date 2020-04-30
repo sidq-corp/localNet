@@ -27,7 +27,7 @@
 			<form action="php/reg.php" method="get">
 				Логин: <input  type="text" name="user_login">
 				Пароль: <input type="text" name="user_pass">
-				<input type="submit" name="submit" value="Зарегистрироваться">
+				<input type="submit" name="submit" value="Войти">
 			</form>
 		</div>
 	</div>

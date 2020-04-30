@@ -37,3 +37,12 @@
 	font-family: 'Comfortaa', cursive;
 	font-size: 15px;
 }
+#login_form{
+	position: absolute;
+	left:15%;
+	top:40%;
+	height: 30%;
+	width: 80%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 15px;
+}
