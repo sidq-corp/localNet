@@ -1,4 +1,5 @@
 <?php
+	
 	$secret = $_GET['secret'];
 	$login = $_GET['login'];
 	$id = $_GET['id'];
@@ -9,4 +10,5 @@
 	}else{
 		echo"error";
 	}
+
 ?>
