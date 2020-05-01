@@ -23,11 +23,21 @@
 			echo"<script>error()</script>";
 		}
 	?>
+					<?php 
+						$files = scandir("../php/account");
 
+						foreach ($files as $file) {
+							echo "<script>console.log('$file')</script>";
+						}
+					?>
 
 	<div id="local_chat">
 		<div id="local_chat_1">
 			<form method="post" id="ajax_form" action="" >
+				<input list="guys" type="text" name="goto" id="goto"><br>
+				<datalist id="guys">
+					
+   				</datalist> 
 		        <input type="text" name="messloc" id="messloc"><br>
 		        <input type="text" name="name" value="<?php echo $name; ?>">
 		        <input type="button" id="lcl" value="Отправить" />
