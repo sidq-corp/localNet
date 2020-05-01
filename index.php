@@ -4,6 +4,7 @@
 	<title>LocalNet</title>
 	<meta charset="utf-8" content="width=device-width, initial-scale=1" name="viewport">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/stars.css">
 	<script src="js/main.js"></script>
 </head>
 <body onload="init()">
@@ -13,6 +14,9 @@
 			echo "<script>throw_error_by_id('$err')</script>";
 		}
 		?>
+	<div id='stars'></div>
+	<div id='stars2'></div>
+	<div id='stars3'></div>
 	<div id='wrapper'>
 		<div id = 'logo' onclick="logo_drop()"><br><br><br></div>
 		<div id="registr" class = 'input_form'>

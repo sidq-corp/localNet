@@ -22,7 +22,7 @@
  BODY
 */
 body{
-	background-image: url(images/bg.jpg);
+	/*background-image: url(images/bg.jpg);*/
 	background-size: 100%;
 	overflow-y: hidden;
 	height: 100%;
@@ -216,6 +216,9 @@ body{
 		transform: translateY(5%);
 	}
 @media screen and (min-width: 0px) and (max-width: 340px) {
+  	body{
+  		background-size: 300%;
+  	}
   	#logo{
 		line-height: 150%;
 		margin-left: calc((105% - var(--width))/2);
@@ -257,6 +260,9 @@ body{
 
 }
 @media screen and (min-width: 340px) and (max-width: 400px) {
+  	body{
+  		background-size: 300%;
+  	}
   	#logo{
 		line-height: 150%;
 		margin-left: calc((105% - var(--width))/2);
@@ -298,6 +304,9 @@ body{
 
 }
 @media screen and (min-width: 400px) and (max-width: 500px) {
+  	body{
+  		background-size: 270%;
+  	}
   	#logo{
 		line-height: 150%;
 		margin-left: calc((105% - var(--width))/2);
@@ -339,6 +348,9 @@ body{
 
 }
 @media screen and (min-width: 500px) and (max-width: 600px) {
+  	body{
+  		background-size: 230%;
+  	}
   	#logo{
 		line-height: 150%;
 		margin-left: calc((105% - var(--width))/2);
@@ -380,6 +392,9 @@ body{
 
 }
 @media screen and (min-width: 600px) and (max-width: 700px) {
+  	body{
+  		background-size: 210%;
+  	}
   	#logo{
 		line-height: 150%;
 	}
@@ -420,6 +435,9 @@ body{
 
 }
 @media screen and (min-width: 700px) and (max-width: 900px) {
+  	body{
+  		background-size: 210%;
+  	}
   	#logo{
 		line-height: 150%;
 	}
@@ -444,6 +462,9 @@ body{
 }
 /*1.08125*/
 @media screen and (min-width: 800px) and (max-width: 900px) {
+  	body{
+  		background-size: 130%;
+  	}
   	#logo{
 		line-height: 150%;
 	}
@@ -464,6 +485,9 @@ body{
 	}
 }
 @media screen and (min-width: 900px) and (max-width: 1000px) {
+  	body{
+  		background-size: 120%;
+  	}
   	#logo{
 		line-height: 150%;
 	}
@@ -484,6 +508,9 @@ body{
 	}
 }
 @media screen and (min-width: 1000px) and (max-width: 1150px) {
+  	body{
+  		background-size: 110%;
+  	}
   	#logo{
 		line-height: 150%;
 	}
@@ -668,4 +695,4 @@ body{
 	#help_div p{
 		font-size: 80%;
 	}
-}
+}*/
