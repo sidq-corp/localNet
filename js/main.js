@@ -129,7 +129,7 @@ function display_error(arg1,arg2){
 	if (arg2 == 1){
 		document.getElementById('error_div').style.backgroundColor = 'rgba(31, 173, 34, 0.7)';
 	}else if (arg2){
-		msg = msg + ''+arg2+''
+		msg = msg + ' '+arg2+''
 	}
 	msg = msg + '</p><br>	'
 	document.getElementById('error_div').innerHTML = msg;
