@@ -2,19 +2,22 @@
 $( document ).ready(function() {
     $("#glb").click(
 		function(){
-			sendAjaxForm('result_form', 'global_chat_form', '../php/chat_handler.php');
+            name = document.title;
+			sendAjaxForm('result_form', '../php/chat_handler.php', name);
             document.getElementById('messin').value = '';
 			return false; 
 		}
 	);
 });
  
-function sendAjaxForm(result_form, ajax_form, url) {
+function sendAjaxForm(result_form, url, name) {
+    console.log(name);
+    console.log(document.getElementById('messin').value);
     $.ajax({
         url:     url, //url страницы (action_ajax_form.php)
         type:     "POST", //метод отправки
         dataType: "html", //формат данных
-        data: $("#"+ajax_form).serialize(),  // Сеарилизуем объект
+        data: {"mess" : document.getElementById('messin').value, "name" : name},  // Сеарилизуем объект
         success: function(response) { //Данные отправлены успешно
         	result = $.parseJSON(response);
         	$('#result_form').html(result);

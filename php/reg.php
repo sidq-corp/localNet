@@ -13,7 +13,6 @@
 		return count($dir);
 	}
 
-	}
 	$login = $_GET['reg_login'];
 	$name = $_GET['reg_name'];
 	$pass = hash("sha256", $_GET['reg_pass']);
