@@ -7,12 +7,21 @@ function check_local(){
     to = document.getElementById("user_login").innerHTML;
 
 }
+function ginputgo(){
+    document.getElementById('messin').disabled = 0;
+    document.getElementById('messin').value = "";
+
+}
+
 $( document ).ready(function() {
     $("#glb").click(
 		function(){
             name = document.getElementById("user_name").innerHTML;
 			sendAjaxForm('result_form', '../php/chat_handler.php', name);
             document.getElementById('messin').value = '';
+            document.getElementById('messin').disabled = 1;
+            document.getElementById('messin').value = "Блокировка 3 секунды";
+            setTimeout(ginputgo, 3000);
 			return false; 
 		}
 	);

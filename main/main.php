@@ -2,16 +2,11 @@
 
 		echo "<script src='../js/main_login.js'></script>";
 		$login = $_GET['login'];
-
 		$f = fopen("../php/account/$login.id", "r");
 		$all = fread($f,  filesize("../php/account/$login.id"));
-
 		list($id, $login, $name, $pass, $lip, $luser_agent) = explode("\n", $all);
-
-		// echo "$secret $login $name $pass ";
 		$ip = $_SERVER['REMOTE_ADDR'];
 		$user_agent = $_SERVER['HTTP_USER_AGENT'];
-
 		if($ip != $lip or $user_agent != $luser_agent){
 			echo"<script>error()</script>";
 		}
