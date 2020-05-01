@@ -9,14 +9,8 @@
 <body>
 	<?php
 	function get_len_dir(){
-		$dir = opendir('account');
-		$count = 0;
-		while($file = readdir($dir)){
-    		if($file == '.' || $file == '..' || is_dir('path/to/dir' . $file)){
-       			 continue;
-	    }
-	    $count++;
-	    return $count;
+		$dir = scandir('account');
+		return count($dir);
 	}
 
 	}
