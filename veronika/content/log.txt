@@ -1,0 +1,2945 @@
+[LOG] message sent: "ssd", message id: 1551, from: depozzyx [560399754]
+[LOG] message sent: "Вероника", message id: 1552, from: depozzyx [560399754]
+[LOG] message sent: "вероника", message id: 1553, from: depozzyx [560399754]
+[LOG] message sent: "ddsd", message id: 1555, from: depozzyx [560399754]
+[LOG] message sent: "Кто такая вероника?", message id: 1556, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 1558, from: depozzyx [560399754]
+[LOG] message sent: "Вероника", message id: 1560, from: depozzyx [560399754]
+[LOG] message sent: "вероника", message id: 1562, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1564, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1566, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1568, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1571, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1573, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1575, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1577, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1579, from: depozzyx [560399754]
+[LOG] message sent: "вероник
+вероник", message id: 1581, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1583, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1585, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1587, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1589, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1591, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1593, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1595, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1597, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1599, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1601, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1603, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1605, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1608, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1610, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1612, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1614, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1616, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1619, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1621, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1622, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1623, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1624, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1625, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1626, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1627, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1628, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1629, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1630, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1631, from: depozzyx [560399754]
+[LOG] message sent: "верониквероник", message id: 1632, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1633, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1634, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1635, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1637, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1638, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1639, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1640, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1642, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1643, from: depozzyx [560399754]
+[LOG] message sent: "вероник
+вероник
+вероник", message id: 1644, from: depozzyx [560399754]
+[LOG] message sent: "вероник
+вероник", message id: 1645, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1647, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 1648, from: depozzyx [560399754]
+[LOG] message sent: "Ььв", message id: 1649, from: Стас [897887830]
+[LOG] message sent: "kj", message id: 1650, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 1651, from: depozzyx [560399754]
+[LOG] message sent: "sasa", message id: 1652, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 1653, from: depozzyx [560399754]
+[LOG] message sent: "Ьвлв", message id: 1654, from: Стас [897887830]
+[LOG] message sent: "ывы", message id: 1655, from: depozzyx [560399754]
+[LOG] message sent: "авав", message id: 1656, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1657, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1659, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 1660, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] Running...
+[LOG] Running...
+[LOG] Running...
+[DEBUG] last вероника triggered time: 1583177682, now: 1583177682
+[LOG] message sent: "Вероник", message id: 1664, from: depozzyx [560399754]
+[DEBUG] last вероника triggered time: 1583177742, now: 1583177688
+[LOG] message sent: "вывы", message id: 1666, from: depozzyx [560399754]
+[DEBUG] last вероника triggered time: 1583177742, now: 1583177691
+[LOG] message sent: "Вероник", message id: 1667, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] Running...
+[DEBUG] next possible вероника trigger time: 1583257358, now: 1583257358
+[LOG] message sent: "/yell", message id: 9229, from: Дима™ [506563771]
+[LOG] Running...
+[LOG] Running...
+[LOG] Running...
+[DEBUG] next possible вероника trigger time: 1583261940, now: 1583261940
+[LOG] message sent: "вероник", message id: 1668, from: depozzyx [560399754]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[LOG] message sent: "Это не та", message id: 9230, from: depozzyx [560399754]
+[LOG] message sent: "Жаль", message id: 9231, from: Дима™ [506563771]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[LOG] message sent: "Делает базу юзеров", message id: 9233, from: depozzyx [560399754]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[LOG] message sent: "С твоей системой при чем", message id: 9235, from: depozzyx [560399754]
+[LOG] message sent: "Аа", message id: 9234, from: Дима™ [506563771]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[LOG] message sent: "Оо", message id: 9236, from: Дима™ [506563771]
+[LOG] message sent: "Мило", message id: 9237, from: Дима™ [506563771]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[LOG] message sent: "И как, работает?", message id: 9239, from: Дима™ [506563771]
+[LOG] message sent: "Мне просто было твою удобнее подключить и все", message id: 9238, from: depozzyx [560399754]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[LOG] message sent: "Типо", message id: 9240, from: depozzyx [560399754]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[LOG] message sent: "Кто-то сделал историю?", message id: 9241, from: Цезарь [630180126]
+[LOG] message sent: "Что по истории", message id: 9242, from: Valya_Pylypenko [405587651]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[LOG] message sent: "Написать об повседневной жизни жителя посёлка и города", message id: 9243, from: Осознанный Наркотик [710833005]
+[LOG] message sent: "Вроде", message id: 9244, from: Осознанный Наркотик [710833005]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583261989
+[LOG] message sent: "Параграф какой", message id: 9245, from: Valya_Pylypenko [405587651]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583262070
+[LOG] message sent: "Не знаю", message id: 9246, from: Осознанный Наркотик [710833005]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583262075
+[LOG] message sent: "15", message id: 9247, from: Цезарь [630180126]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583263474
+[LOG] message sent: "Что по физике?", message id: 9248, from: Ксюша [892520509]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583263613
+[LOG] message sent: "походу ничего", message id: 9249, from: Цезарь [630180126]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583263626
+[LOG] message sent: "у нас ср была", message id: 9250, from: Цезарь [630180126]
+[DEBUG] next possible вероника trigger time: 1583262001, now: 1583263631
+[LOG] message sent: "Спасибо", message id: 9251, from: Ксюша [892520509]
+[LOG] Running...
+[DEBUG] next possible вероника trigger time: 1583435298, now: 1583435298
+[LOG] message sent: "30 задание", message id: 9360, from: Ксюша [892520509]
+[DEBUG] next possible вероника trigger time: 1583435298, now: 1583435315
+[LOG] message sent: "Я ещё три дня назад в Вайбер скидывала", message id: 9361, from: Ксюша [892520509]
+[DEBUG] next possible вероника trigger time: 1583435298, now: 1583435560
+[LOG] message sent: "Бля", message id: 9362, from: Цезарь [630180126]
+[DEBUG] next possible вероника trigger time: 1583435298, now: 1583435567
+[LOG] message sent: "Чего так много", message id: 9363, from: Цезарь [630180126]
+[LOG] Running...
+[LOG] Running...
+[LOG] Running...
+[LOG] Running...
+[LOG] message sent: "выв", message id: 1692, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 1694, from: depozzyx [560399754]
+[LOG] message sent: "аава", message id: 1697, from: depozzyx [560399754]
+[LOG] message sent: "аваа", message id: 1699, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 1701, from: depozzyx [560399754]
+[LOG] message sent: "вава", message id: 1703, from: depozzyx [560399754]
+[LOG] message sent: "рор", message id: 1705, from: depozzyx [560399754]
+[LOG] message sent: "вывв", message id: 1707, from: depozzyx [560399754]
+[LOG] message sent: "выв", message id: 1709, from: depozzyx [560399754]
+[LOG] message sent: "Печально", message id: 1711, from: depozzyx [560399754]
+[LOG] message sent: "Очень", message id: 1713, from: depozzyx [560399754]
+[LOG] message sent: "Я знаю", message id: 1715, from: depozzyx [560399754]
+[LOG] message sent: "Иди нахуй", message id: 1717, from: depozzyx [560399754]
+[LOG] message sent: "аав", message id: 1719, from: depozzyx [560399754]
+[LOG] message sent: "орр", message id: 1721, from: depozzyx [560399754]
+[LOG] message sent: "ава", message id: 1723, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: -1001437362015, from: depozzyx [560399754]
+[LOG] message sent: "dfdf", message id: -1001437362015, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] Running...
+[LOG] message sent: "dsds", message id: 1730, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 1732, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "выв", message id: 1734, from: depozzyx [560399754]
+[LOG] message sent: "выв", message id: 1736, from: depozzyx [560399754]
+[LOG] message sent: "выв", message id: 1738, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 1740, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 1742, from: depozzyx [560399754]
+[LOG] message sent: "вывы", message id: 1744, from: depozzyx [560399754]
+[LOG] message sent: "выыв", message id: 1746, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 1748, from: depozzyx [560399754]
+[LOG] message sent: "вывы", message id: 1750, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 1752, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 1754, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "вывы", message id: 1756, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 1758, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 1760, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 1762, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1764, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1766, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1768, from: depozzyx [560399754]
+[LOG] message sent: "sds", message id: 1770, from: depozzyx [560399754]
+[LOG] message sent: "sdsdd", message id: 1772, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 1774, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 1776, from: depozzyx [560399754]
+[LOG] message sent: "ds", message id: 1778, from: depozzyx [560399754]
+[LOG] message sent: "sds", message id: 1780, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 1782, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 1784, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 1786, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 1788, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "sdsd", message id: 1791, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1790, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1794, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1796, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1798, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] Running...
+[LOG] message sent: "выв", message id: 1800, from: depozzyx [560399754]
+[LOG] message sent: "выв", message id: 1802, from: depozzyx [560399754]
+[LOG] message sent: "пп", message id: 1804, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "dsds", message id: 1806, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1808, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 1810, from: depozzyx [560399754]
+[LOG] message sent: "cds", message id: 1812, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 1814, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 1816, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 1818, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 1820, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1822, from: depozzyx [560399754]
+[LOG] message sent: "ddd", message id: 1824, from: depozzyx [560399754]
+[LOG] message sent: "Евгений Онегин", message id: 9366, from: SASHA [511255720]
+[LOG] Running...
+[LOG] message sent: "Это Пушкин", message id: 9367, from: SASHA [511255720]
+[LOG] message sent: "Письмо Татьяны", message id: 9368, from: SASHA [511255720]
+[LOG] message sent: "Или Онегина", message id: 9369, from: SASHA [511255720]
+[LOG] message sent: "dsds", message id: 1826, from: depozzyx [560399754]
+[LOG] message sent: "fdd", message id: 1828, from: depozzyx [560399754]
+[LOG] message sent: "На выбор", message id: 9370, from: SASHA [511255720]
+[LOG] message sent: "fdfd", message id: 1830, from: depozzyx [560399754]
+[LOG] message sent: "hh", message id: 1832, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "fdf", message id: 1836, from: depozzyx [560399754]
+[LOG] message sent: "fdsd", message id: 1834, from: depozzyx [560399754]
+[LOG] message sent: "fdd", message id: 1837, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 1841, from: depozzyx [560399754]
+[LOG] message sent: "sd", message id: 1843, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "вывы", message id: 1845, from: depozzyx [560399754]
+[LOG] message sent: "вывы", message id: 1847, from: depozzyx [560399754]
+[LOG] message sent: "ввыв", message id: 1849, from: depozzyx [560399754]
+[LOG] message sent: "вывыв", message id: 1851, from: depozzyx [560399754]
+[LOG] message sent: "выыв", message id: 1853, from: depozzyx [560399754]
+[LOG] message sent: "авава", message id: 1855, from: depozzyx [560399754]
+[LOG] message sent: "выывв", message id: 1857, from: depozzyx [560399754]
+[LOG] message sent: "вывыв", message id: 1859, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 1861, from: depozzyx [560399754]
+[LOG] message sent: "Хахха", message id: 9372, from: Дима™ [506563771]
+[LOG] Running...
+[LOG] message sent: "Контрольная робота з географии по параграфам с 21 -33", message id: 9385, from: Dimas [753343365]
+[LOG] message sent: "hh", message id: 1864, from: depozzyx [560399754]
+[LOG] message sent: "kk", message id: 1866, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 1868, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "dsds", message id: 1870, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 1872, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 1874, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "авав", message id: 1876, from: depozzyx [560399754]
+[LOG] message sent: "вывсы", message id: 1878, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 1881, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 1883, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 1885, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1887, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 1889, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "Завтра нулевого не будет", message id: 9387, from: Ксюша [892520509]
+[LOG] message sent: "Стас первый раз собирался пойти", message id: 9388, from: Коля [397893030]
+[LOG] message sent: "Хахахахах", message id: 9390, from: Коля [397893030]
+0]
+[LOG] message sent: "Хах", message id: 9391, from: Цезарь [630180126]
+[LOG] message sent: "Да я иду", message id: 9392, from: Стас [897887830]
+[LOG] message sent: "Стас пидор", message id: 9393, from: Коля [397893030]
+[LOG] Running...
+[LOG] Running...
+[LOG] message sent: "/add_word", message id: 1891, from: depozzyx [560399754]
+[LOG] message sent: "/add_word", message id: 1893, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] Running...
+[LOG] message sent: "ds", message id: 1895, from: depozzyx [560399754]
+[LOG] message sent: "/add_word", message id: 1897, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] message sent: "/add_word", message id: 1899, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] Running...
+[LOG] message sent: "Сущ.", message id: 1903, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] message sent: "Глаг.", message id: 1908, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1910, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1912, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1915, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1913, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1916, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1920, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1922, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1924, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1926, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1927, from: depozzyx [560399754]
+[LOG] message sent: "Глаг.", message id: 1929, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] message sent: "/yell@depozzux_sux_bot", message id: 1936, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] message sent: "Существительное", message id: 1944, from: depozzyx [560399754]
+[LOG] message sent: "Существительное", message id: 1945, from: depozzyx [560399754]
+[LOG] message sent: "Существительное", message id: 1948, from: depozzyx [560399754]
+[LOG] message sent: "Существительное", message id: 1950, from: depozzyx [560399754]
+[LOG] message sent: "Существительное", message id: 1952, from: depozzyx [560399754]
+[LOG] message sent: "Существительное", message id: 1953, from: depozzyx [560399754]
+[LOG] message sent: "Прилагательное", message id: 1956, from: depozzyx [560399754]
+[LOG] message sent: "Глагол", message id: 1958, from: depozzyx [560399754]
+[LOG] message sent: "Наречие", message id: 1960, from: depozzyx [560399754]
+[LOG] Running...
+[LOG] Running...
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 1993, from: depozzyx [560399754]
+[LOG] message sent: "Что пр биологии", message id: 9394, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "??", message id: 9395, from: Valya_Pylypenko [405587651]
+[LOG] Running...
+[LOG] Running...
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] Running...
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] message sent: "Существительное", message id: 2004, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] message sent: "Существительное", message id: 2010, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] message sent: "Существительное", message id: 2014, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] message sent: "Существительное", message id: 2018, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] message sent: "Существительное", message id: 2022, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] message sent: "Существительное", message id: 2026, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsdsd, as pronoun
+[LOG] message sent: "Существительное", message id: 2030, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2032, from: depozzyx [560399754]
+[LOG] message sent: "dsdsddsd", message id: 2033, from: depozzyx [560399754]
+[LOG] message sent: "вероник", message id: 2034, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "выв", message id: 2035, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsdsd, as pronoun
+[LOG] message sent: "Существительное", message id: 2039, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2041, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2043, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2045, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2047, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2049, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2052, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word Пидорас, as pronoun
+[LOG] message sent: "Существительное", message id: 2056, from: depozzyx [560399754]
+[LOG] message sent: "вывв", message id: 2058, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2060, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 2062, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsds", message id: 2064, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2066, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2068, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2070, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2072, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2074, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2076, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2078, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2080, from: depozzyx [560399754]
+[LOG] message sent: "dssd", message id: 2082, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2084, from: depozzyx [560399754]
+[LOG] message sent: "sds", message id: 2086, from: depozzyx [560399754]
+[LOG] message sent: "sd", message id: 2088, from: depozzyx [560399754]
+[LOG] message sent: "d", message id: 2090, from: depozzyx [560399754]
+[LOG] message sent: "d", message id: 2092, from: depozzyx [560399754]
+[LOG] message sent: "d", message id: 2094, from: depozzyx [560399754]
+[LOG] message sent: "d", message id: 2096, from: depozzyx [560399754]
+[LOG] message sent: "d", message id: 2098, from: depozzyx [560399754]
+[LOG] message sent: "d", message id: 2100, from: depozzyx [560399754]
+[LOG] message sent: "d", message id: 2102, from: depozzyx [560399754]
+[LOG] message sent: "d", message id: 2104, from: depozzyx [560399754]
+[LOG] message sent: "d", message id: 2106, from: depozzyx [560399754]
+[LOG] message sent: "d", message id: 2108, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "ds", message id: 2110, from: depozzyx [560399754]
+[LOG] message sent: "sd", message id: 2112, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word Сосал, as verb
+[LOG] message sent: "Глагол", message id: 2118, from: depozzyx [560399754]
+[LOG] message sent: "АВВА", message id: 2120, from: depozzyx [560399754]
+[LOG] message sent: "АВАЪ", message id: 2122, from: depozzyx [560399754]
+[LOG] message sent: "НЕН", message id: 2124, from: depozzyx [560399754]
+[LOG] message sent: "НЕН", message id: 2126, from: depozzyx [560399754]
+[LOG] message sent: "Глагол", message id: 2128, from: depozzyx [560399754]
+[LOG] message sent: "ВЫВ", message id: 2130, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2132, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2134, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2136, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 2138, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2140, from: depozzyx [560399754]
+[LOG] message sent: "dssd", message id: 2142, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2144, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2146, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2148, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2150, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2152, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 2154, from: depozzyx [560399754]
+[LOG] message sent: "ssd", message id: 2156, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "вывыв", message id: 2158, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2160, from: depozzyx [560399754]
+[LOG] message sent: "ывывы", message id: 2162, from: depozzyx [560399754]
+[LOG] message sent: "ыввы", message id: 2164, from: depozzyx [560399754]
+[LOG] message sent: "выыв", message id: 2166, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2168, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2170, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2172, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2174, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2176, from: depozzyx [560399754]
+[LOG] message sent: "выыв", message id: 2178, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2180, from: depozzyx [560399754]
+[LOG] message sent: "выв", message id: 2182, from: depozzyx [560399754]
+[LOG] message sent: "вывыв", message id: 2184, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2186, from: depozzyx [560399754]
+[LOG] message sent: "ывывы", message id: 2188, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2190, from: depozzyx [560399754]
+[LOG] message sent: "ывы", message id: 2192, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2194, from: depozzyx [560399754]
+[LOG] message sent: "ыввыв", message id: 2196, from: depozzyx [560399754]
+[LOG] message sent: "ывыввыв", message id: 2198, from: depozzyx [560399754]
+[LOG] message sent: "ыв", message id: 2200, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsds", message id: 2204, from: depozzyx [560399754]
+[LOG] message sent: "fdfd", message id: 2206, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "sdddsd", message id: 2208, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2210, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2212, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2216, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2219, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2221, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2223, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2225, from: depozzyx [560399754]
+[LOG] message sent: "sdsdsd\", message id: 2227, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2229, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 2231, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2233, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2235, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2237, from: depozzyx [560399754]
+[LOG] message sent: "sdsdsd", message id: 2239, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2241, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2243, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2245, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2247, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2249, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2251, from: depozzyx [560399754]
+[LOG] message sent: "sdsdsd", message id: 2253, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2255, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2257, from: depozzyx [560399754]
+[LOG] message sent: "ssdsd", message id: 2259, from: depozzyx [560399754]
+[LOG] message sent: "ssd", message id: 2261, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2263, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 2265, from: depozzyx [560399754]
+[LOG] message sent: "ddsdsdsd", message id: 2267, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "вывыв", message id: 2270, from: depozzyx [560399754]
+[LOG] message sent: "вывыв", message id: 2272, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2274, from: depozzyx [560399754]
+[LOG] message sent: "мвавва", message id: 2276, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "sdsd", message id: 2278, from: depozzyx [560399754]
+[LOG] message sent: "sdsd\", message id: 2280, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2282, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2284, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2286, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2288, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2290, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2292, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2294, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 2296, from: depozzyx [560399754]
+[LOG] message sent: "ssd", message id: 2298, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 2300, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 2302, from: depozzyx [560399754]
+[LOG] message sent: "bff", message id: 2304, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "Что на завтра?", message id: 9403, from: Коля [397893030]
+[DEBUG] next possible вероника trigger time: 1583747733, now: 1583747753
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "Эпэжа", message id: 9407, from: Дима™ [506563771]
+[LOG] message sent: "Бля", message id: 9409, from: Дима™ [506563771]
+[LOG] message sent: "Ника", message id: 9411, from: Дима™ [506563771]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "Димон успокой её", message id: 9415, from: Коля [397893030]
+[LOG] message sent: "Буйную", message id: 9416, from: Коля [397893030]
+[LOG] message sent: "Ахаххаха", message id: 9417, from: Дима™ [506563771]
+[LOG] message sent: "Аххахаха", message id: 9418, from: Коля [397893030]
+[LOG] message sent: "Хахаха", message id: 9423, from: Дима™ [506563771]
+[LOG] message sent: "Аххахаха", message id: 9425, from: Коля [397893030]
+[LOG] /add_word executed, Executor: Дима™
+[LOG] message sent: "Ребята", message id: 9429, from: SASHA [511255720]
+[LOG] /add_word executed, Executor: Дима™
+[LOG] message sent: "Вам нужно да на завтра?", message id: 9433, from: SASHA [511255720]
+[LOG] [CMS] Adding word сучка, as pronoun
+[LOG] message sent: "Существительное", message id: 9434, from: Дима™ [506563771]
+[LOG] message sent: "Дадаад", message id: 9436, from: Дима™ [506563771]
+[LOG] message sent: "С", message id: 9438, from: Дима™ [506563771]
+[LOG] message sent: "Ф", message id: 9440, from: Дима™ [506563771]
+[DEBUG] next possible вероника trigger time: 1583747883, now: 1583747957
+[LOG] message sent: "Вероника", message id: 9442, from: Дима™ [506563771]
+[LOG] message sent: "Эввхвхахахааахаха", message id: 9444, from: SASHA [511255720]
+[DEBUG] next possible вероника trigger time: 1583748017, now: 1583747964
+[LOG] message sent: "Вероника сука", message id: 9446, from: Дима™ [506563771]
+[LOG] message sent: "Та да", message id: 9447, from: Коля [397893030]
+[LOG] message sent: "Чика чика", message id: 9449, from: Дима™ [506563771]
+[LOG] message sent: "Ору", message id: 9451, from: Дима™ [506563771]
+[LOG] message sent: "Неи", message id: 9453, from: Дима™ [506563771]
+[LOG] message sent: "Ттат", message id: 9455, from: Дима™ [506563771]
+[LOG] message sent: "Шушара", message id: 9457, from: Дима™ [506563771]
+[LOG] message sent: "Шушара", message id: 9459, from: Дима™ [506563771]
+[LOG] /add_word executed, Executor: Дима™
+[LOG] /add_word executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1583748017, now: 1583748067
+[LOG] message sent: "Вероника", message id: 9465, from: Дима™ [506563771]
+[DEBUG] next possible вероника trigger time: 1583748127, now: 1583748072
+[LOG] message sent: "Сука Вероника", message id: 9467, from: Дима™ [506563771]
+[LOG] message sent: "Надо написать в службу поддержки", message id: 9468, from: Коля [397893030]
+[LOG] message sent: "Ивану", message id: 9470, from: Коля [397893030]
+[DEBUG] next possible вероника trigger time: 1583748127, now: 1583748090
+[LOG] message sent: "Вероника коля это так работает", message id: 9472, from: Дима™ [506563771]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "Та я знаю", message id: 9473, from: Коля [397893030]
+[LOG] message sent: "sdsd", message id: 2306, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2308, from: depozzyx [560399754]
+[LOG] message sent: "sdsds", message id: 2310, from: depozzyx [560399754]
+[LOG] message sent: "Блять", message id: 9475, from: Коля [397893030]
+[LOG] message sent: "sds", message id: 2312, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2314, from: depozzyx [560399754]
+[DEBUG] next possible вероника trigger time: 1583748096, now: 1583748104
+[LOG] message sent: "Вероника пиши перед предложением вероника", message id: 9477, from: Дима™ [506563771]
+[LOG] message sent: "sds", message id: 2316, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2318, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2320, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2322, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2324, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2326, from: depozzyx [560399754]
+[DEBUG] next possible вероника trigger time: 1583748164, now: 1583748112
+[LOG] message sent: "Вероника лох", message id: 9479, from: Дима™ [506563771]
+[LOG] message sent: "Та она заебала", message id: 9480, from: Коля [397893030]
+[LOG] message sent: "Ворон", message id: 9482, from: Дима™ [506563771]
+[LOG] message sent: "Существительное", message id: 9484, from: Nichao [544218748]
+[LOG] message sent: "Ой", message id: 9486, from: Nichao [544218748]
+[LOG] message sent: "Ахаххах", message id: 9488, from: Коля [397893030]
+[LOG] message sent: "Катя", message id: 9490, from: Коля [397893030]
+[LOG] message sent: "Что по всем предметам?", message id: 9492, from: Nichao [544218748]
+[LOG] message sent: "Никто не отвечает", message id: 9494, from: Коля [397893030]
+[LOG] message sent: "Я лично не знаю", message id: 9496, from: Коля [397893030]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] message sent: "Етить тут генератор слов", message id: 9498, from: Nichao [544218748]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "Согласна", message id: 9500, from: Nichao [544218748]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] message sent: "dsd", message id: 2328, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] message sent: "Существительное", message id: 2335, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2337, from: depozzyx [560399754]
+[LOG] message sent: "Че за хуйня тут происходит", message id: 9501, from: Цезарь [630180126]
+[LOG] message sent: "Все в ахуе", message id: 9502, from: Коля [397893030]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "Хах", message id: 9503, from: Цезарь [630180126]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "я в какой вселенной проснулась?", message id: 9505, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Tak chto po urokam?", message id: 9506, from: Nichao [544218748]
+[LOG] message sent: "Что по литературе за сочинение задали?", message id: 9508, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "стр 245 №15", message id: 9509, from: depozzyx [560399754]
+[LOG] message sent: "Спасибо", message id: 9510, from: Valya_Pylypenko [405587651]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsdsd", message id: 2339, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsds, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsds, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "sdsds", message id: 2369, from: depozzyx [560399754]
+[LOG] message sent: "Существительное", message id: 2371, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] message sent: "Существительное", message id: 2377, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsdsd", message id: 2393, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] message sent: "Существительное", message id: 2397, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsd, as pronoun
+[LOG] message sent: "Существительное", message id: 2412, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsd, as pronoun
+[LOG] message sent: "Существительное", message id: 2416, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsd, as pronoun
+[LOG] message sent: "Существительное", message id: 2420, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dsdsd, as pronoun
+[LOG] message sent: "Существительное", message id: 2424, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] message sent: "Существительное", message id: 2428, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsdsd", message id: 2430, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2432, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2434, from: depozzyx [560399754]
+[LOG] message sent: "dsdsdd", message id: 2436, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2438, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2440, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2442, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2444, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2446, from: depozzyx [560399754]
+[LOG] message sent: "sd", message id: 2448, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2450, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2452, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2454, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2456, from: depozzyx [560399754]
+[LOG] message sent: "dff", message id: 2458, from: depozzyx [560399754]
+[LOG] message sent: "dff", message id: 2460, from: depozzyx [560399754]
+[LOG] message sent: "dfdf", message id: 2462, from: depozzyx [560399754]
+[LOG] message sent: "fdfdf", message id: 2464, from: depozzyx [560399754]
+[LOG] message sent: "sdd", message id: 2466, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2468, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2470, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2472, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsdsd", message id: 2474, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2476, from: depozzyx [560399754]
+[LOG] message sent: "jjj", message id: 2478, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2480, from: depozzyx [560399754]
+[LOG] message sent: "sdd", message id: 2482, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsds", message id: 2484, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2486, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] 0
+[DEBUG] 0
+[DEBUG] 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2488, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] я 0
+[DEBUG] 0
+[DEBUG] мыльный 0
+[DEBUG] 0
+[DEBUG] блаженно 0
+[DEBUG] 0
+[DEBUG] вымогать 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2490, from: depozzyx [560399754]
+[DEBUG] гандон 0
+[DEBUG] 0
+[DEBUG] думский 0
+[DEBUG] 0
+[DEBUG] добродушно 0
+[DEBUG] 0
+[DEBUG] отгадать 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2492, from: depozzyx [560399754]
+[DEBUG] ты 3
+[DEBUG] 3
+[DEBUG] вонючий 0
+[DEBUG] 0
+[DEBUG] теперь 0
+[DEBUG] 0
+[DEBUG] монтировать 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2494, from: depozzyx [560399754]
+[DEBUG] Пидорас 0
+[DEBUG] 0
+[DEBUG] неприязненный 0
+[DEBUG] 0
+[DEBUG] нечего 0
+[DEBUG] 0
+[DEBUG] повеять 0
+[DEBUG] 0
+[LOG] message sent: "dsds", message id: 2496, from: depozzyx [560399754]
+[DEBUG] шушара 0
+[DEBUG] 0
+[DEBUG] вертикальный 0
+[DEBUG] 0
+[DEBUG] незачем 0
+[DEBUG] 0
+[DEBUG] погубить 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2498, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "Бля", message id: 9511, from: Глеб [481349707]
+[LOG] message sent: "Скиньте по братски", message id: 9512, from: Глеб [481349707]
+[LOG] message sent: "Алгебру", message id: 9513, from: Глеб [481349707]
+[LOG] /add_word executed, Executor: Dimas
+[LOG] message sent: "Кто может скинуть геом и алгебру???", message id: 9514, from: Лицемер [561794394]
+[LOG] message sent: "Спс", message id: 9518, from: Мешочк [935148341]
+[LOG] message sent: "Сука", message id: 9520, from: Дима™ [506563771]
+[DEBUG] шушара 0
+[DEBUG] 0
+[DEBUG] гордый 0
+[DEBUG] 0
+[DEBUG] надвое 0
+[DEBUG] 0
+[DEBUG] взрастить 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2500, from: depozzyx [560399754]
+[DEBUG] шушара 0
+[DEBUG] 0
+[DEBUG] кремовый 0
+[DEBUG] 0
+[DEBUG] неудобно 0
+[DEBUG] 0
+[DEBUG] отчислить 0
+[DEBUG] 0
+[LOG] message sent: "dsdsd", message id: 2502, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex н
+[DEBUG] гандон 0
+[DEBUG] 0
+[DEBUG] душераздирающий 0
+[DEBUG] 0
+[DEBUG] страстно 0
+[DEBUG] 0
+[DEBUG] пламенеть 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2506, from: depozzyx [560399754]
+[DEBUG] sex я
+[DEBUG] я 0
+[DEBUG] 0
+[DEBUG] излишний 0
+[DEBUG] 0
+[DEBUG] частенько 0
+[DEBUG] 0
+[DEBUG] заколыхаться 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2508, from: depozzyx [560399754]
+[DEBUG] sex ы
+[DEBUG] ты 0
+[DEBUG] 0
+[DEBUG] подлинный 0
+[DEBUG] 0
+[DEBUG] молча 0
+[DEBUG] 0
+[DEBUG] втоптать 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2510, from: depozzyx [560399754]
+[DEBUG] sex ы
+[DEBUG] ты 0
+[DEBUG] 0
+[DEBUG] графский 0
+[DEBUG] 0
+[DEBUG] мимоходом 0
+[DEBUG] 0
+[DEBUG] остановить 0
+[DEBUG] 0
+[LOG] message sent: "dsdsd", message id: 2512, from: depozzyx [560399754]
+[DEBUG] sex я
+[DEBUG] я 0
+[DEBUG] 0
+[DEBUG] безнравственный 0
+[DEBUG] 0
+[DEBUG] вдаль 0
+[DEBUG] 0
+[DEBUG] забрезжить 0
+[DEBUG] 0
+[LOG] message sent: "dsds", message id: 2514, from: depozzyx [560399754]
+[DEBUG] sex н
+[DEBUG] гандон 0
+[DEBUG] 0
+[DEBUG] чрезвычайный 0
+[DEBUG] 0
+[DEBUG] потенциально 0
+[DEBUG] 0
+[DEBUG] липнуть 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2516, from: depozzyx [560399754]
+[DEBUG] sex а
+[DEBUG] шушара 0
+[DEBUG] 0
+[DEBUG] живейший 0
+[DEBUG] 0
+[DEBUG] сурово 0
+[DEBUG] 0
+[DEBUG] вонзать 0
+[DEBUG] 0
+[LOG] message sent: "sdsd", message id: 2518, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex я
+[DEBUG] я 0
+[DEBUG] 0
+[DEBUG] знатный 0
+[DEBUG] 0
+[DEBUG] блестяще 0
+[DEBUG] 0
+[DEBUG] застигнуть 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2520, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex а
+[DEBUG] шушара 0
+[DEBUG] 0
+[DEBUG] нагрудный 0
+[DEBUG] 0
+[DEBUG] наспех 0
+[DEBUG] 0
+[DEBUG] наградить 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2522, from: depozzyx [560399754]
+[DEBUG] sex ы
+[DEBUG] ты 0
+[DEBUG] 0
+[DEBUG] железный 0
+[DEBUG] 0
+[DEBUG] наотрез 0
+[DEBUG] 0
+[DEBUG] зачахнуть 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2524, from: depozzyx [560399754]
+[DEBUG] sex а
+[DEBUG] шушара 0
+[DEBUG] 0
+[DEBUG] белоголовый 0
+[DEBUG] 0
+[DEBUG] категорически 0
+[DEBUG] 0
+[DEBUG] погодить 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2526, from: depozzyx [560399754]
+[LOG] message sent: "Существительное", message id: 9521, from: Коля [397893030]
+[LOG] message sent: "Скиньте плиз задачу 8", message id: 9522, from: Лицемер [561794394]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "Кто скинет русский в обмен на алгебру?)", message id: 9523, from: skron3072 [619797239]
+[LOG] message sent: "Наречие", message id: 9524, from: miroslavb [700982557]
+[LOG] message sent: "Скиньте домашку кто-то полез", message id: 9529, from: Осознанный Наркотик [710833005]
+[LOG] message sent: "Что завтра на нулевой", message id: 9530, from: Дима™ [506563771]
+[LOG] message sent: "Спасибо", message id: 9531, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Что по истории", message id: 9532, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Что на 0 алг", message id: 9533, from: Дима™ [506563771]
+[LOG] message sent: "Жиза", message id: 9534, from: Глеб [481349707]
+[LOG] message sent: "Что по алг", message id: 9535, from: Глеб [481349707]
+[LOG] message sent: "На завтра", message id: 9536, from: Глеб [481349707]
+[LOG] message sent: "Вы ебу дали", message id: 9537, from: Глеб [481349707]
+[LOG] message sent: "Это оч опасно", message id: 9538, from: Глеб [481349707]
+[LOG] message sent: "Она сука", message id: 9540, from: Глеб [481349707]
+[LOG] message sent: "Все записывает", message id: 9541, from: Глеб [481349707]
+[LOG] message sent: "Нихця не прокатит", message id: 9542, from: Глеб [481349707]
+[LOG] message sent: "Мы знаем что оы знаешь", message id: 9544, from: Глеб [481349707]
+[LOG] message sent: "Мирослав", message id: 9543, from: Глеб [481349707]
+[LOG] message sent: "?", message id: 9545, from: miroslavb [700982557]
+[LOG] message sent: "Что по алг на 0", message id: 9546, from: Глеб [481349707]
+[LOG] message sent: "Завтра", message id: 9547, from: Глеб [481349707]
+[LOG] message sent: "Смешно", message id: 9548, from: miroslavb [700982557]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex я
+[DEBUG] я 0
+[DEBUG] 0
+[DEBUG] молотый 0
+[DEBUG] 0
+[DEBUG] страшно 0
+[DEBUG] 0
+[DEBUG] закончить 0
+[DEBUG] 0
+[LOG] message sent: "sdsd", message id: 2528, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex ы
+[DEBUG] ты 0
+[DEBUG] 0
+[DEBUG] мозговой 0
+[DEBUG] 0
+[DEBUG] издавна 0
+[DEBUG] 0
+[DEBUG] гнать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "dsd", message id: 2530, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex с
+[DEBUG] Пидорас 0
+[DEBUG] 0
+[DEBUG] воспитанный 0
+[DEBUG] 0
+[DEBUG] ежегодно 0
+[DEBUG] 0
+[DEBUG] кровоточить 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "dsd", message id: 2532, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex ы
+[DEBUG] ты 0
+[DEBUG] 0
+[DEBUG] кавказский 0
+[DEBUG] 0
+[DEBUG] трудно 0
+[DEBUG] 0
+[DEBUG] втолковать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[DEBUG] ROD = FMTERR
+[LOG] message sent: "dsd", message id: 2534, from: depozzyx [560399754]
+[DEBUG] sex с
+[DEBUG] Пидорас 0
+[DEBUG] 0
+[DEBUG] заглавный 0
+[DEBUG] 0
+[DEBUG] нисколько 0
+[DEBUG] 0
+[DEBUG] закутать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[DEBUG] ROD = FMTERR
+[LOG] message sent: "dsd", message id: 2536, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex н
+[DEBUG] гандон 0
+[DEBUG] 0
+[DEBUG] вавилонский 0
+[DEBUG] 0
+[DEBUG] изумленно 0
+[DEBUG] 0
+[DEBUG] накидать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "dsd", message id: 2538, from: depozzyx [560399754]
+[DEBUG] sex а
+[DEBUG] шушара 0
+[DEBUG] 0
+[DEBUG] арийский 0
+[DEBUG] 0
+[DEBUG] небрежно 0
+[DEBUG] 0
+[DEBUG] облачить 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "sdsd", message id: 2540, from: depozzyx [560399754]
+[LOG] message sent: "Луди скиньте пожалуйста историю которую задавали на прошлый урок", message id: 9553, from: Эрик [783731703]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex я
+[DEBUG] я 0
+[DEBUG] 0
+[DEBUG] дружеский 0
+[DEBUG] 0
+[DEBUG] назло 0
+[DEBUG] 0
+[DEBUG] въехать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "dsd", message id: 2542, from: depozzyx [560399754]
+[DEBUG] sex я
+[DEBUG] я 0
+[DEBUG] 0
+[DEBUG] заколдованный 0
+[DEBUG] 0
+[DEBUG] легко 0
+[DEBUG] 0
+[DEBUG] вывозить 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "dsd", message id: 2544, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex а
+[DEBUG] шушара 0
+[DEBUG] 0
+[DEBUG] людской 0
+[DEBUG] 0
+[DEBUG] уже 0
+[DEBUG] 0
+[DEBUG] набрести 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "dsds", message id: 2546, from: depozzyx [560399754]
+[DEBUG] sex а
+[DEBUG] шушара 0
+[DEBUG] 0
+[DEBUG] небогатый 0
+[DEBUG] 0
+[DEBUG] намеренно 0
+[DEBUG] 0
+[DEBUG] накачать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "dsd", message id: 2548, from: depozzyx [560399754]
+[DEBUG] sex а
+[DEBUG] шушара 0
+[DEBUG] 0
+[DEBUG] лакейский 0
+[DEBUG] 0
+[DEBUG] тонко 0
+[DEBUG] 0
+[DEBUG] залюбоваться 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "ssds", message id: 2550, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sex а
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] sexа
+[DEBUG] picking 1
+[DEBUG] шушара 1
+[DEBUG] 1
+[DEBUG] дипломатичный 0
+[DEBUG] 0
+[DEBUG] отдаленно 0
+[DEBUG] 0
+[DEBUG] вытягивать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "выв", message id: 2553, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: skron3072
+[LOG] [CMS] Adding word Сам, as pronoun
+[LOG] message sent: "Существительное", message id: 9556, from: skron3072 [619797239]
+[DEBUG] sexм
+[DEBUG] Сам 0
+[DEBUG] 0
+[DEBUG] длинноволосый 0
+[DEBUG] 0
+[DEBUG] прочно 0
+[DEBUG] 0
+[DEBUG] линять 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "ывыв", message id: 2555, from: depozzyx [560399754]
+[LOG] message sent: "Скиньте конспект по истории, по которому будет ср", message id: 9564, from: Цезарь [630180126]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867838, now: 1583867838
+[DEBUG] Сам 0
+[DEBUG] 0
+[DEBUG] медовый 0
+[DEBUG] 0
+[DEBUG] исторически 0
+[DEBUG] 0
+[DEBUG] пикировать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867848, now: 1583867841
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867848, now: 1583867846
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867848, now: 1583867861
+[DEBUG] шушара 1
+[DEBUG] 1
+[DEBUG] англоязычный 0
+[DEBUG] 0
+[DEBUG] поначалу 0
+[DEBUG] 0
+[DEBUG] звонить 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867869, now: 1583867869
+[DEBUG] шушара 1
+[DEBUG] 1
+[DEBUG] бронетанковый 0
+[DEBUG] 0
+[DEBUG] равно 0
+[DEBUG] 0
+[DEBUG] навредить 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867871, now: 1583867873
+[DEBUG] Сам 0
+[DEBUG] 0
+[DEBUG] кукурузный 0
+[DEBUG] 0
+[DEBUG] спешно 0
+[DEBUG] 0
+[DEBUG] обшарпать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867887, now: 1583867887
+[DEBUG] шушара 1
+[DEBUG] 1
+[DEBUG] интеллигентский 0
+[DEBUG] 0
+[DEBUG] необходимо 0
+[DEBUG] 0
+[DEBUG] венчать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867890, now: 1583867891
+[DEBUG] шушара 1
+[DEBUG] 1
+[DEBUG] дошлый 0
+[DEBUG] 0
+[DEBUG] страстно 0
+[DEBUG] 0
+[DEBUG] влачить 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867895, now: 1583867892
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867895, now: 1583867894
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583867895, now: 1583867895
+[DEBUG] Сам 0
+[DEBUG] 0
+[DEBUG] национально 0
+[DEBUG] 0
+[DEBUG] ясно 0
+[DEBUG] 0
+[DEBUG] мести 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] я 0
+[DEBUG] 0
+[DEBUG] непотребный 0
+[DEBUG] 0
+[DEBUG] достаточно 0
+[DEBUG] 0
+[DEBUG] одобрить 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "выв", message id: 2576, from: depozzyx [560399754]
+[DEBUG] пидорас 0
+[DEBUG] 0
+[DEBUG] прожженный 0
+[DEBUG] 0
+[DEBUG] хитро 0
+[DEBUG] 0
+[DEBUG] повязать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "ывыв", message id: 2578, from: depozzyx [560399754]
+[DEBUG] ты 0
+[DEBUG] 0
+[DEBUG] неразговорчивый 0
+[DEBUG] 0
+[DEBUG] лихорадочно 0
+[DEBUG] 0
+[DEBUG] облегать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "ывыв", message id: 2580, from: depozzyx [560399754]
+[DEBUG]  0
+[DEBUG] 0
+[DEBUG] католический 0
+[DEBUG] 0
+[DEBUG] специально 0
+[DEBUG] 0
+[DEBUG] мычать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "вывыв", message id: 2582, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] цветочек 0
+[DEBUG] 0
+[DEBUG] ежеминутный 0
+[DEBUG] 0
+[DEBUG] подозрительно 0
+[DEBUG] 0
+[DEBUG] венчать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "sdsd", message id: 2584, from: depozzyx [560399754]
+[DEBUG] я 0
+[DEBUG] 0
+[DEBUG] всероссийский 0
+[DEBUG] 0
+[DEBUG] всячески 0
+[DEBUG] 0
+[DEBUG] запасти 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "sdsd", message id: 2586, from: depozzyx [560399754]
+[DEBUG] Стас 0
+[DEBUG] 0
+[DEBUG] антикоммунистический 0
+[DEBUG] 0
+[DEBUG] неслышно 0
+[DEBUG] 0
+[DEBUG] влетать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "dsdssd", message id: 2588, from: depozzyx [560399754]
+[DEBUG] шушара 1
+[DEBUG] 1
+[DEBUG] конфетный 0
+[DEBUG] 0
+[DEBUG] бессмысленно 0
+[DEBUG] 0
+[DEBUG] обещать 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "sdsd", message id: 2590, from: depozzyx [560399754]
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583868134, now: 1583868147
+[DEBUG] Сам 0
+[DEBUG] 0
+[DEBUG] громоподобный 0
+[DEBUG] 0
+[DEBUG] бегом 0
+[DEBUG] 0
+[DEBUG] загулять 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[DEBUG] пидорас 0
+[DEBUG] 0
+[DEBUG] взрослеть 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2594, from: depozzyx [560399754]
+[DEBUG] цветочек 0
+[DEBUG] 0
+[DEBUG] обожраться 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2596, from: depozzyx [560399754]
+[DEBUG] дети 0
+[DEBUG] 0
+[DEBUG] дизельный 0
+[DEBUG] 0
+[LOG] message sent: "sdsd", message id: 2598, from: depozzyx [560399754]
+[DEBUG] ты 0
+[DEBUG] 0
+[DEBUG] измочалить 0
+[DEBUG] 0
+[LOG] message sent: "dsd", message id: 2600, from: depozzyx [560399754]
+[DEBUG] дети 0
+[DEBUG] 0
+[DEBUG] повеселеть 0
+[DEBUG] 0
+[LOG] message sent: "sdsd", message id: 2602, from: depozzyx [560399754]
+[DEBUG] цветочек 0
+[DEBUG] 0
+[DEBUG] дети 0
+[DEBUG] 0
+[DEBUG] буровой 0
+[DEBUG] 0
+[LOG] message sent: "dsdsd", message id: 2604, from: depozzyx [560399754]
+[DEBUG] пидорас 0
+[DEBUG] 0
+[DEBUG] вытворять 0
+[DEBUG] 0
+[LOG] message sent: "выв", message id: 2606, from: depozzyx [560399754]
+[DEBUG] многолетний 0
+[DEBUG] 0
+[LOG] message sent: "ывыв", message id: 2608, from: depozzyx [560399754]
+[DEBUG] дети 0
+[DEBUG] 0
+[DEBUG] загулять 0
+[DEBUG] 0
+[LOG] message sent: "ывыв", message id: 2610, from: depozzyx [560399754]
+[DEBUG] неузнаваемый 0
+[DEBUG] 0
+[DEBUG] Стас 0
+[DEBUG] 0
+[DEBUG] светло 0
+[DEBUG] 0
+[DEBUG] оснастить 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "вывы", message id: 2612, from: depozzyx [560399754]
+[DEBUG] елисейский 0
+[DEBUG] 0
+[DEBUG] цветочек 0
+[DEBUG] 0
+[DEBUG] вот-вот 0
+[DEBUG] 0
+[DEBUG] заблудиться 0
+[DEBUG] 0
+[DEBUG] ROD = 0
+[LOG] message sent: "выв", message id: 2614, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2616, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2618, from: depozzyx [560399754]
+[LOG] message sent: "dsds", message id: 2620, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /info executed, Executor: depozzyx
+[DEBUG] Я Вероника. Вероника младшая. Обитаю иногда тут --> https://t.me/joinchat/IWcFilWsZ1-i9Q3f-mFqFQ
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /info executed, Executor: depozzyx
+[LOG] message sent: "вывы", message id: 2626, from: depozzyx [560399754]
+[LOG] message sent: "вывыв", message id: 2628, from: depozzyx [560399754]
+[LOG] message sent: "ывв", message id: 2630, from: depozzyx [560399754]
+[LOG] /info executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /info executed, Executor: depozzyx
+[LOG] message sent: "Что по геометрии", message id: 9568, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Наречие", message id: 9570, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Я так и понял", message id: 9571, from: depozzyx [560399754]
+[LOG] message sent: "Спасиибо", message id: 9572, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "угу", message id: 9573, from: depozzyx [560399754]
+[LOG] message sent: "Существительное", message id: 9574, from: Bogdan [659877262]
+[LOG] message sent: "Ахах", message id: 9575, from: Bogdan [659877262]
+[DEBUG] next possible вероника trigger time: 1583869720, now: 1583869825
+[LOG] message sent: "Ты будешь спорить с Вероникой", message id: 9576, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Та эт шняга перед лицом высветила", message id: 9578, from: Bogdan [659877262]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "reload", message id: 2636, from: depozzyx [560399754]
+[LOG] /reload executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /reload executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /reload executed, Executor: depozzyx
+[LOG] /reload executed, Executor: depozzyx
+[LOG] message sent: "Она у тебя до сих пор есть?", message id: 9581, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /reload executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /reload executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word dssd, as pronoun
+[LOG] message sent: "Существительное", message id: 2658, from: depozzyx [560399754]
+[LOG] /reload executed, Executor: depozzyx
+[LOG] /reload executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /reload executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: depozzyx
+[LOG] [CMS] Adding word sdsd, as pronoun
+[LOG] message sent: "Существительное", message id: 2670, from: depozzyx [560399754]
+[LOG] /reload executed, Executor: depozzyx
+[LOG] /reload executed, Executor: depozzyx
+[LOG] /reload executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /info executed, Executor: miroslavb
+[DEBUG] next possible вероника trigger time: 1583911434, now: 1583911434
+[DEBUG] next possible вероника trigger time: 1583911434, now: 1583911434
+[LOG] message sent: "Вероника блять", message id: 9593, from: skron3072 [619797239]
+[LOG] message sent: "Сколько будет 2+2", message id: 9595, from: Глеб [481349707]
+[LOG] /generate executed, Executor: skron3072
+[DEBUG] next possible вероника trigger time: 1583911444, now: 1583911435
+[LOG] /generate executed, Executor: Глеб
+[DEBUG] next possible вероника trigger time: 1583911444, now: 1583911435
+[LOG] /generate executed, Executor: Dimas
+[DEBUG] next possible вероника trigger time: 1583911444, now: 1583911435
+[LOG] /add_word executed, Executor: skron3072
+[LOG] message sent: "Вероника", message id: 9594, from: Глеб [481349707]
+[LOG] /add_word executed, Executor: Valya_Pylypenko
+[LOG] message sent: "Тот , кто знает укр , поймет", message id: 9602, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Существительное", message id: 9603, from: Коля [397893030]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /info executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /info executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /info executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /info executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /info executed, Executor: depozzyx
+[LOG] /info executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /info executed, Executor: depozzyx
+[LOG] /add_word executed, Executor: Осознанный Наркотик
+[LOG] /info executed, Executor: depozzyx
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583913520, now: 1583913520
+[LOG] message sent: "ds", message id: 2687, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2689, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2691, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2693, from: depozzyx [560399754]
+[LOG] message sent: "dssd", message id: 2695, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2697, from: depozzyx [560399754]
+[LOG] /generate executed, Executor: Лицемер
+[DEBUG] next possible вероника trigger time: 1583913524, now: 1583914083
+[LOG] /generate executed, Executor: Dimas
+[DEBUG] next possible вероника trigger time: 1583914086, now: 1583914093
+[LOG] /add_word executed, Executor: skron3072
+[LOG] /generate executed, Executor: skron3072
+[DEBUG] next possible вероника trigger time: 1583914096, now: 1583914190
+[LOG] /generate executed, Executor: skron3072
+[DEBUG] next possible вероника trigger time: 1583914193, now: 1583914193
+[LOG] /add_word executed, Executor: skron3072
+[LOG] message sent: "Пар", message id: 9627, from: skron3072 [619797239]
+[LOG] /info executed, Executor: skron3072
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "Что по геометрии?", message id: 9630, from: Эрик [783731703]
+[LOG] message sent: "Вы не можете научиться листать хотя-бы немного вверх, перед тем как спрашивать?", message id: 9631, from: depozzyx [560399754]
+[LOG] message sent: "Только билеты?", message id: 9632, from: Эрик [783731703]
+[LOG] message sent: "Что по геометрии", message id: 9633, from: depozzyx [560399754]
+[LOG] message sent: "А спасибо", message id: 9635, from: Эрик [783731703]
+[LOG] message sent: "Тоееесть", message id: 9637, from: miroslavb [700982557]
+[LOG] message sent: "Походу нас закроют на карантин", message id: 9638, from: Цезарь [630180126]
+[LOG] message sent: "Опа", message id: 9639, from: Nichao [544218748]
+[LOG] message sent: "На юс не закроют", message id: 9640, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Ага", message id: 9641, from: Цезарь [630180126]
+[LOG] message sent: "Так нас закроют?", message id: 9642, from: Nichao [544218748]
+[LOG] message sent: "+", message id: 9643, from: miroslavb [700982557]
+[LOG] message sent: "Должны", message id: 9644, from: Ксюша [892520509]
+[LOG] message sent: "Наес", message id: 9645, from: Nichao [544218748]
+[LOG] message sent: "Завтра должны официально сказать", message id: 9646, from: Ксюша [892520509]
+[LOG] message sent: "Ля, так мы все-таки идем в школу?(", message id: 9647, from: Nichao [544218748]
+[LOG] message sent: "Завтра", message id: 9648, from: Nichao [544218748]
+[LOG] message sent: "Завтра да", message id: 9649, from: Цезарь [630180126]
+[LOG] message sent: "Да", message id: 9650, from: Ксюша [892520509]
+[LOG] message sent: "Завтра есть ко по алгебре?", message id: 9651, from: Nichao [544218748]
+[LOG] message sent: "Кр"", message id: 9652, from: Nichao [544218748]
+[LOG] message sent: "Мне кажеться , что нам нужно успокоиться , потому что завтра все узнаем", message id: 9653, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Не хочу", message id: 9654, from: Nichao [544218748]
+[LOG] message sent: "Чторор", message id: 9655, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Ну по геом.прогрессии?", message id: 9656, from: Nichao [544218748]
+[LOG] message sent: "Я думала, что будет", message id: 9657, from: Nichao [544218748]
+[LOG] message sent: "Чтор", message id: 9658, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Ну ладно", message id: 9659, from: Nichao [544218748]
+[LOG] message sent: "Она говорила", message id: 9660, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "?", message id: 9661, from: miroslavb [700982557]
+[LOG] message sent: "??", message id: 9662, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Тоесть завтра 2 к.р", message id: 9663, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Зашибись", message id: 9664, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "А по чем?", message id: 9665, from: miroslavb [700982557]
+[LOG] message sent: "Алгебра и прога", message id: 9666, from: Nichao [544218748]
+[LOG] message sent: "Прога и алгебра", message id: 9667, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Прога вы рофлите", message id: 9668, from: miroslavb [700982557]
+[LOG] message sent: "Неа", message id: 9669, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Ж", message id: 9670, from: miroslavb [700982557]
+[LOG] message sent: "О", message id: 9671, from: miroslavb [700982557]
+[LOG] message sent: "О", message id: 9672, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "П", message id: 9673, from: miroslavb [700982557]
+[LOG] message sent: "А", message id: 9674, from: miroslavb [700982557]
+[LOG] message sent: "П", message id: 9675, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "А", message id: 9676, from: Valya_Pylypenko [405587651]
+[LOG] message sent: "Mother fucker", message id: 9678, from: Дима™ [506563771]
+[LOG] message sent: "Это одно слово", message id: 9680, from: depozzyx [560399754]
+[LOG] message sent: "IdiNahyi", message id: 9681, from: Дима™ [506563771]
+[LOG] message sent: "Ребята напишите татьяше по этому поводу", message id: 9682, from: Лицемер [561794394]
+[LOG] message sent: "Она сразу же и скажет", message id: 9683, from: Лицемер [561794394]
+[LOG] message sent: "То пиши", message id: 9686, from: miroslavb [700982557]
+[LOG] message sent: "Я могу", message id: 9687, from: SASHA [511255720]
+[LOG] message sent: "Но сами понимаете", message id: 9688, from: SASHA [511255720]
+[LOG] message sent: "Я не к селу,не к городу", message id: 9689, from: SASHA [511255720]
+[LOG] message sent: "Мне кажется, что нужен кто-то из нашего класса", message id: 9690, from: Лицемер [561794394]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "поч она игонорит", message id: 2714, from: Дима™ [506563771]
+[LOG] message sent: "аа", message id: 2715, from: Дима™ [506563771]
+[LOG] message sent: "сделай ее админом", message id: 2716, from: Дима™ [506563771]
+[LOG] message sent: "вань", message id: 2720, from: Дима™ [506563771]
+[LOG] message sent: "хелло", message id: 2725, from: Дима™ [506563771]
+[LOG] message sent: "Моя первее", message id: 2728, from: depozzyx [560399754]
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583956814, now: 1583956907
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583956910, now: 1583956908
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583956910, now: 1583956909
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583956910, now: 1583956917
+[LOG] message sent: "привет", message id: 2736, from: Дима™ [506563771]
+[LOG] message sent: "привет", message id: 2739, from: Дима™ [506563771]
+[LOG] message sent: "привет", message id: 2742, from: Дима™ [506563771]
+[LOG] message sent: "привет", message id: 2746, from: Дима™ [506563771]
+[LOG] message sent: "вот и збс", message id: 2749, from: Дима™ [506563771]
+[LOG] message sent: "мой бот файл отправляет а не сообщение", message id: 2751, from: Дима™ [506563771]
+[LOG] message sent: "А ну да", message id: 2753, from: depozzyx [560399754]
+[LOG] message sent: "поздаровайся", message id: 2755, from: Дима™ [506563771]
+[LOG] message sent: "Я же так и не запилил с файлами", message id: 2757, from: depozzyx [560399754]
+[LOG] message sent: "нормальон", message id: 2759, from: Дима™ [506563771]
+[LOG] message sent: "Алла блять", message id: 2761, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "Почему она не отвечает?*", message id: 2763, from: depozzyx [560399754]
+[LOG] message sent: "Алла блять", message id: 2764, from: Дима™ [506563771]
+[LOG] message sent: "Алла блять", message id: 2765, from: Дима™ [506563771]
+[LOG] message sent: "Алла блять", message id: 2766, from: Дима™ [506563771]
+[LOG] message sent: "привет", message id: 2767, from: Дима™ [506563771]
+[LOG] message sent: "Алла блять", message id: 2769, from: Дима™ [506563771]
+[LOG] message sent: "Алла блять", message id: 2770, from: Дима™ [506563771]
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1583957116, now: 1583957315
+[LOG] message sent: "алла блять", message id: 2773, from: Дима™ [506563771]
+[LOG] message sent: "Алла", message id: 2775, from: Дима™ [506563771]
+[LOG] message sent: "Алла нахуй", message id: 2777, from: Дима™ [506563771]
+[LOG] message sent: "Привет блять", message id: 2779, from: Дима™ [506563771]
+[LOG] message sent: "работает", message id: 2780, from: Дима™ [506563771]
+[LOG] message sent: "Слава украине!", message id: 2781, from: depozzyx [560399754]
+[LOG] message sent: "Она не работает", message id: 2782, from: depozzyx [560399754]
+[LOG] message sent: "Салам алейкум", message id: 2783, from: depozzyx [560399754]
+[LOG] message sent: "А теперь сиди и пиши код для приветсвий с несколькими словами", message id: 2784, from: depozzyx [560399754]
+[LOG] message sent: "салам алейкум", message id: 2785, from: Дима™ [506563771]
+[LOG] message sent: "салам алейкум", message id: 2786, from: Дима™ [506563771]
+[LOG] message sent: "салам", message id: 2787, from: Дима™ [506563771]
+[LOG] message sent: "салам алейку", message id: 2789, from: Дима™ [506563771]
+[LOG] message sent: "Алла блять", message id: 2790, from: Дима™ [506563771]
+[LOG] message sent: "Алла", message id: 2791, from: Дима™ [506563771]
+[LOG] message sent: "Алла блять", message id: 2792, from: Дима™ [506563771]
+[LOG] message sent: "Алла блять", message id: 2797, from: Дима™ [506563771]
+[LOG] message sent: "Салам алейкум", message id: 2799, from: Дима™ [506563771]
+[LOG] message sent: "салам алейкум", message id: 2800, from: Дима™ [506563771]
+[LOG] message sent: "салам алейкум", message id: 2801, from: Дима™ [506563771]
+[LOG] message sent: "салам алейкум", message id: 2802, from: Дима™ [506563771]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2822, from: depozzyx [560399754]
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584082633, now: 1584082638
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584082940, now: 1584082940
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584082943, now: 1584082946
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584082949, now: 1584082951
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584082954, now: 1584082959
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584082962, now: 1584082961
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584082962, now: 1584082965
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083031, now: 1584083031
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083034, now: 1584083035
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083038, now: 1584083036
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083038, now: 1584083039
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083042, now: 1584083041
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083106, now: 1584083106
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083109, now: 1584083109
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083112, now: 1584083115
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083118, now: 1584083117
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083118, now: 1584083121
+[LOG] message sent: "@restylesidq у меня роды заработали", message id: 2852, from: depozzyx [560399754]
+[LOG] message sent: "Немного", message id: 2853, from: depozzyx [560399754]
+[LOG] message sent: "Ооо", message id: 2854, from: Дима™ [506563771]
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584083124, now: 1584083173
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584083176, now: 1584083175
+[LOG] message sent: "А так бы было шушара не окрасился", message id: 2858, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083202, now: 1584083202
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083206, now: 1584083206
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083209, now: 1584083208
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083209, now: 1584083211
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584083214, now: 1584083220
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2868, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "fsd", message id: 2870, from: depozzyx [560399754]
+[LOG] message sent: "Давай откроем тюнинг сервис «Залупа кастомс херсон»", message id: 2872, from: Дима™ [506563771]
+[LOG] /generate executed, Executor: Эрик
+[DEBUG] next possible вероника trigger time: 1584083282, now: 1584083298
+[LOG] /generate executed, Executor: Эрик
+[DEBUG] next possible вероника trigger time: 1584083301, now: 1584083303
+[LOG] /generate executed, Executor: Эрик
+[DEBUG] next possible вероника trigger time: 1584083306, now: 1584083306
+[LOG] message sent: "вывы", message id: 2880, from: depozzyx [560399754]
+[LOG] message sent: "ывыв", message id: 2882, from: depozzyx [560399754]
+[LOG] message sent: "А тут дичь", message id: 2884, from: depozzyx [560399754]
+[LOG] /add_word executed, Executor: Эрик
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2888, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2890, from: depozzyx [560399754]
+[LOG] message sent: "sds", message id: 2892, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2894, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2896, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2898, from: depozzyx [560399754]
+[LOG] message sent: "sd", message id: 2900, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2902, from: depozzyx [560399754]
+[LOG] message sent: "sds", message id: 2904, from: depozzyx [560399754]
+[LOG] message sent: "sdd", message id: 2906, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2908, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dssd", message id: 2910, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2912, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dssd", message id: 2914, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2916, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2918, from: depozzyx [560399754]
+[LOG] message sent: "dssd", message id: 2920, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2922, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "sdds", message id: 2924, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "sdsddsd", message id: 2926, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2928, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2930, from: depozzyx [560399754]
+[LOG] message sent: "ssd", message id: 2932, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2934, from: depozzyx [560399754]
+[LOG] message sent: "fdf", message id: 2936, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2938, from: depozzyx [560399754]
+[LOG] message sent: "sdsd", message id: 2940, from: depozzyx [560399754]
+[LOG] message sent: "dsdsd", message id: 2942, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2944, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "fgfg", message id: 2946, from: depozzyx [560399754]
+[LOG] message sent: "sds", message id: 2948, from: depozzyx [560399754]
+[LOG] message sent: "sdfd", message id: 2950, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2952, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2954, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2956, from: depozzyx [560399754]
+[LOG] message sent: "dsd", message id: 2958, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] message sent: "dsd", message id: 2960, from: depozzyx [560399754]
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: Дима™
+[LOG] message sent: "Охуеть", message id: 9755, from: Эрик [783731703]
+[LOG] /generate executed, Executor: Дима™
+[LOG] /generate executed, Executor: Дима™
+[LOG] /generate executed, Executor: Дима™
+[LOG] /generate executed, Executor: Дима™
+[LOG] /generate executed, Executor: Дима™
+[LOG] /generate executed, Executor: Дима™
+[LOG] /generate executed, Executor: Дима™
+[LOG] [CMS] Initializing parts [1/6]
+[LOG] [CMS] Initializing parts [2/6]
+[LOG] [CMS] Initializing parts [3/6]
+[LOG] [CMS] Initializing parts [4/6]
+[LOG] [CMS] Initializing parts [5/6]
+[LOG] [CMS] Initializing parts [6/6]
+[LOG] Running...
+[LOG] /generate executed, Executor: depozzyx
+[DEBUG] next possible вероника trigger time: 1584269703, now: 1584269703
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584269706, now: 1584274215
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274218, now: 1584274220
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274223, now: 1584274226
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274229, now: 1584274230
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274233, now: 1584274233
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274237, now: 1584274235
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274237, now: 1584274257
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274260, now: 1584274263
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274266, now: 1584274268
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274271, now: 1584274275
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274278, now: 1584274281
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274284, now: 1584274413
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274417, now: 1584274416
+[LOG] /generate executed, Executor: Дима™
+[DEBUG] next possible вероника trigger time: 1584274417, now: 1584274419

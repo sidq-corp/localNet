@@ -215,6 +215,47 @@ body{
 		color: #fff;
 		transform: translateY(5%);
 	}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  	#logo{
+		line-height: 150%;
+		margin-left: calc((105% - var(--width))/2);
+	}
+	.input_form{
+		--width: 90%;
+	} 
+	#help_div{
+		font-size: 130%;
+		line-height: 200%;
+	}
+	#error_div{
+		--width: calc(90% + 4px);
+	}
+	#logo{
+		--width: 95%;
+	}
+	#error_div{
+  		font-size: 150%;
+	}
+	#logo{
+		margin-bottom: 3%;
+	}
+	.input_form input{
+		/*line-height: 200%;*/
+		font-size: 130%
+	}
+	#wrapper{
+		width: 100%;
+		left: 0%;
+		top: 10%;
+	}
+	#logo{
+		line-height: 220%;
+	}
+	.check_but{
+		line-height: 200%;
+	}
+
+}
 @media screen and (min-width: 400px) and (max-width: 500px) {
   	#logo{
 		line-height: 150%;

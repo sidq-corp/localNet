@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+#main{
+	position: absolute;
+	left:25%;
+	top:10%;
+	background-color: #d1d1d1;
+	height: 30%;
+	width: 20%;
+	border-radius:20px;
+
+}
+#discord{
+	position: absolute;
+	top: 6px;
+	left: 10%;
+	height: 97px;
+	width: 97px;
+
+}
+#discord:hover{
+	position: absolute;
+	top: 9px;
+	left: 10%;
+	height: 90px;
+	width: 90px;
+
+}
+#telegram{
+	position: absolute;
+	left:55%;
+
+	height: 110px;
+	width: 110px;
+}
+#telegram:hover{
+	position: absolute;
+	left:55%;
+	top: 3px;
+	height: 100px;
+	width: 100px;
+}
+#contact{
+	position: absolute;
+	left:25%;
+	top:45%;
+	background-color: #d1d1d1;
+	height: 15%;
+	width: 20%;
+	border-radius:20px;
+}
+#chat{
+	position: absolute;
+	left:55%;
+	top:10%;
+	background-color: #d1d1d1;
+	height: 50%;
+	width: 20%;
+	border-radius:20px;
+	text-align: center;
+	font-family: 'Comfortaa', cursive;
+	font-size: 25px;	
+}
+#chat_text{
+	text-align: left;
+	position: absolute;
+	left:10%;
+	top:10%;
+	height: 80%;
+	width: 90%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	overflow-y: scroll;
+}
+#form{
+	width: 60%;
+	position: absolute;
+	left: 20%;
+	top: 20%;
+}
+#answer{
+	margin-bottom: 7px;
+	font-family: 'Comfortaa', cursive;
+}
+#input{
+	width: 100%;
+	margin-bottom: 7px;
+	font-family: 'Comfortaa', cursive;
+}
+#enter{
+	width: 100%;
+	margin-bottom: 7px;
+	font-family: 'Comfortaa', cursive;
+}

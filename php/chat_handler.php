@@ -2,7 +2,8 @@
 	function fulllog($mess_1)
 	{
 		$l = fopen("messlog/fullGlobal.log", 'a');
-		fwrite($l, $mess_1);
+		$today = date("[Y-m-d H:i:s] ");    
+		fwrite($l, $today . $mess_1);
 		fclose($l);
 	}
 
