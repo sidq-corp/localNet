@@ -1,16 +1,16 @@
 function init(){
-	cookie_check()
+	// cookie_check()
 	blur_setup()
 }
 // Cookie
-function cookie_check(){
+/*function cookie_check(){
 	ck = getCookie("err")
 	document.cookie = "user=PIDORS"
 	// alert(document.cookie)
 	if (ck == 'login_not_found'){
 		alert('Нет логина')
 	}
-}
+}*/
 // Blur
 var oks = new Map();
 oks.set("user_pass", 0).set("user_login", 0);
@@ -50,7 +50,7 @@ function check_focus(elem){
 	document.getElementById('fake_check_reg').style.opacity = '0.5';
 	document.getElementById('check_reg').style.display = 'none';
 	document.getElementById('check_reg').style.opacity = '0.5';
-	document.getElementById('fake_check_ref').style.display = 'block';
+	document.getElementById('fake_check_reg').style.display = 'block';
 	standingby = 0
 }
 function check_blur_log(elem){
@@ -112,10 +112,14 @@ function check_all_oks_reg(){
 // Display errors
 function display_error(arg1,arg2){
 	msg = ''
+	document.getElementById('error_div').style.backgroundColor = 'rgba(245, 70, 12, 0.7)';
+
 	if (arg1){
 		msg = msg + '<p>'+arg1+'</p>'
 	}
-	if (arg2){
+	if (arg2 == 1){
+		document.getElementById('error_div').style.backgroundColor = 'rgba(31, 173, 34, 0.7)';
+	}else if (arg2){
 		msg = msg + '<p>'+arg2+'</p>'
 	}
 	document.getElementById('error_div').innerHTML = msg;
@@ -125,6 +129,18 @@ function display_error(arg1,arg2){
 function dismiss_error(){
 	document.getElementById('error_div').style.opacity = '0';
 	document.getElementById('error_div').style.transform = 'translateX(-30px)';
+}
+function throw_error_by_id(arg){
+	console.log('losj '+arg)
+	if (arg == 'error_pass'){
+		setTimeout(display_error,50,'Пароль неверный!','Вы хакер!?')
+	}else if (arg == 'login_not_found'){
+		setTimeout(display_error,50,'Такого логина нет!')
+	}else if (arg == 'no_error'){
+		setTimeout(display_error,50,'Вы успешно зарегистрировались!',1)
+	}else if (arg=='reg_error'){
+		setTimeout(display_error,50,'Вы не зарегистрировались.','Скорее всего ваш логин занят!')
+	}
 }
 // Login - Register link
 function show_reg_form(){

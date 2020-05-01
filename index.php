@@ -4,13 +4,14 @@
 	<title>LocalNet</title>
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/main.js"></script>
-	<?php 
-		if(isset($_GET['error'])){
-			echo "<script>function($_GET\['error'\])</script>";
-		}
-		?>
 </head>
 <body onload="init()">
+	<?php 
+		if(isset($_GET['error'])){
+			$err = $_GET['error'];
+			echo "<script>throw_error_by_id('$err')</script>";
+		}
+		?>
 	<div id = 'logo' onclick="logo_drop()"></div>
 	<div id="registr" class = 'input_form'>
 		<div class="title">
@@ -53,5 +54,7 @@
 		<p>Вы хуйло!</p>
 		<p>Блять</p>
 	</div>
+
+	
 </body>
 </html>
