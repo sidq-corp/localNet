@@ -1,7 +1,16 @@
 function init(){
 	// cookie_check()
+	// center_form()
+	// alert(document.getElementById('wrapper').offsetHeight +' '+screen.height)
 	blur_setup()
 }
+// function center_form(){
+// 	per = Math.floor(( 100 - document.getElementById('wrapper').offsetHeight / screen.height * 100) /2.5)
+// 	alert(per+'% !important')
+// 	per = per+'%'
+// 	// alert(document.getElementById('wrapper').style.top)
+// 	document.getElementById('wrapper').style.top = per;
+// }
 // Cookie
 /*function cookie_check(){
 	ck = getCookie("err")
@@ -111,17 +120,18 @@ function check_all_oks_reg(){
 
 // Display errors
 function display_error(arg1,arg2){
-	msg = ''
+	msg = '<br><p>'
 	document.getElementById('error_div').style.backgroundColor = 'rgba(245, 70, 12, 0.7)';
 
 	if (arg1){
-		msg = msg + '<p>'+arg1+'</p>'
+		msg = msg + ''+arg1+''
 	}
 	if (arg2 == 1){
 		document.getElementById('error_div').style.backgroundColor = 'rgba(31, 173, 34, 0.7)';
 	}else if (arg2){
-		msg = msg + '<p>'+arg2+'</p>'
+		msg = msg + ''+arg2+''
 	}
+	msg = msg + '</p><br>	'
 	document.getElementById('error_div').innerHTML = msg;
 	document.getElementById('error_div').style.opacity = '1';
 	document.getElementById('error_div').style.transform = 'translateX(0px)';

@@ -1,6 +1,6 @@
-/*
- DEPENDENCIES
-*/
+
+ /*DEPENDENCIES*/
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
 @font-face {
     font-family: Proxima SemiBold; /* Имя шрифта */
@@ -14,7 +14,6 @@
     font-family: Proxima Black; /* Имя шрифта */
     src: url(fonts/ProximaNova-Black.ttf); /* Путь к файлу со шрифтом */
    }
-   }
 @font-face {
     font-family: Proxima Thin; /* Имя шрифта */
     src: url(fonts/ProximaNovaT-Thin.ttf); /* Путь к файлу со шрифтом */
@@ -26,18 +25,29 @@ body{
 	background-image: url(images/bg.jpg);
 	background-size: 100%;
 	overflow-y: hidden;
+	height: 100%;
 }
 /*
  LOGO
 */
+#wrapper{
+	position: absolute;
+	top: 20%;
+	width: 50%;
+	left: 25%;
+	/*background-color: rgba(0,0,0,0.5)*/
+}
 #logo{
 	/*width: 100%;
 	height: 25%;*/
-	--width: 17.3%;
+	--width: 34.6%;
+	/* /\ (34.6 / 32) * 32*/
+	/*margin-left: calc((102% - (34.6% / 32%)*var(--width))/2);*/
 
-	position: absolute;
-	left: calc((101% - var(--width))/2);
-	top: 15%;
+	/*position: absolute;*/
+	/*margin-left: calc((102% - ((34.6 / 32) * var(--width)))/2);*/
+	margin-left: calc((102% - var(--width))/2);
+	margin-top: 0%;
 	height: 15%;
 	width: var(--width);
 
@@ -56,10 +66,10 @@ body{
  INPUT_FORMS
 */
 .input_form{
-	--width: 16%;
+	--width: 32%;
 
-	position: absolute;
-	left: calc((100% - var(--width))/2);
+	/*position: absolute;*/
+	margin-left: calc((100% - var(--width))/2);
 	top: 28%;
 	/*height: 30%;*/
 	width: var(--width);
@@ -161,13 +171,14 @@ body{
 	}
 
 #error_div{
-	--width: calc(16% + 4px);
+	--width: calc(32% + 4px);
 
-	position: absolute;
-	left: calc((100.2% - var(--width))/2);
-	top: 60%;
+	/*position: absolute;*/
+	margin-left: calc((100.2% - var(--width))/2);
+	margin-top: 1%;
+	/*height: 100%;*/
 	width: var(--width);
-	line-height: 50%;
+	line-height: 10%;
 
 	text-align: center;
 	transition-property: transform,opacity;
@@ -178,9 +189,13 @@ body{
 	opacity: 0;
 	color: white;
 	font-family: 'Proxima SemiBold';
+	font-size: 100%;
 	background-color: rgba(245, 70, 12, 0.7);
 	/*border: 2px rgba(245, 70, 12, 0.7) solid;*/
 }
+	#error_div p{
+		line-height: 100% !important;
+	}
 	#error_div:hover{
 		transform: scale(1.05);
 	}
@@ -200,6 +215,269 @@ body{
 		color: #fff;
 		transform: translateY(5%);
 	}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  	#logo{
+		line-height: 150%;
+		margin-left: calc((105% - var(--width))/2);
+	}
+	.input_form{
+		--width: 80%;
+	} 
+	#help_div{
+		font-size: 130%;
+		line-height: 200%;
+	}
+	#error_div{
+		--width: calc(80% + 4px);
+	}
+	#logo{
+		--width: 86.5%;
+	}
+	#error_div{
+  		font-size: 150%;
+	}
+	#logo{
+		margin-bottom: 3%;
+	}
+	.input_form input{
+		/*line-height: 200%;*/
+		font-size: 130%
+	}
+	#wrapper{
+		width: 100%;
+		left: 0%;
+		top: 10%;
+	}
+	#logo{
+		line-height: 220%;
+	}
+	.check_but{
+		line-height: 200%;
+	}
+
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  	#logo{
+		line-height: 150%;
+		margin-left: calc((105% - var(--width))/2);
+	}
+	.input_form{
+		--width: 80%;
+	} 
+	#help_div{
+		font-size: 150%;
+		line-height: 200%;
+	}
+	#error_div{
+		--width: calc(80% + 4px);
+	}
+	#logo{
+		--width: 86.5%;
+	}
+	#error_div{
+  		font-size: 150%;
+	}
+	#logo{
+		margin-bottom: 3%;
+	}
+	.input_form input{
+		/*line-height: 200%;*/
+		font-size: 130%
+	}
+	#wrapper{
+		width: 100%;
+		left: 0%;
+		top: 15%;
+	}
+	#logo{
+		line-height: 220%;
+	}
+	.check_but{
+		line-height: 200%;
+	}
+
+}
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  	#logo{
+		line-height: 150%;
+	}
+	.input_form{
+		--width: 80%;
+	} 
+	#help_div{
+		font-size: 150%;
+		line-height: 200%;
+	}
+	#error_div{
+		--width: calc(80% + 4px);
+	}
+	#logo{
+		--width: 86.5%;
+	}
+	#error_div{
+  		font-size: 150%;
+	}
+	#logo{
+		margin-bottom: 3%;
+	}
+	.input_form input{
+		/*line-height: 200%;*/
+		font-size: 130%
+	}
+	#wrapper{
+		width: 80%;
+		left: 10%;
+		top: 15%;
+	}
+	#logo{
+		line-height: 220%;
+	}
+	.check_but{
+		line-height: 200%;
+	}
+
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  	#logo{
+		line-height: 150%;
+	}
+	.input_form{
+		--width: 80%;
+	}
+	#help_div{
+		font-size: 90%;
+	}
+	#error_div{
+		--width: calc(80% + 4px);
+	}
+	#logo{
+		--width: 86.5%;
+	}
+	#error_div{
+  		font-size: 100%;
+	}
+	#logo{
+		margin-bottom: 3%;
+	}
+}
+/*1.08125*/
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  	#logo{
+		line-height: 150%;
+	}
+	.input_form{
+		--width: 70%;
+	}
+	#help_div{
+		font-size: 90%;
+	}
+	#error_div{
+		--width: calc(70% + 4px);
+	}
+	#logo{
+		--width: 75.6875%;
+	}
+	#error_div{
+  		font-size: 100%;
+	}
+}
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  	#logo{
+		line-height: 150%;
+	}
+	.input_form{
+		--width: 60%;
+	}
+	#help_div{
+		font-size: 90%;
+	}
+	#error_div{
+		--width: calc(60% + 4px);
+	}
+	#logo{
+		--width: 64.875%;
+	}
+	#error_div{
+  		font-size: 100%;
+	}
+}
+@media screen and (min-width: 1000px) and (max-width: 1150px) {
+  	#logo{
+		line-height: 150%;
+	}
+	.input_form{
+		--width: 50%;
+	}
+	#help_div{
+		font-size: 90%;
+	}
+	#error_div{
+		--width: calc(50% + 4px);
+	}
+	#logo{
+		--width: 54.0625%;
+	}
+	#error_div{
+  		font-size: 90%;
+	}
+}
+@media screen and (min-width: 1150px) and (max-width: 1350px) {
+  	#logo{
+		line-height: 150%;
+	}
+	.input_form{
+		--width: 38%;
+	}
+	#help_div{
+		font-size: 90%;
+	}
+	#error_div{
+		--width: calc(38% + 4px);
+	}
+	#logo{
+		--width: 41.0875%;
+	}
+	#error_div{
+  		font-size: 80%;
+	}
+}
+@media screen and (min-width: 1350px) and (max-width: 1570px) {
+  	#logo{
+		line-height: 150%;
+	}
+	.input_form{
+		--width: 36%;
+	}
+	#error_div{
+		--width: calc(36% + 4px);
+	}
+	#logo{
+		--width: 38.925%;
+	}
+	#error_div{
+  		font-size: 80%;
+	}
+}
+@media screen and (min-width: 1570px) and (max-width: 1900px) {
+  	#logo{
+		line-height: 180%;
+	}
+}
+@media screen and (min-width: 1900px) and (max-width: 2300px) {
+  	#logo{
+		line-height: 230%;
+	}
+}
+@media screen and (min-width: 2300px) and (max-width: 3000px) {
+  	#logo{
+		line-height: 270%;
+	}
+}
+@media screen and (min-width: 3000px) and (max-width: 40000px) {
+  	#logo{
+		line-height: 320%;
+	}
+}
 
 @keyframes shake {
   10%, 90% {
@@ -267,4 +545,45 @@ body{
 }
 .apply-drop-end {
     animation:drop_end 100s cubic-bezier(.36,.07,.19,.97) 0.82s;
+}
+
+/*MEDIA - height*/
+/*@media screen and (max-height: 650px) and (min-height: 550px) {
+  	#error_div{
+  		top: 75	%;
+	}
+}
+@media screen and (max-height: 750px) and (min-height: 650px) {
+  	#error_div{
+  		top: 70%;
+	}
+}
+@media screen and (max-height: 900px) and (min-height: 750px) {
+  	#error_div{
+  		top: 65%;
+	}
+}*/
+/*MEDIA - width*/
+/*@media screen and (max-height: 650px) and (min-height: 550px) {
+  	#error_div{
+  		top: 75	%;
+	}
+}
+@media screen and (min-width: 1200px) and (max-width: 1450px) {
+  	#error_div{
+  		font-size: 80%;
+  		top: 60%;
+	}
+	#help_div p{
+		font-size: 80%;
+	}
+}
+@media screen and (min-width: 1450px) and (max-width: 1600px) {
+  	#error_div{
+  		font-size: 90%;
+  		top: 60%;
+	}
+	#help_div p{
+		font-size: 80%;
+	}
 }
