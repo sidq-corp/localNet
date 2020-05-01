@@ -25,9 +25,9 @@
 			</div>
 			<div id="reg_form" class = "generic_form">
 				<form action="php/reg.php" method="get">
-					<input type="text" placeholder="Никнейм" id = "reg_name" name="reg_name">
-					<input  type="text" placeholder="Логин" id = "reg_login" name="reg_login">
-					<input type="text" placeholder="Пароль" id = "reg_pass" name="reg_pass">
+					<input type="text" placeholder="Никнейм" id = "reg_name" name="reg_name"  maxlength="20">
+					<input  type="text" placeholder="Логин" id = "reg_login" name="reg_login" maxlength="20">
+					<input type="text" placeholder="Пароль" id = "reg_pass" name="reg_pass" maxlength="20">
 					<button name="submit" id="check_reg" class="check_but">Зарегистрироваться</button>
 				</form>
 				<button onclick="display_error('Вы ввели логин или пароль','длинна которого меньше 6 символов')" class="check_but" id="fake_check_reg" style="display: block;">Зарегистрироваться</button>
