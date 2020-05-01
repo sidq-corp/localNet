@@ -37,5 +37,5 @@ function reader(){
 
     request.send(null);
     setTimeout(reader, 300);
-
+    
 }

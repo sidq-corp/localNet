@@ -1,15 +1,24 @@
 <?php
+	function fulllog($mess_1)
+	{
+		$l = fopen("messlog/fullGlobal.log", 'a');
+		fwrite($l, $mess_1);
+		fclose($l);
+	}
+
 	if (isset($_POST["mess"])) { 
 		$mess = $_POST["mess"];
 		if($mess != ''){
 			if($mess == '/clear'){
+				$name = $_POST['name'];
 				$f = fopen("messlog/globalchat.log", "w");
-				fwrite($f, "");
+				fwrite($f, "$name очистил чат!");
 				fclose($f);
-			}else if(explode(" ", $mess)[1] == '/ban'){
-				echo json_encode("ban");
+				fulllog("$name очистил чат!");
+				echo json_encode("$name очистил чат!");
 			}else{
 				$name = $_POST['name'];
+				fulllog("$name: $mess\n");
 			    $f = fopen("messlog/globalchat.log", "r");
 				$all = fread($f,  filesize("messlog/globalchat.log"));
 				fclose($f);
