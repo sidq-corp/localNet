@@ -23,13 +23,30 @@
 			echo"<script>error()</script>";
 		}
 	?>
+
+
+	<div id="local_chat">
+		<div id="local_chat_1">
+			<form method="post" id="ajax_form" action="" >
+		        <input type="text" name="messloc" id="messloc"><br>
+		        <input type="text" name="name" value="<?php echo $name; ?>">
+		        <input type="button" id="lcl" value="Отправить" />
+		    </form>
+		</div>
+	</div>
+
+
+
+
+
+
 <!-- Глобальный чат -->
 	<div id="global_chat">
 		<div id="global_chat_1">
-			<form method="post" id="ajax_form" action="" >
+			<form method="post" id="global_chat_form" action="" >
 		        <input type="text" name="mess" id="messin"><br>
 		        <input type="text" name="name" value="<?php echo $name; ?>">
-		        <input type="button" id="btn" value="Отправить" />
+		        <input type="button" id="glb" value="Отправить" />
 		    </form>
 
 		    <div id="result_form"></div> 

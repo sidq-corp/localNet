@@ -1,8 +1,8 @@
 /* Article FructCode.com */
 $( document ).ready(function() {
-    $("#btn").click(
+    $("#glb").click(
 		function(){
-			sendAjaxForm('result_form', 'ajax_form', '../php/chat_handler.php');
+			sendAjaxForm('result_form', 'global_chat_form', '../php/chat_handler.php');
             document.getElementById('messin').value = '';
 			return false; 
 		}
