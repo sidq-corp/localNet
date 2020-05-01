@@ -4,6 +4,11 @@
 	<title>LocalNet</title>
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/main.js"></script>
+	<?php 
+		if(isset($_GET['error'])){
+			echo "<script>function($_GET\['error'\])</script>";
+		}
+		?>
 </head>
 <body onload="init()">
 	<div id = 'logo' onclick="logo_drop()"></div>
