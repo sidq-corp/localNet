@@ -1,14 +1,18 @@
 <?php
-		$name = $_GET['name'];
-		$secret = $_GET['secret'];
+
+		echo "<script src='../js/main_login.js'></script>";
 		$login = $_GET['login'];
-		$id = $_GET['id'];
+
+		$f = fopen("../php/account/$login.id", "r");
+		$all = fread($f,  filesize("../php/account/$login.id"));
+
+		list($id, $login, $name, $pass, $lip, $luser_agent) = explode("\n", $all);
+
+		// echo "$secret $login $name $pass ";
 		$ip = $_SERVER['REMOTE_ADDR'];
-		$secretkey = hash("sha256", "$login$id$ip");
-		if($secretkey == $secret){
-			echo"correct";
-		}else{
-			echo"error";
+		$user_agent = $_SERVER['HTTP_USER_AGENT'];
+
+		if($ip != $lip or $user_agent != $luser_agent){
 			echo"<script>error()</script>";
 		}
 	?>
@@ -18,14 +22,15 @@
 <head>
 	<meta charset="utf-8">
 	<title><?php echo $name; ?></title>
-	<script src="../js/main_login.js"></script>
 	<link rel="stylesheet" href="../css/main_login.css">
 	<script src="../js/ajax_script.js"></script>
   	<script src="../js/ajax.js"></script>
 </head>
-<body onload="reader()">
+<body onload="init()">
 
-					
+	<div style='display: none;' id="user_name"><?php echo $name; ?></div>
+	<div style='display: none;' id="user_login"><?php echo $login; ?></div>
+				
 
 	<div id="local_chat">
 		<div id="local_chat_1">
@@ -48,8 +53,8 @@
 					?>
    				</datalist> 
 		        <input type="text" name="messloc" id="messloc"><br>
-		        <input type="text" name="name" value="<?php echo $name; ?>">
 		        <input type="button" id="lcl" value="Отправить" />
+
 		    </form>
 		</div>
 	</div>
@@ -63,7 +68,7 @@
 	<div id="global_chat">
 		<div id="global_chat_1">
 			<form method="post" id="global_chat_form" action="" >
-		        <input type="text" name="mess" id="messin"><br>
+		        <input type="text" maxlength="50" name="mess" id="messin"><br>
 		        <input type="button" id="glb" value="Отправить" />
 		    </form>
 

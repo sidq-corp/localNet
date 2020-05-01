@@ -1,8 +1,16 @@
-/* Article FructCode.com */
+function init(){
+    document.getElementById("goto").addEventListener("input", () => check_local(), true);
+    reader();
+}
+function check_local(){
+    name = document.getElementById("user_name").innerHTML;
+    to = document.getElementById("user_login").innerHTML;
+
+}
 $( document ).ready(function() {
     $("#glb").click(
 		function(){
-            name = document.title;
+            name = document.getElementById("user_name").innerHTML;
 			sendAjaxForm('result_form', '../php/chat_handler.php', name);
             document.getElementById('messin').value = '';
 			return false; 

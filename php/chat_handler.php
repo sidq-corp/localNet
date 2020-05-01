@@ -35,7 +35,7 @@
 		    }
 
 		}else{
-			echo json_encode(''); 
+			echo json_encode("none"); 
 		}
 	}	
 
