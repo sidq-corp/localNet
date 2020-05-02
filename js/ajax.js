@@ -57,6 +57,6 @@ function reader(){
     };
 
     request.send(null);
-    setTimeout(reader, 300);
+    setTimeout(reader, 1500);
     
 }
