@@ -32,11 +32,11 @@
 			echo "<script>correct_login('$login')</script>";
 		}else{
 			echo "error";
-			// echo "<script>error_pass()</script>";
+			echo "<script>error_pass()</script>";
 		}
 	}else{
 		echo "login";
-		// echo "<script>login_not_found()</script>";
+		echo "<script>login_not_found()</script>";
 	}
 	
 ?>
