@@ -9,11 +9,8 @@ function check_local(){
 }
 function ginputgo(){
     document.getElementById('glb').disabled = 0;
-<<<<<<< HEAD
     document.getElementById('messin').value = "";
-=======
-\    document.getElementById('messin').value = "";
->>>>>>> 179b7b163088f59af5976412b3564b9af5e27a2f
+    document.getElementById('messin').value = "";
 
 }
 
@@ -24,7 +21,7 @@ $( document ).ready(function() {
 			sendAjaxForm('result_form', '../php/chat_handler.php', name);
             document.getElementById('messin').value = '';
             document.getElementById('glb').disabled = 1;
-            document.getElementById('messin').value = "Блокировка 3 секунды";
+            document.getElementById('glb').value = "Блокировка 3 секунды";
             setTimeout(ginputgo, 3000);
 			return false; 
 		}

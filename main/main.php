@@ -21,7 +21,7 @@
   	<script src="../js/ajax.js"></script>
   	<script src="../js/main.js"></script>
 </head>
-<body onload="initjs()">
+<body onload="initjs(); init()">
 	<div id = 'header-placeholder'>
 		<div id="user_name"><?php echo $name; ?></div>
 		<div id="user_login"><?php echo $login; ?></div>

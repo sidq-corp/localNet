@@ -15,9 +15,7 @@
 		$all = fread($f,  filesize("account/$login.id"));
 		list($id, $login, $name, $pass) = explode("\n", $all);
 		fclose($f);
-
-	
-
+		
 
 		if($pass == $pass_user){
 			$f = fopen("account/$login.id", "w");
@@ -34,11 +32,11 @@
 			echo "<script>correct_login('$login')</script>";
 		}else{
 			echo "error";
-			echo "<script>error_pass()</script>";
+			// echo "<script>error_pass()</script>";
 		}
 	}else{
 		echo "login";
-		echo "<script>login_not_found()</script>";
+		// echo "<script>login_not_found()</script>";
 	}
 	
 ?>

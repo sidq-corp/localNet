@@ -13,6 +13,7 @@
 			<div id="answer">Ответ...</div>
 			<input type="submit" name="submit" value="Отправить" id="enter">
 			<?php
+				if (isset($GET_))
 				function write($text){
 					$f = fopen("input.txt", "w");
 					fwrite($f, $text);
