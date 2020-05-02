@@ -6,9 +6,9 @@
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="../css/global.css">
 	<script src="main.js"></script>
-
+	<script src="../js/global.js"></script>
 </head>
-<body onload="chat()">
+<body onload="global_init(); chat()">
 	<div id = 'header-placeholder'>
 		<div id="user_name"><?php echo $name; ?></div>
 		<div id="user_login"><?php echo $login; ?></div>

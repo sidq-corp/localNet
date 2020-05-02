@@ -21,9 +21,10 @@
 	<script src="../js/ajax_script.js"></script>
   	<script src="../js/ajax.js"></script>
   	<script src="../js/main.js"></script>
+  	<script src="../js/global.js"></script>
   	<script src="../js/local.js"></script>
 </head>
-<body onload="initjs(); init()">
+<body onload="global_init(); init()">
 	<div id = 'header-placeholder'>
 		<div id="user_name"><?php echo $name; ?></div>
 		<div id="user_login"><?php echo $login; ?></div>
