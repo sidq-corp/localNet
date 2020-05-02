@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Proxima SemiBold; /* Имя шрифта */
+    src: url(fonts/ProximaNova-Semibold.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Proxima BlackIt; /* Имя шрифта */
+    src: url(fonts/ProximaNova-BlackIt.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Proxima Black; /* Имя шрифта */
+    src: url(fonts/ProximaNova-Black.ttf); /* Путь к файлу со шрифтом */
+   }
+/* MENU */
+:root{
+	--headerheight: 6%;
+}
+#header-menu{
+	position: fixed;
+	height: var(--headerheight);
+	width: 100%;
+	background-color: #fff;
+
+	top: 0%;
+	left: 0%;
+	padding-left: 20%;
+	padding-right: 20%;
+	z-index: 100;
+}
+	#header-placeholder{
+		height: var(--headerheight);
+		width: 100%;
+		margin: 0%;
+	}	
+	#header-logo{
+		height: 100%;
+		float: left;
+		width: 10%;
+
+		background-image: url(images/logo_transp_b.png);
+		background-size: 90%;
+		background-position: center;
+		background-repeat: no-repeat;	
+		background-color: #fff;
+		transition: background-color 0.5s ease;
+	}
+	#header-logo:hover{
+		background-image: url(images/logo_transp_w.png);
+		/*background-color: #e401cf;*/
+		background-color: #333;
+		cursor: pointer;
+	}
+	.header-item{
+		float: left;
+		width: 10%;	
+		height: 100%;
+		
+		min-height: 100%;
+		font-size: 130%;
+		font-family: 'Proxima BlackIt';
+		text-align: center;
+		line-height: 100%;
+		transition: background-color 0.5s ease;
+		color: #000;
+		text-decoration: none;
+	}	
+	.header-item a{
+		color: inherit;
+		text-decoration: inherit;
+	}
+	.header-item b{
+		color: #e401cf;
+	}
+	.header-item-a:hover{
+		background-color: #333;
+		cursor: pointer;
+		color: white;
+	}
+	#header-login{
+		margin-left: 10%; 
+		width: 10%; 
+		font-size: 100%
+	}
+
+@media screen and (min-width: 0px) and (max-width: 1470px) {
+	#header-login{
+		width: 15%; 
+		margin-left: 5%; 
+	}
+}

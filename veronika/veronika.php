@@ -4,10 +4,35 @@
 <head>
 	<title>Вероника младшая</title>
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="../css/global.css">
 	<script src="main.js"></script>
 
 </head>
 <body onload="chat()">
+	<div id = 'header-placeholder'>
+		<div id="user_name"><?php echo $name; ?></div>
+		<div id="user_login"><?php echo $login; ?></div>
+	</div>
+	<div id = "header-menu">
+		<div id = 'header-items'>
+			<a href="/main/main.php?login=<?php echo $login; ?>"><div id = 'header-logo'><br></div></a>
+			<div class = 'header-item header-item-a' >
+				<div class = 'header-picker'>
+					<a href="../veronika/veronika.php?name=<?php echo $login; ?>">
+						<b>[</b>NEW<b>]</b> Вероника
+					</a>
+				</div>
+			</div>
+			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
+			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
+			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
+			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
+		</div>
+		<div class = 'header-item header-item-a' id = 'header-login' onclick = 'gui_account_check()'>
+			<div class = 'header-picker'>Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div>
+		</div>
+	</div>
+
 	<div id="main">
 		<form method="get" id="form" action="veronika.php">
 			<input type="text" name="name" style='display: none;' value="<?php echo $name; ?>">
@@ -28,10 +53,10 @@
 		</form>
 	</div>
 
-	<div id="go_back">
+	<!-- <div id="go_back">
 		<a href="../main/main.php?login=<?php echo $name; ?>">Main</a>
 
-	</div>
+	</div> -->
 
 	<div id="chat">
 			ГЛОБАЛЬНЫЙ ЧАТ:
