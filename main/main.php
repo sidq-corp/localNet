@@ -17,6 +17,7 @@
 	<meta charset="utf-8">
 	<title><?php echo $name; ?></title>
 	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/global.css">
 	<script src="../js/ajax_script.js"></script>
   	<script src="../js/ajax.js"></script>
   	<script src="../js/main.js"></script>
@@ -96,13 +97,11 @@
 				<b>Ваш никнейм: <?php echo $name; ?></b><br>
 				<b>Ваш логин: <?php echo $login; ?></b><br>
 				<b>Ваш пароль: Хз, у нас хэши</b>
-				<!-- <p>Как это работает?</p> -->
 			</div>
 
-			<button onclick="gui_account_check()" class="gui-but gui-but-small">Вернутся</button>
+			<button onclick="gui_account_check()" class="gui-but gui-but-small">Вернуться</button>
 			<div id="help_div" style = "margin-top: 3%;">
 				<a href='/'><p>Выйти</p></a>
-				<!-- <p>Как это работает?</p> -->
 			</div>
 		</div>
 	</div>

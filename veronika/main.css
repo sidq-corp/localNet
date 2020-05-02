@@ -9,14 +9,9 @@
 	border-radius:20px;
 
 }
-#go_back{
-	position: absolute;
-	left:25%;
-	top:45%;
-	background-color: #d1d1d1;
-	height: 15%;
-	width: 20%;
-	border-radius:20px;
+html, body, #fullheight {
+    min-height: 100% !important;
+    height: 100%;
 }
 #chat{
 	position: absolute;
