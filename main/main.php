@@ -20,8 +20,6 @@
 	<script src="../js/ajax_script.js"></script>
   	<script src="../js/ajax.js"></script>
   	<script src="../js/main.js"></script>
-  	<script src="../js/local.js"></script>
-
 </head>
 <body onload="initjs(); init()">
 	<div id = 'header-placeholder'>
@@ -62,8 +60,8 @@
 									$f = fopen("../php/account/$file", "r");
 									$all = fread($f,  filesize("../php/account/$file"));
 									fclose($f);
-									list($id, $login, $name, $pass) = explode("\n", $all);
-									echo "<option>$login($name)</option>";
+									list($id_, $login_, $name_, $pass_) = explode("\n", $all);
+									echo "<option>$login_($name_)</option>";
 								}
 							}
 						?>
@@ -85,7 +83,30 @@
 			</div>
 		</div>
 	</div>
-	
+
+	<div id="gui-bg" onclick="gui_account_check()"></div>
+	<div id="gui-account" class = 'gui' style = "display: none;">
+		<div class="gui_title">
+			Аккаунт
+		</div>
+
+		<div class = "generic_form">
+			<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
+				<b>Ваш никнейм: <?php echo $name; ?></b><br>
+				<b>Ваш логин: <?php echo $login; ?></b><br>
+				<b>Ваш пароль: Хз, у нас хэши</b>
+				<!-- <p>Как это работает?</p> -->
+			</div>
+
+			<button onclick="gui_account_check()" class="gui-but gui-but-small">Вернутся</button>
+			<div id="help_div" style = "margin-top: 3%;">
+				<a href='/'><p>Выйти</p></a>
+				<!-- <p>Как это работает?</p> -->
+			</div>
+		</div>
+	</div>
+
+
 	<div id="error_div" onclick="dismiss_error()">
 		<br>
 		<p>Вы хуйло!</p>

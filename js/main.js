@@ -19,19 +19,29 @@ function error(){
 }
 
 // Gui
-gui_account_open = 0;
+gui_account_opened = 0;
 function gui_account_check(){
-	if (gui_account_open == 0){
+	if (gui_account_opened == 0){
 		document.getElementById('header-login').style.backgroundColor = "#333"
 		document.getElementById('header-login').style.color = "#fff"
-		gui_account_open = 1
-	}else if(gui_account_open == 1){
+		gui_account_opened = 1
+		gui_account_open()
+	}else if(gui_account_opened == 1){
 		document.getElementById('header-login').style.backgroundColor = "#fff"
 		document.getElementById('header-login').style.color = "#000"
-		gui_account_open = 0
+		gui_account_opened = 0
+		gui_account_close()
 	}else{
 		display_error('Ошибка. Код ошибки: gui_account_open != (1 or 0)');
 	}
+}
+function gui_account_open(){
+	document.getElementById('gui-bg').style.display = "block"
+	document.getElementById('gui-account').style.display = "block"
+}
+function gui_account_close(){
+	document.getElementById('gui-bg').style.display = "none"
+	document.getElementById('gui-account').style.display = "none"
 }
 
 // Generic errors
