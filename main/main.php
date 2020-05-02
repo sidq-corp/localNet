@@ -30,16 +30,18 @@
 		<div id = 'header-items'>
 			<a href="/main/main.php?login=<?php echo $login; ?>"><div id = 'header-logo'></div></a>
 			<div class = 'header-item header-item-a' >
-				<a href="../veronika/veronika.php?name=<?php echo $login; ?>">
-				<div class = 'header-picker'><b>[</b>NEW<b>]</b> Вероника</div>
-				</a>
+				<div class = 'header-picker'>
+					<a href="../veronika/veronika.php?name=<?php echo $login; ?>">
+						<b>[</b>NEW<b>]</b> Вероника
+					</a>
+				</div>
 			</div>
 			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
 			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
 			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
 			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
 		</div>
-		<div class = 'header-item header-item-a' id = 'header-login' >
+		<div class = 'header-item header-item-a' id = 'header-login' onclick = 'gui_account_check()'>
 			<div class = 'header-picker'>Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div>
 		</div>
 	</div>
@@ -80,6 +82,13 @@
 			    <div id="result_form"></div> 
 			</div>
 		</div>
+	</div>
+	
+	<div id="error_div" onclick="dismiss_error()">
+		<br>
+		<p>Вы хуйло!</p>
+		<p>Блять</p>
+		<br>
 	</div>
 <!-- Глобальный чал -->
 </body>

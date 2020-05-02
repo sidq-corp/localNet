@@ -18,14 +18,12 @@
 	--headerheight: 6%;
 }
 /* MENU */
-
 #header-menu{
 	position: fixed;
 	height: var(--headerheight);
 	width: 100%;
 	background-color: #fff;
 
-	/*margin: 0%;*/
 	top: 0%;
 	left: 0%;
 	padding-left: 20%;
@@ -37,9 +35,6 @@
 		width: 100%;
 		margin: 0%;
 	}	
-	#header-items{
-		/*vertical-align: 10px;*/
-	}
 	#header-logo{
 		height: 100%;
 		float: left;
@@ -68,11 +63,17 @@
 		text-align: center;
 		line-height: 100%;
 		transition: background-color 0.5s ease;
+		color: #000;
+		text-decoration: none;
 	}	
+	.header-item a{
+		color: inherit;
+		text-decoration: inherit;
+	}
 	.header-item b{
 		color: #e401cf;
 	}
-	.header-item-a:hover, .header-double-item:hover{
+	.header-item-a:hover{
 		background-color: #333;
 		cursor: pointer;
 		color: white;
@@ -100,23 +101,45 @@
 	background-color: #e8e8e8;
 	border-radius: 10px;
 }
-/*#global_chat_1{
-=======
-#global_chat_1{
->>>>>>> 179b7b163088f59af5976412b3564b9af5e27a2f
-	position: absolute;
-	left: 15%;
-	top: 10%;
-	width: 90%;
-	height: 90;
-<<<<<<< HEAD
-}*/
 #result_form{
 	overflow-x: hidden;
 	overflow-y: scroll;
 	max-height: 120px;
 	width: 80%;
 }
+
+/* ERROR*/
+#error_div{
+	--width: calc(32% + 4px);
+
+	position: fixed;
+	margin-left: calc((100.2% - var(--width))/2);
+	/*height: 100%;*/
+	width: var(--width);
+	line-height: 10%;
+	top: 90%;
+
+	text-align: center;
+	transition-property: transform,opacity;
+	transition-timing-function: ease;
+	transition-duration: 2s;
+	/*transition:  2s ease;*/
+	transform: translateX(-30px);
+	opacity: 0;
+	color: white;
+	font-family: 'Proxima SemiBold';
+	font-size: 100%;
+	background-color: rgba(245, 70, 12, 0.7);
+
+	z-index: 50;
+	/*border: 2px rgba(245, 70, 12, 0.7) solid;*/
+}
+	#error_div p{
+		line-height: 100% !important;
+	}
+	#error_div:hover{
+		transform: scale(1.05);
+	}
 
 @media screen and (min-width: 0px) and (max-width: 1470px) {
 	#header-login{
