@@ -20,7 +20,7 @@
 					fwrite($f, "$name@%@$text");
 					fclose($f);
 				}
-				if(isset($_GET)){
+				if(isset($_GET['text'])){
 					write($_GET['name'], $_GET['text']);
 					echo "<script>setTimeout(get_answer, 1500)</script>";
 				}
