@@ -9,8 +9,8 @@ function check_local(){
 }
 function ginputgo(){
     document.getElementById('glb').disabled = 0;
-    document.getElementById('messin').value = "";
-    document.getElementById('messin').value = "";
+    document.getElementById('glb').value = "Отправить";
+
 
 }
 
