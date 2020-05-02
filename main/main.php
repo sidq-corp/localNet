@@ -24,7 +24,7 @@
   	<script src="../js/global.js"></script>
   	<script src="../js/local.js"></script>
 </head>
-<body onload="global_init(); init()">
+<body onload="global_init(); update(); init()">
 	<div id = 'header-placeholder'>
 		<div id="user_name"><?php echo $name; ?></div>
 		<div id="user_login"><?php echo $login; ?></div>
