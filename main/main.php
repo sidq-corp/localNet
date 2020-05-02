@@ -17,10 +17,11 @@
 	<meta charset="utf-8">
 	<title><?php echo $name; ?></title>
 	<link rel="stylesheet" href="../css/main.css">
-	<script src="../js/ajax_script.js"></script>
-  	<script src="../js/ajax.js"></script>
-  	<script src="../js/main.js"></script>
-  	<script src="../js/local.js"></script>
+	<script type="text/javascript" src="../js/ajax_script.js"></script>
+  	<script type="text/javascript" src="../js/ajax.js"></script>
+  	<script type="text/javascript" src="../js/main.js"></script>
+  	<script type="text/javascript" src="../js/local.js"></script>
+
 </head>
 <body onload="initjs(); init()">
 	<div id = 'header-placeholder'>
