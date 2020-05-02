@@ -20,6 +20,8 @@
 	<script src="../js/ajax_script.js"></script>
   	<script src="../js/ajax.js"></script>
   	<script src="../js/main.js"></script>
+  	<script src="../js/local.js"></script>
+
 </head>
 <body onload="initjs(); init()">
 	<div id = 'header-placeholder'>
@@ -67,7 +69,7 @@
 						?>
 	   				</datalist> 
 			        <input type="text" name="messloc" id="messloc"><br>
-			        <input type="button" id="lcl" value="Отправить" />
+			        <input type="button" id="lcl" value="Отправить" onclick="local_handler()">
 
 			    </form>
 			</div>
