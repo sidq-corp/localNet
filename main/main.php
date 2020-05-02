@@ -69,7 +69,7 @@
 	   				</datalist> 
 			        <input type="text" name="messloc" id="messloc"><br>
 			        <input type="button" id="lcl" value="Отправить" onclick="local_handler()">
-
+			        <div id="local_answer">ss</div>
 			    </form>
 			</div>
 		</div>

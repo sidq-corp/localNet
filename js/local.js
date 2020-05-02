@@ -12,10 +12,10 @@ function local_handler(){
                 data: {"me" : me, "to" : to, "mess" : mess},
                 success: function(data){
                     title = data;
+                    document.getElementById("local_answer").innerHTML = title;
                     console.log(title)
 
                 }
             });
+	document.getElementById("messloc").value = "";
 }
-
-
