@@ -15,11 +15,12 @@
 
 	$login = $_GET['reg_login'];
 	$name = $_GET['reg_name'];
-	$pass = hash("sha256", $_GET['reg_pass']);
-	if(strlen($login) < 6 or strlen($pass) < 6 or strlen($name) < 2 or file_exists("account/$login.id")){
+	$pass = $_GET['reg_pass'];
+	if(strlen($login) < 6 or strlen($pass) < 6 or strlen($name) < 2 or file_exists("account/$login.id") or strlen($login) > 30 or strlen($pass) > 30 or strlen($name) > 30){
 		echo "<script>error()</script>";
 		echo "Ошибка регестраци";
 	}else{
+		$pass = hash("sha256", $pass);
 		$id = get_len_dir() + 1;
 		// echo "$login $name $pass $id";
 		$f = fopen("account/$login.id", 'w');

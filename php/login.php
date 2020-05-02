@@ -10,15 +10,28 @@
 	$login = $_GET['user_login'];
 	$pass_user = hash("sha256", $_GET['user_pass']);
 	if(file_exists("account/$login.id")){
+
 		$f = fopen("account/$login.id", "r");
 		$all = fread($f,  filesize("account/$login.id"));
 		list($id, $login, $name, $pass) = explode("\n", $all);
-		// echo "$id $login $name $pass";
-		$ip = $_SERVER['REMOTE_ADDR'];
-		$secretkey = hash("sha256", "$login$id$ip");
+		fclose($f);
+
+	
+
+
 		if($pass == $pass_user){
+			$f = fopen("account/$login.id", "w");
+			$ip = $_SERVER['REMOTE_ADDR'];
+			$user_agent = $_SERVER['HTTP_USER_AGENT'];
+			fwrite($f, "$id\n");
+			fwrite($f, "$login\n");
+			fwrite($f, "$name\n");
+			fwrite($f, "$pass\n");
+			fwrite($f, "$ip\n");
+			fwrite($f, $user_agent);
+			fclose($f);
 			echo "corret";
-			echo "<script>correct_login('$secretkey', '$login', '$id', '$name')</script>";
+			echo "<script>correct_login('$login')</script>";
 		}else{
 			echo "error";
 			echo "<script>error_pass()</script>";

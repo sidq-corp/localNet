@@ -9,7 +9,7 @@
 
 	if (isset($_POST["mess"])) { 
 		$mess = $_POST["mess"];
-		if($mess != ''){
+		if($mess != '' and strlen($mess) <= 50){
 			if($mess == '/clear'){
 				$name = $_POST['name'];
 				$f = fopen("messlog/globalchat.log", "w");
@@ -35,7 +35,7 @@
 		    }
 
 		}else{
-			echo json_encode(''); 
+			echo json_encode("none"); 
 		}
 	}	
 
