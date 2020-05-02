@@ -20,6 +20,7 @@
 	<script src="../js/ajax_script.js"></script>
   	<script src="../js/ajax.js"></script>
   	<script src="../js/main.js"></script>
+  	<script src="../js/local.js"></script>
 </head>
 <body onload="initjs(); init()">
 	<div id = 'header-placeholder'>
