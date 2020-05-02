@@ -8,8 +8,8 @@ function check_local(){
 
 }
 function ginputgo(){
-    document.getElementById('messin').disabled = 0;
-    document.getElementById('messin').value = "";
+    document.getElementById('glb').disabled = 0;
+\    document.getElementById('messin').value = "";
 
 }
 
@@ -19,7 +19,7 @@ $( document ).ready(function() {
             name = document.getElementById("user_name").innerHTML;
 			sendAjaxForm('result_form', '../php/chat_handler.php', name);
             document.getElementById('messin').value = '';
-            document.getElementById('messin').disabled = 1;
+            document.getElementById('glb').disabled = 1;
             document.getElementById('messin').value = "Блокировка 3 секунды";
             setTimeout(ginputgo, 3000);
 			return false; 
