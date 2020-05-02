@@ -9,7 +9,11 @@ function check_local(){
 }
 function ginputgo(){
     document.getElementById('glb').disabled = 0;
+<<<<<<< HEAD
+    document.getElementById('messin').value = "";
+=======
 \    document.getElementById('messin').value = "";
+>>>>>>> 179b7b163088f59af5976412b3564b9af5e27a2f
 
 }
 

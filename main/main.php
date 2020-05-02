@@ -1,5 +1,5 @@
 <?php
-		echo "<script src='../js/main_login.js'></script>";
+		echo "<script src='../js/main.js'></script>";
 		$login = $_GET['login'];
 		$f = fopen("../php/account/$login.id", "r");
 		$all = fread($f,  filesize("../php/account/$login.id"));
@@ -16,57 +16,67 @@
 <head>
 	<meta charset="utf-8">
 	<title><?php echo $name; ?></title>
-	<link rel="stylesheet" href="../css/main_login.css">
+	<link rel="stylesheet" href="../css/main.css">
 	<script src="../js/ajax_script.js"></script>
   	<script src="../js/ajax.js"></script>
+  	<script src="../js/main.js"></script>
 </head>
-<body onload="init()">
-
-	<div style='display: none;' id="user_name"><?php echo $name; ?></div>
-	<div style='display: none;' id="user_login"><?php echo $login; ?></div>
-				
-
-	<div id="local_chat">
-		<div id="local_chat_1">
-			<form method="post" id="ajax_form" action="" >
-				<input list="guys" type="text" name="goto" id="goto"><br>
-				<datalist id="guys">
-					<?php 
-						$files = scandir("../php/account");
-						foreach ($files as $file) {
-							if($file == '.' or $file == '..'){
-								continue;
-							}else{
-								$f = fopen("../php/account/$file", "r");
-								$all = fread($f,  filesize("../php/account/$file"));
-								fclose($f);
-								list($id, $login, $name, $pass) = explode("\n", $all);
-								echo "<option>$login($name)</option>";
-							}
-						}
-					?>
-   				</datalist> 
-		        <input type="text" name="messloc" id="messloc"><br>
-		        <input type="button" id="lcl" value="Отправить" />
-
-		    </form>
+<body onload="initjs()">
+	<div id = 'header-placeholder'>
+		<div id="user_name"><?php echo $name; ?></div>
+		<div id="user_login"><?php echo $login; ?></div>
+	</div>
+	<div id = "header-menu">
+		<div id = 'header-items'>
+			<a href="/main/main.php?login=<?php echo $login; ?>"><div id = 'header-logo'></div></a>
+			<div class = 'header-item header-item-a' >
+				<div class = 'header-picker'><b>[</b>NEW<b>]</b> Вероника</div>
+			</div>
+			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
+			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
+			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
+			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
+		</div>
+		<div class = 'header-item header-item-a' id = 'header-login' >
+			<div class = 'header-picker'>Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div>
 		</div>
 	</div>
+	<div id = 'wrapper-content'>
+		<div id="local_chat">
+			<div id="local_chat_1">
+				<form method="post" id="ajax_form" action="" >
+					<input list="guys" type="text" name="goto" id="goto"><br>
+					<datalist id="guys">
+						<?php 
+							$files = scandir("../php/account");
+							foreach ($files as $file) {
+								if($file == '.' or $file == '..'){
+									continue;
+								}else{
+									$f = fopen("../php/account/$file", "r");
+									$all = fread($f,  filesize("../php/account/$file"));
+									fclose($f);
+									list($id, $login, $name, $pass) = explode("\n", $all);
+									echo "<option>$login($name)</option>";
+								}
+							}
+						?>
+	   				</datalist> 
+			        <input type="text" name="messloc" id="messloc"><br>
+			        <input type="button" id="lcl" value="Отправить" />
 
+			    </form>
+			</div>
+		</div>
+		<div id="global_chat">
+			<div id="global_chat_1">
+				<form method="post" id="global_chat_form" action="" >
+			        <input type="text" maxlength="50" name="mess" id="messin"><br>
+			        <input type="button" id="glb" value="Отправить" />
+			    </form>
 
-
-
-
-
-<!-- Глобальный чат -->
-	<div id="global_chat">
-		<div id="global_chat_1">
-			<form method="post" id="global_chat_form" action="" >
-		        <input type="text" maxlength="50" name="mess" id="messin"><br>
-		        <input type="button" id="glb" value="Отправить" />
-		    </form>
-
-		    <div id="result_form"></div> 
+			    <div id="result_form"></div> 
+			</div>
 		</div>
 	</div>
 <!-- Глобальный чал -->
