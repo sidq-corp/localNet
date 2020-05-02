@@ -49,11 +49,14 @@
 		background-color: #333;
 		cursor: pointer;
 	}
+	#header-items{
+		/*height: 100%;*/
+	}
 	.header-item{
 		float: left;
 		width: 10%;	
 		height: 100%;
-		
+
 		min-height: 100%;
 		font-size: 130%;
 		font-family: 'Proxima BlackIt';
