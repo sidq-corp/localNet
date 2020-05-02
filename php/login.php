@@ -14,25 +14,22 @@
 		$f = fopen("account/$login.id", "r");
 		$all = fread($f,  filesize("account/$login.id"));
 		list($id, $login, $name, $pass) = explode("\n", $all);
-
-
-		$f = fopen("account/$login.id", "w");
-		$ip = $_SERVER['REMOTE_ADDR'];
-		$user_agent = $_SERVER['HTTP_USER_AGENT'];
-		fwrite($f, "$id\n");
-		fwrite($f, "$login\n");
-		fwrite($f, "$name\n");
-		fwrite($f, "$pass\n");
-		fwrite($f, "$ip\n");
-		fwrite($f, $user_agent);
-
 		fclose($f);
 
-
-
+	
 
 
 		if($pass == $pass_user){
+			$f = fopen("account/$login.id", "w");
+			$ip = $_SERVER['REMOTE_ADDR'];
+			$user_agent = $_SERVER['HTTP_USER_AGENT'];
+			fwrite($f, "$id\n");
+			fwrite($f, "$login\n");
+			fwrite($f, "$name\n");
+			fwrite($f, "$pass\n");
+			fwrite($f, "$ip\n");
+			fwrite($f, $user_agent);
+			fclose($f);
 			echo "corret";
 			echo "<script>correct_login('$login')</script>";
 		}else{

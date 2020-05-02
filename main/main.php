@@ -1,5 +1,4 @@
 <?php
-
 		echo "<script src='../js/main_login.js'></script>";
 		$login = $_GET['login'];
 		$f = fopen("../php/account/$login.id", "r");
