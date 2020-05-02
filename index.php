@@ -3,9 +3,9 @@
 <head>
 	<title>LocalNet</title>
 	<meta charset="utf-8" content="width=device-width, initial-scale=1" name="viewport">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/stars.css">
-	<script src="js/main.js"></script>
+	<script src="js/index.js"></script>
 </head>
 <body onload="init()">
 	<?php 
