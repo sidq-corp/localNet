@@ -1,3 +1,4 @@
+<?php $name = $_GET['name']; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,31 +10,26 @@
 <body onload="chat()">
 	<div id="main">
 		<form method="get" id="form" action="veronika.php">
+			<input type="text" name="name" style='display: none;' value="<?php echo $name; ?>">
 			<input type="text" name="text" id="input">
 			<div id="answer">Ответ...</div>
 			<input type="submit" name="submit" value="Отправить" id="enter">
 			<?php
-				if (isset($GET_))
-				function write($text){
+				function write($name, $text){
 					$f = fopen("input.txt", "w");
-					fwrite($f, $text);
+					fwrite($f, "$name@%@$text");
 					fclose($f);
 				}
 				if(isset($_GET)){
-					write($_GET['text']);
+					write($_GET['name'], $_GET['text']);
 					echo "<script>setTimeout(get_answer, 1500)</script>";
 				}
 			?>
 		</form>
 	</div>
 
-	<div id="contact">
-		<a href="https://telegram.me/depozzya_bot">
-			<img src="telegram.png" id="telegram">
-		</a>
-		<a href="https://discord.gg/Dpj2nVZ">
-			<img src="discord.png" id="discord">
-		</a>
+	<div id="go_back">
+		<a href="../main/main.php?login=<?php echo $name; ?>">Main</a>
 
 	</div>
 

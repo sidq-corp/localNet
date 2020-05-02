@@ -30,7 +30,9 @@
 		<div id = 'header-items'>
 			<a href="/main/main.php?login=<?php echo $login; ?>"><div id = 'header-logo'></div></a>
 			<div class = 'header-item header-item-a' >
+				<a href="../veronika/veronika.php?name=<?php echo $login; ?>">
 				<div class = 'header-picker'><b>[</b>NEW<b>]</b> Вероника</div>
+				</a>
 			</div>
 			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
 			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>

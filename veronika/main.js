@@ -24,7 +24,7 @@ function chat(){
 
 	}
 	request.send(null);
-	setTimeout(chat,200);
+
 }
 function start(){
 	chat()

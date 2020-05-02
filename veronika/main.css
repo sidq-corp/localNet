@@ -9,37 +9,7 @@
 	border-radius:20px;
 
 }
-#discord{
-	position: absolute;
-	top: 6px;
-	left: 10%;
-	height: 97px;
-	width: 97px;
-
-}
-#discord:hover{
-	position: absolute;
-	top: 9px;
-	left: 10%;
-	height: 90px;
-	width: 90px;
-
-}
-#telegram{
-	position: absolute;
-	left:55%;
-
-	height: 110px;
-	width: 110px;
-}
-#telegram:hover{
-	position: absolute;
-	left:55%;
-	top: 3px;
-	height: 100px;
-	width: 100px;
-}
-#contact{
+#go_back{
 	position: absolute;
 	left:25%;
 	top:45%;
