@@ -108,6 +108,81 @@
 	width: 80%;
 }
 
+/* GUI */
+.gui{
+	--width: 20%;
+
+	position: absolute;
+	margin-left: calc((100% - var(--width))/2);
+	top: 28%;
+	/*height: 30%;*/
+	width: var(--width);
+	border: 2px #333 solid;
+	background-color: #fff;
+	z-index: 45;
+	position: fixed;
+}
+	#gui-bg{
+		width: 100%;
+		height: 100%;
+		z-index: 40;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background-color: rgba(0,0,0,0.5);
+
+		display: none;
+	}
+	.gui input{
+		width: calc(100% - 20px);
+		background-color: #e8e8e8;
+		border: none;
+		padding: 10px;
+	}
+	.gui input:focus{
+		outline: none;
+	}
+	.gui-but{
+		width: 90%;
+		background-color: #333;
+		border: none;
+		color: black;
+		padding: 10px;
+		padding-bottom: 0px;
+		line-height: 110%;
+		margin: 5%;
+
+		opacity: 1;
+
+		transform: skewX(-12deg) translateY(0%);
+		font-family: 'Proxima Black';
+		font-size: 150%;
+		color: white;
+		background-color: #333;
+		transition: all 0.5s ease;
+	}
+	.gui-but:hover{
+		cursor: pointer;
+		opacity: 1;
+		transform: skewX(-12deg) translateY(5%);
+	}	
+	.gui-but-small{
+		width: 50%;
+		margin-left: 25%;
+	}
+	.gui_title{	
+		text-align: center;
+		width: 100%;
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
+
+		color: #fff;
+		font-family: 'Proxima SemiBold';
+		font-size: 150%;
+		background-color: #333;
+		
+	}
+
 /* ERROR*/
 #error_div{
 	--width: calc(32% + 4px);
@@ -139,6 +214,33 @@
 	}
 	#error_div:hover{
 		transform: scale(1.05);
+	}
+
+/* Help */
+#help_div{
+	font-family: 'Proxima BlackIt';
+	color: #000;
+	text-decoration: none;
+}
+	#help_div p{
+		padding: 3px;
+		width: auto;
+		transition: 0.4s;
+	}
+	#help_div a{
+		color: inherit;
+		text-decoration: inherit;
+	}
+	#help_div p:hover{
+		background-color: #333;
+		cursor: pointer;
+		color: #fff;
+		transform: translateY(5%);
+	}
+	#help_div b{
+		padding: 3px;
+		width: auto;
+		margin: 5px;
 	}
 
 @media screen and (min-width: 0px) and (max-width: 1470px) {
