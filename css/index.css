@@ -121,7 +121,7 @@ body{
 		transform: skewX(-12deg) translateY(5%);
 	}
 
-	#check:hover{
+	#check_log:hover{
 		cursor: pointer;
 		transform: skewX(-12deg) translateY(5%);
 	}

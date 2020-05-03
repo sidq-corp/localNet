@@ -9,10 +9,6 @@
 	border-radius:20px;
 
 }
-html, body, #fullheight {
-    min-height: 100% !important;
-    height: 100%;
-}
 #chat{
 	position: absolute;
 	left:55%;

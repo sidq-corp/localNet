@@ -39,10 +39,10 @@
 					</a>
 				</div>
 			</div>
-			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
-			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
-			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
-			<div class = 'header-item header-item-a'><div class = 'header-picker'>Чат</div></div>
+			<div class = 'header-item header-item-a' onclick = "display_error('Недоступно (')"><div class = 'header-picker'>-_-</div></div>
+			<div class = 'header-item header-item-a' onclick = "display_error('Недоступно (')"><div class = 'header-picker'>Медиа</div></div>
+			<div class = 'header-item header-item-a' onclick = "display_error('Недоступно (')"><div class = 'header-picker'>Локал Чат</div></div>
+			<div class = 'header-item header-item-a' onclick = "display_error('Недоступно (')"><div class = 'header-picker'>О проэкте</div></div>
 		</div>
 		<div class = 'header-item header-item-a' id = 'header-login' onclick = 'gui_account_check()'>
 			<div class = 'header-picker'>Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div>

@@ -1,8 +1,15 @@
 function init(){
 	// cookie_check()
 	// center_form()
-	// alert(document.getElementById('wrapper').offsetHeight +' '+screen.height)
+	input_setup()
 	blur_setup()
+}
+function input_setup(){
+	check_blur_log("user_pass")
+	check_blur_log("user_login")
+	check_blur_reg("reg_pass")
+	check_blur_reg("reg_login")
+	check_blur_reg("reg_name")
 }
 // function center_form(){
 // 	per = Math.floor(( 100 - document.getElementById('wrapper').offsetHeight / screen.height * 100) /2.5)
@@ -35,7 +42,7 @@ function blur_setup(){
 
 	document.getElementById("user_login").addEventListener("focus", () => check_focus("user_login"), true);
 	document.getElementById("user_login").addEventListener("blur", () => check_blur_log("user_login"), true);
-	document.getElementById("user_pass").addEventListener("input", () => check_blur_log("user_pass"), true);
+	document.getElementById("user_login").addEventListener("input", () => check_blur_log("user_login"), true);
 
 	document.getElementById("reg_pass").addEventListener("focus", () => check_focus("reg_pass"), true);
 	document.getElementById("reg_pass").addEventListener("blur", () => check_blur_reg("reg_pass"), true);
@@ -51,15 +58,15 @@ function blur_setup(){
 }
 
 function check_focus(elem){
-	document.getElementById('fake_check_log').style.opacity = '0.5';
-	document.getElementById('check_log').style.display = 'none';
-	document.getElementById('check_log').style.opacity = '0.5';
-	document.getElementById('fake_check_log').style.display = 'block';
+	// document.getElementById('fake_check_log').style.opacity = '0.5';
+	// document.getElementById('check_log').style.display = 'none';
+	// document.getElementById('check_log').style.opacity = '0.5';
+	// document.getElementById('fake_check_log').style.display = 'block';
 
-	document.getElementById('fake_check_reg').style.opacity = '0.5';
-	document.getElementById('check_reg').style.display = 'none';
-	document.getElementById('check_reg').style.opacity = '0.5';
-	document.getElementById('fake_check_reg').style.display = 'block';
+	// document.getElementById('fake_check_reg').style.opacity = '0.5';
+	// document.getElementById('check_reg').style.display = 'none';
+	// document.getElementById('check_reg').style.opacity = '0.5';
+	// document.getElementById('fake_check_reg').style.display = 'block';
 	standingby = 0
 }
 function check_blur_log(elem){
