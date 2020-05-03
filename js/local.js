@@ -1,4 +1,6 @@
+let cepochka;
 function local_handler(){
+	cepochka = true;
 	name = document.getElementById("user_name").innerHTML;
     login = document.getElementById("user_login").innerHTML;
 	mess = document.getElementById("messloc").value;
@@ -44,6 +46,13 @@ function get_file(url){
     	return false;
     })
 }
+function stop_c(){
+	cepochka = false;
+}
+function start_c(){
+	cepochka = true;
+	update();
+}
 function update(){
 	name = document.getElementById("user_name").innerHTML;
     login = document.getElementById("user_login").innerHTML;
@@ -51,5 +60,7 @@ function update(){
 	me = login + '(' + name + ')';
 	get_file("../php/messlog/localchat/" + me + "-" + to + '.log');
 	get_file("../php/messlog/localchat/" + to + "-" + me + '.log');
-	setTimeout(update, 1500);
+	if(cepochka){
+		setTimeout(update, 1500);
+	}
 }
