@@ -66,16 +66,53 @@
 			<div class = 'article article-one'>
 				<div class = 'article-content'>
 					<br>
-					<h1>Почему птенцы детей рожают узбеков?</h1>
-					<p>Или как мир несправедлив</p>
+					<div class = 'article-picker'>
+						<h1>Почему птенцы детей рожают узбеков?</h1>
+						<p>Или как мир несправедлив</p>
+					</div>
 				</div>
+				<!-- <div class = 'article-watch'>
+					Просмотреть
+				</div> -->
 			</div>
 			<div class = 'article article-triple'>
-				Азаза
+				<div class = 'article-content'>
+					<br>
+					<div class = 'article-picker'>
+						<h1>Почему птенцы детей рожают узбеков?</h1>
+						<p>Или как мир несправедлив</p>
+					</div>
+				</div>
+			</div>	
+			<div class = 'article-triple-separator'><br></div>
+			<div class = 'article article-triple'>
+				<div class = 'article-content'>
+					<br>
+					<div class = 'article-picker'>
+						<h1>Почему птенцы детей рожают узбеков?</h1>
+						<p>Или как мир несправедлив</p>
+					</div>
+				</div>
+			</div>
+			<div class = 'article-triple-separator'><br></div>
+			<div class = 'article article-triple'>
+				<div class = 'article-content'>
+					<br>
+					<div class = 'article-picker'>
+						<h1>Почему птенцы детей рожают узбеков?</h1>
+						<p>Или как мир несправедлив</p>
+					</div>
+				</div>
 			</div>
 			<div class = 'article article-one'>
-				ава
-			</div>	
+				<div class = 'article-content'>
+					<br>
+					<div class = 'article-picker'>
+						<h1>Почему птенцы детей рожают узбеков?</h1>
+						<p>Или как мир несправедлив</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id = 'wrapper-right'>
 			<div id="global_chat">

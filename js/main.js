@@ -1,11 +1,19 @@
 function init_main_js(){
 	lchat_check()
 	
+/*	for (var i = 1; i < document.getElementsByClassName('article').length; i++) {
+		document.getElementsByClassName('article')[i].addEventListener("mouseover", () => article_watch(i), true);
+	}*/
 	document.getElementById("goto").addEventListener("input", () => lchat_check_chain_input(), true);
 }
 function error(){
 	document.location.href='../index.php';
 }
+// Article
+// function article_watch(i){
+// 	document.getElementsByClassName('article-watch')[i].style.width = '20%'
+// 	document.getElementsByClassName('article-watch')[i].style.color = 'red'
+// }
 // Gchat
 shown = 0
 function check_gchat_if_disabled(){
@@ -24,12 +32,12 @@ function check_gchat_if_disabled(){
 		setTimeout(set_gchat_text, 1000)
 	}
 }
-function lchat_check_chain_input(){
+/*function lchat_check_chain_input(){
 	val = document.getElementById("goto").value
 	if (val != ''){
 		var found = 0
 		document.getElementById("local_answer").onChange = setTimeout(lchat_check_chain_input_p2, 1000)
-		/*while (found == 0){
+		while (found == 0){
 			sleep(100);
 			function lchat_check_chain_input_break(){
 				break
@@ -45,7 +53,7 @@ function lchat_check_chain_input(){
 			document.getElementById("lchat-end").style.display = 'block'
 		}else{
 			display_error('Не найдено')
-		}*/
+		}
 	}
 }
 function lchat_check_chain_input_p2(){
@@ -53,7 +61,7 @@ function lchat_check_chain_input_p2(){
 		document.getElementById("lchat-start").style.display = 'none'
 		document.getElementById("lchat-end").style.display = 'block'
 	}
-}
+}*/
 // function sleep(ms) {
 // 	return new Promise(resolve => setTimeout(resolve, ms));
 // }
@@ -65,6 +73,7 @@ function gchat_check(){
 		chat_hide(0, 'global_chat', 'gchat-hide')
 		gchat_shown = 0
 	}else if (gchat_shown == 0){
+		chat_hide(1, 'local_chat', 'lchat-hide')
 		chat_show(0, 'global_chat', 'gchat-hide', '70%')
 		gchat_shown = 1
 		// alert('show')
@@ -77,6 +86,7 @@ function lchat_check(){
 		chat_hide(1, 'local_chat', 'lchat-hide')
 		lchat_shown = 0
 	}else if (lchat_shown == 0){
+		chat_hide(0, 'global_chat', 'gchat-hide')
 		chat_show(1, 'local_chat', 'lchat-hide', '40%')
 		lchat_shown = 1
 		// alert('show')
