@@ -28,7 +28,7 @@
 #global_chat{
 	width: calc(100% - 0px);
 	height: 70%;
-	background-color: #f8f8f8;;
+	background-color: #f8f8f8;
 	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 	/*border: 2px solid #e401cf;*/
 }
@@ -55,7 +55,7 @@
 		cursor: pointer;
 		line-height: 200%;
 	}
-	#result_form{
+	#result_form, #local_answer{
 		overflow-x: hidden;
 		overflow-y: scroll;
 		max-height: 100%;
@@ -88,7 +88,8 @@
 	width: calc(100% - 0px);
 	height: 20%;
 	background-color: #fff;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: #f8f8f8;
+	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
 
 /* ARTICLE */
@@ -105,7 +106,7 @@
 	width: 31.33333%;
 	height: 20%;
 	background-image: url('images/bg.jpg');
-	background-size: 100%;
+	background-size: 120%;
 	background-position: center;
 	margin-bottom: 3%;
 	/*margin-right: 3%;*/
@@ -115,8 +116,12 @@
 	.article{
 		transition: all 0.5s ease;
 	}
-	.article:hover{
+	.article-one:hover{
 		background-size: 110%;
+		cursor: pointer;
+	}
+	.article-triple:hover{
+		background-size: 130%;
 		cursor: pointer;
 	}
 	.article-triple-separator{

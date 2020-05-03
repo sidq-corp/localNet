@@ -4,7 +4,7 @@ function init_main_js(){
 /*	for (var i = 1; i < document.getElementsByClassName('article').length; i++) {
 		document.getElementsByClassName('article')[i].addEventListener("mouseover", () => article_watch(i), true);
 	}*/
-	document.getElementById("goto").addEventListener("input", () => lchat_check_chain_input(), true);
+	// document.getElementById("goto").addEventListener("input", () => lchat_check_chain_input(), true);
 }
 function error(){
 	document.location.href='../index.php';
@@ -73,9 +73,10 @@ function gchat_check(){
 		chat_hide(0, 'global_chat', 'gchat-hide')
 		gchat_shown = 0
 	}else if (gchat_shown == 0){
-		chat_hide(1, 'local_chat', 'lchat-hide')
 		chat_show(0, 'global_chat', 'gchat-hide', '70%')
+		chat_hide(1, 'local_chat', 'lchat-hide')
 		gchat_shown = 1
+		lchat_shown = 0
 		// alert('show')
 	}else{
 		display_error('Ошибка. Код ошибки: gchat_shown != (1 or 0)');
@@ -86,9 +87,11 @@ function lchat_check(){
 		chat_hide(1, 'local_chat', 'lchat-hide')
 		lchat_shown = 0
 	}else if (lchat_shown == 0){
+		hght = document.getElementById('cepochka').innerHTML
+		chat_show(1, 'local_chat', 'lchat-hide', hght)
 		chat_hide(0, 'global_chat', 'gchat-hide')
-		chat_show(1, 'local_chat', 'lchat-hide', '40%')
 		lchat_shown = 1
+		gchat_shown = 0
 		// alert('show')
 	}else{
 		display_error('Ошибка. Код ошибки: lchat_shown != (1 or 0)');
@@ -101,8 +104,7 @@ function chat_hide(tit_id, c_handl, hide_hanl){
 }
 function chat_show(tit_id, c_handl, hide_hanl, hei){
 	document.getElementById(hide_hanl).style.display = 'block'
-	hght = hei
-	document.getElementById(c_handl).style.height = hght
+	document.getElementById(c_handl).style.height = hei
 	document.getElementsByClassName('gchat-title')[tit_id].style.lineHeight = '100%'
 }
 

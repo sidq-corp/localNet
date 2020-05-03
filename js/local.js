@@ -48,10 +48,31 @@ function get_file(url){
 }
 function stop_c(){
 	cepochka = false;
+	document.getElementById('cepochka').innerHTML = '30%'
+	document.getElementById('local_answer').innerHTML = 'Загрузка...';
+	document.getElementById('lchat-start').style.display = 'block';
+	document.getElementById('lchat-end').style.display = 'none';
+	document.getElementById('local_chat').style.height = '30%'
 }
 function start_c(){
+	inh = 'получатель - '+document.getElementById("goto").value
+	document.getElementById('cepochka').innerHTML = '70%'
+	document.getElementById('c_usr').innerHTML = inh
+	document.getElementById('lchat-start').style.display = 'none';
+	document.getElementById('lchat-end').style.display = 'block';
+	document.getElementById('local_chat').style.height = '70%'
 	cepochka = true;
+	setTimeout(check_c, 1500);
 	update();
+}
+function clean_c(){
+	document.getElementById("goto").value = ''
+}
+function check_c(){
+	if (document.getElementById('local_answer').innerHTML == 'Загрузка...') {
+		document.getElementById('local_answer').innerHTML = 'Скорее всего в этой цепочке нет сообщений и вы ни разу друг другу не писали. Прояви инициативу!';
+	}
+	
 }
 function update(){
 	name = document.getElementById("user_name").innerHTML;

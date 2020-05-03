@@ -38,8 +38,11 @@
 </head>
 <body onload="global_init(); update(); init(); init_main_js();">
 	<div id = 'header-placeholder'>
-		<div id="user_name"><?php echo $name; ?></div>
-		<div id="user_login"><?php echo $login; ?></div>
+		<div style = 'display: none;'>
+			<div id="user_name"><?php echo $name; ?></div>
+			<div id="user_login"><?php echo $login; ?></div>
+			<p id = 'cepochka'>30%</p>
+		</div>
 	</div>
 	<div id = "header-menu">
 		<div id = 'header-items'>
@@ -63,7 +66,7 @@
 	<!-- a -->
 	<div id = 'wrapper-content'>
 		<div id = 'wrapper-left'>
-			<div class = 'article article-one'>
+			<div class = 'article article-one' style = 'background-image: url(../css/images/art1.jpg);'>
 				<div class = 'article-content'>
 					<br>
 					<div class = 'article-picker'>
@@ -75,7 +78,7 @@
 					Просмотреть
 				</div> -->
 			</div>
-			<div class = 'article article-triple'>
+			<div class = 'article article-triple' style = 'background-image: url(../css/images/art2.jpg);'>
 				<div class = 'article-content'>
 					<br>
 					<div class = 'article-picker'>
@@ -85,7 +88,7 @@
 				</div>
 			</div>	
 			<div class = 'article-triple-separator'><br></div>
-			<div class = 'article article-triple'>
+			<div class = 'article article-triple' style = 'background-image: url(../css/images/bg.jpg);'>
 				<div class = 'article-content'>
 					<br>
 					<div class = 'article-picker'>
@@ -95,7 +98,7 @@
 				</div>
 			</div>
 			<div class = 'article-triple-separator'><br></div>
-			<div class = 'article article-triple'>
+			<div class = 'article article-triple' style = 'background-image: url(../css/images/art1.jpg);'>
 				<div class = 'article-content'>
 					<br>
 					<div class = 'article-picker'>
@@ -104,7 +107,7 @@
 					</div>
 				</div>
 			</div>
-			<div class = 'article article-one'>
+			<div class = 'article article-one' style = 'background-image: url(../css/images/art2.jpg);'>
 				<div class = 'article-content'>
 					<br>
 					<div class = 'article-picker'>
@@ -162,14 +165,18 @@
 									}
 								?>
 			   				</datalist> 
+			   				<button style="margin-top: 3%;" type = 'button' onclick="start_c()" class = 'gui-but gui-but-small'>Выбрать</button>
+			   				<div id="help_div">
+								<p type = "button" onclick="clean_c()">Очистить поле ввода</p>
+							</div>	
 			   			</div>
-			   			<div id = 'lchat-end' style = 'display: block;'>
-			   				<div id="help_div" style = "margin-top: 0%; margin-bottom: 0%;">
+			   			<div id = 'lchat-end' style = 'display: none;'>
+			   				<div type = "button" onclick="stop_c()" id="help_div" style = "margin-top: 0%; margin-bottom: 0%;">
 								<p>Выйти из цепочки</p>
 							</div>	
 			   				<div id="help_div" style = "margin-top: 3%; margin-bottom: 3%;">
 								<b>Ваши сообщения увидет только</b><br>
-								<b>получатель</b>
+								<b id = "c_usr">получатель -</b>
 							</div>
 					        <input type="text" name="messloc" id="messloc"><br>
 					        <!-- <input type="button" id="lcl" value="Отправить">  -->
