@@ -140,6 +140,8 @@ function display_error(arg1,arg2){
 	document.getElementById('error_div').innerHTML = msg;
 	document.getElementById('error_div').style.opacity = '1';
 	document.getElementById('error_div').style.transform = 'translateX(0px)';
+
+	setTimeout(dismiss_error, 5000)
 }
 function dismiss_error(){
 	document.getElementById('error_div').style.opacity = '0';
