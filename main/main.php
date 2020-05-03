@@ -1,6 +1,6 @@
 <?php
 		$login = $_GET['login'];
-
+		setcookie("login", $login, time() + 172800, '/');
 
 		
 		// phpinfo(32);
@@ -39,7 +39,7 @@
 			<a href="/main/main.php?login=<?php echo $login; ?>"><div id = 'header-logo'></div></a>
 			<div class = 'header-item header-item-a' >
 				<div class = 'header-picker'>
-					<a href="../veronika/veronika.php?name=<?php echo $login; ?>">
+					<a href="../veronika/veronika.php">
 						<b>[</b>NEW<b>]</b> Вероника
 					</a>
 				</div>
@@ -55,7 +55,19 @@
 	</div>
 	<div id = 'wrapper-content'>
 		<div id = 'wrapper-left'>
-			PLACEHOLDER
+			<div class = 'article article-one'>
+				<div class = 'article-content'>
+					<br>
+					<h1>Почему птенцы детей рожают узбеков?</h1>
+					<p>Или как мир несправедлив</p>
+				</div>
+			</div>
+			<div class = 'article article-triple'>
+				Азаза
+			</div>
+			<div class = 'article article-one'>
+				ава
+			</div>	
 		</div>
 		<div id = 'wrapper-right'>
 			<div id="global_chat">

@@ -13,8 +13,10 @@
 }
 	#wrapper-left{
 		background-color: purple;	
-		width: 75%;
+		width: 69%;
 		float: left;
+		padding-left: 3%;
+		padding-right: 3%;
 	}
 	#wrapper-right{
 		background-color: purple;	
@@ -88,6 +90,32 @@
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+/* ARTICLE */
+.article{
+	width: 100%;
+	height: 20%;
+	background-image: url('images/bg.jpg');
+	background-size: 100%;
+	background-position: center;
+	margin-bottom: 3%;
+}
+	.article-content{
+		background: linear-gradient(to right, rgba(255,255,255,0.5) 0% 50%,rgba(255,255,255,0) 100%);
+		color: #000;
+		width: 100%;
+		height: 100%;
+	}
+	.article-content br{
+		line-height: 100%;
+	}
+	.article-content h1{
+		line-height: 20%;
+		font-family: 'Proxima BlackIt';
+	}
+	.article-content p{
+		font-family: 'Proxima Semibold';
+	}
 /* GUI */
 .gui{
 	--width: 20%;
