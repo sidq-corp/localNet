@@ -110,9 +110,9 @@
 								<b>получатель</b>
 							</div>
 					        <input type="text" name="messloc" id="messloc"><br>
-					        <input type="button" id="lcl" value="Отправить"> 
+					        <!-- <input type="button" id="lcl" value="Отправить">  -->
 					        <!-- ывывы -->
-					        <button id="lcl" style="margin-top: 3%;" onclick="local_handler()" class = 'gui-but gui-but-small'>Отправить</button>
+					        <button type="button" id="lcl" style="margin-top: 3%;" onclick="local_handler()" class = 'gui-but gui-but-small'>Отправить</button>
 					        <div id="local_answer">Загрузка...</div>
 					    </div>
 				    </form>
