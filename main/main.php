@@ -24,7 +24,7 @@
   	<script src="../js/global.js"></script>
   	<script src="../js/local.js"></script>
 </head>
-<body onload="global_init(); update(); init()">
+<body onload="global_init(); update(); init(); init_main_js();">
 	<div id = 'header-placeholder'>
 		<div id="user_name"><?php echo $name; ?></div>
 		<div id="user_login"><?php echo $login; ?></div>
@@ -72,44 +72,48 @@
 				</div>
 			</div>
 
-			<div id="local_chat">
-				<div class='gchat-title' onclick = 'lchat_check()'>
+			<div id="local_chat" style = "height: auto;">
+				<div class='gchat-title' style = 'line-height: 400%;' onclick = 'lchat_check()'>
 					Локал Чат
 				</div>
-				<div id = 'lchat-hide'>
+				<div id = 'lchat-hide' style = "display: none;">
 					<form method="post" id="ajax_form" action="" >
-						<div id="help_div" style = "margin-top: 3%; margin-bottom: 3%;">
-							<b>Выберите цепочку сообщений</b><br>
+						<div id = 'lchat-start'>
+							<div id="help_div" style = "margin-top: 3%; margin-bottom: 3%;">
+								<b>Выберите цепочку сообщений</b><br>
 
-						</div>
-						<input list="guys" type="text" name="goto" id="goto">
-						<datalist id="guys">
-							<?php 
-								$files = scandir("../php/account");
-								foreach ($files as $file) {
-									if($file == '.' or $file == '..'){
-										continue;
-									}else{
-										$f = fopen("../php/account/$file", "r");
-										$all = fread($f,  filesize("../php/account/$file"));
-										fclose($f);
-										list($id_, $login_, $name_, $pass_) = explode("\n", $all);
-										echo "<option>$login_($name_)</option>";
+							</div>
+							<input list="guys" type="text" name="goto" id="goto" >
+							<datalist id="guys">
+								<?php 
+									$files = scandir("../php/account");
+									foreach ($files as $file) {
+										if($file == '.' or $file == '..'){
+											continue;
+										}else{
+											$f = fopen("../php/account/$file", "r");
+											$all = fread($f,  filesize("../php/account/$file"));
+											fclose($f);
+											list($id_, $login_, $name_, $pass_) = explode("\n", $all);
+											echo "<option>$login_($name_)</option>";
+										}
 									}
-								}
-							?>
-		   				</datalist> 
-		   				<div id="help_div" style = "margin-top: 0%; margin-bottom: 0%;">
-							<p>Выйти из цепочки</p>
-						</div>	
-		   				<div id="help_div" style = "margin-top: 3%; margin-bottom: 3%;">
-							<b>Ваши сообщения увидет только</b><br>
-							<b>получатель</b>
-						</div>
-				        <input type="text" name="messloc" id="messloc"><br>
-				        <input type="button" id="lcl" value="Отправить" >
-				        <button id="lcl" style="margin-top: 3%;" onclick="local_handler()" class = 'gui-but gui-but-small'>Отправить</button>
-				        <div id="local_answer">Вы еще не выбрали получателя</div>
+								?>
+			   				</datalist> 
+			   			</div>
+			   			<div id = 'lchat-end' style = 'display: block;'>
+			   				<div id="help_div" style = "margin-top: 0%; margin-bottom: 0%;">
+								<p>Выйти из цепочки</p>
+							</div>	
+			   				<div id="help_div" style = "margin-top: 3%; margin-bottom: 3%;">
+								<b>Ваши сообщения увидет только</b><br>
+								<b>получатель</b>
+							</div>
+					        <input type="text" name="messloc" id="messloc"><br>
+					        <input type="button" id="lcl" value="Отправить" onclick="local_handler()">
+					        <button id="lcl" style="margin-top: 3%;" onclick="local_handler()" class = 'gui-but gui-but-small'>Отправить</button>
+					        <div id="local_answer">Загрузка...</div>
+					    </div>
 				    </form>
 				</div>
 			</div>

@@ -84,7 +84,7 @@
 #local_chat{
 	margin-top: 3%;
 	width: calc(100% - 0px);
-	height: 40%;
+	height: 20%;
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
