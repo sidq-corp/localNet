@@ -53,6 +53,7 @@
 			<div class = 'header-picker'>Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div>
 		</div>
 	</div>
+	<!-- a -->
 	<div id = 'wrapper-content'>
 		<div id = 'wrapper-left'>
 			<div class = 'article article-one'>

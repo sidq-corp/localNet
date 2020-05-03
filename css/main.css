@@ -107,10 +107,12 @@
 		height: 100%;
 	}
 	.article-content br{
-		line-height: 100%;
+		line-height: 300%;
+
 	}
 	.article-content h1{
 		line-height: 20%;
+		margin-left: 3%;
 		font-family: 'Proxima BlackIt';
 	}
 	.article-content p{
