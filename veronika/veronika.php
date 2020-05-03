@@ -1,4 +1,4 @@
-<?php $login = $_GET['name']; 
+<?php $login = $_COOKIE['login']; 
 		$f = fopen("../php/account/$login.id", "r");
 		$all = fread($f,  filesize("../php/account/$login.id"));
 		list($id, $login, $name, $pass, $lip, $luser_agent) = explode("\n", $all);
