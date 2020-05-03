@@ -49,41 +49,71 @@
 		</div>
 	</div>
 	<div id = 'wrapper-content'>
-		<div id="local_chat">
-			<div id="local_chat_1">
-				<form method="post" id="ajax_form" action="" >
-					<input list="guys" type="text" name="goto" id="goto"><br>
-					<datalist id="guys">
-						<?php 
-							$files = scandir("../php/account");
-							foreach ($files as $file) {
-								if($file == '.' or $file == '..'){
-									continue;
-								}else{
-									$f = fopen("../php/account/$file", "r");
-									$all = fread($f,  filesize("../php/account/$file"));
-									fclose($f);
-									list($id_, $login_, $name_, $pass_) = explode("\n", $all);
-									echo "<option>$login_($name_)</option>";
-								}
-							}
-						?>
-	   				</datalist> 
-			        <input type="text" name="messloc" id="messloc"><br>
-			        <input type="button" id="lcl" value="Отправить" onclick="local_handler()">
-			        <div id="local_answer">ss</div>
-			    </form>
-			</div>
+		<div id = 'wrapper-left'>
+			PLACEHOLDER
 		</div>
-		<div id="global_chat">
-			<div id="global_chat_1">
-				<form method="post" id="global_chat_form" action="" >
-			        <input type="text" maxlength="50" name="mess" id="messin"><br>
-			        <input type="button" id="glb" value="Отправить" />
-			    </form>
+		<div id = 'wrapper-right'>
+			<div id="global_chat">
+				<div class='gchat-title' onclick = 'gchat_check()'>
+					Общий чат
+				</div>
 
-			    <div id="result_form"></div> 
+				<div id = 'gchat-hide'>
+					<div id="help_div" style = "margin-top: 3%; margin-bottom: 3%;">
+						<b>Ваши сообщения увидят все </b><br>
+						<b>пользователи сайта</b>
+					</div>
+					<form method="post" id="global_chat_form" action="" >
+				        <input placeholder="Сообщение" type="text" maxlength="50" name="mess" id="messin"><br>
+				        <button id="glb" style="margin-top: 3%;" onclick = "check_gchat_if_disabled()" class = 'gui-but gui-but-small'>Отправить</button>
+				    </form>
+
+				    <div id="result_form"></div> 
+				</div>
 			</div>
+
+			<div id="local_chat">
+				<div class='gchat-title' onclick = 'lchat_check()'>
+					Локал Чат
+				</div>
+				<div id = 'lchat-hide'>
+					<form method="post" id="ajax_form" action="" >
+						<div id="help_div" style = "margin-top: 3%; margin-bottom: 3%;">
+							<b>Выберите цепочку сообщений</b><br>
+
+						</div>
+						<input list="guys" type="text" name="goto" id="goto">
+						<datalist id="guys">
+							<?php 
+								$files = scandir("../php/account");
+								foreach ($files as $file) {
+									if($file == '.' or $file == '..'){
+										continue;
+									}else{
+										$f = fopen("../php/account/$file", "r");
+										$all = fread($f,  filesize("../php/account/$file"));
+										fclose($f);
+										list($id_, $login_, $name_, $pass_) = explode("\n", $all);
+										echo "<option>$login_($name_)</option>";
+									}
+								}
+							?>
+		   				</datalist> 
+		   				<div id="help_div" style = "margin-top: 0%; margin-bottom: 0%;">
+							<p>Выйти из цепочки</p>
+						</div>	
+		   				<div id="help_div" style = "margin-top: 3%; margin-bottom: 3%;">
+							<b>Ваши сообщения увидет только</b><br>
+							<b>получатель</b>
+						</div>
+				        <input type="text" name="messloc" id="messloc"><br>
+				        <input type="button" id="lcl" value="Отправить" >
+				        <button id="lcl" style="margin-top: 3%;" onclick="local_handler()" class = 'gui-but gui-but-small'>Отправить</button>
+				        <div id="local_answer">Вы еще не выбрали получателя</div>
+				    </form>
+				</div>
+			</div>
+
 		</div>
 	</div>
 

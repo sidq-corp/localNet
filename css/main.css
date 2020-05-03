@@ -6,27 +6,88 @@
 	height: 100%;
 	margin: 0px;
 	top: 0px;
-	background-color: purple;
+	
 	width: 70%;
+	background-color: yellow;
 	margin-left: 15%;
 }
-
+	#wrapper-left{
+		background-color: purple;	
+		width: 75%;
+		float: left;
+	}
+	#wrapper-right{
+		background-color: purple;	
+		width: 25%;
+		float: left;
+		height: 100%;
+		background-color: #fff; 
+	}
 #global_chat{
-	position: absolute;
-	left: 45%;
-	top: 10%;
-	width: 20%;
-	height: 30%;
-	background-color: #e8e8e8;
-	border-radius: 10px;
+	width: calc(100% - 0px);
+	height: 70%;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	/*border: 2px solid #e401cf;*/
 }
-#result_form{
-	overflow-x: hidden;
-	overflow-y: scroll;
-	max-height: 120px;
-	width: 80%;
-}
+	.gchat-title{	
+		z-index: 20;
+		text-align: center;
+		width: 100%;
+		padding-top: 2.5%;
+		padding-bottom: 2.5%;
 
+		transition: all 0.5s ease;
+		line-height: 100%;
+		color: #fff;
+		font-family: 'Proxima BlackIt';
+		font-size: 150%;
+		background-color: #333;
+		
+	}
+	#gchat-hide{
+		height: 100%;
+	}
+	.gchat-title:hover{
+		/*background-color: #e401cf;*/
+		cursor: pointer;
+		line-height: 200%;
+	}
+	#result_form{
+		overflow-x: hidden;
+		overflow-y: scroll;
+		max-height: 100%;
+		height: all;	
+		width: 96%;
+		height: 60%;
+		padding: 2%;
+	}
+	#global_chat input, #local_chat input{
+		width: calc(100% - 20px);
+		margin-left: 10px;
+		background-color: #e8e8e8;
+		border: none;
+		padding: 10px;
+	}
+	#global_chat input:focus, #local_chat input:focus{
+		outline: none;
+	}
+	/*#global_chat button{
+		width: calc(100% - 20px);
+		margin-left: 10px;
+		font-family: Proxima SemiBold;	
+		background-color: #e8e8e8;
+		border: none;
+		padding: 10px;
+	}*/
+
+#local_chat{
+	margin-top: 3%;
+	width: calc(100% - 0px);
+	height: 40%;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 /* GUI */
 .gui{
 	--width: 20%;
@@ -145,6 +206,7 @@
 		padding: 3px;
 		width: auto;
 		transition: 0.4s;
+		text-decoration: underline;
 	}
 	#help_div a{
 		color: inherit;
