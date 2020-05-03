@@ -163,38 +163,6 @@
 		
 	}
 
-/* ERROR*/
-#error_div{
-	--width: calc(32% + 4px);
-
-	position: fixed;
-	margin-left: calc((100.2% - var(--width))/2);
-	/*height: 100%;*/
-	width: var(--width);
-	line-height: 10%;
-	top: 90%;
-
-	text-align: center;
-	transition-property: transform,opacity;
-	transition-timing-function: ease;
-	transition-duration: 2s;
-	/*transition:  2s ease;*/
-	transform: translateX(-30px);
-	opacity: 0;
-	color: white;
-	font-family: 'Proxima SemiBold';
-	font-size: 100%;
-	background-color: rgba(245, 70, 12, 0.7);
-
-	z-index: 50;
-	/*border: 2px rgba(245, 70, 12, 0.7) solid;*/
-}
-	#error_div p{
-		line-height: 100% !important;
-	}
-	#error_div:hover{
-		transform: scale(1.05);
-	}
 
 /* Help */
 #help_div{
