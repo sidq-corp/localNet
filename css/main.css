@@ -8,18 +8,17 @@
 	top: 0px;
 	
 	width: 70%;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	margin-left: 15%;
 }
 	#wrapper-left{
-		background-color: purple;	
-		width: 69%;
+		/*background-color: purple;	*/
+		width: 72%;
 		float: left;
-		padding-left: 3%;
 		padding-right: 3%;
 	}
 	#wrapper-right{
-		background-color: purple;	
+		/*background-color: purple;	*/
 		width: 25%;
 		float: left;
 		height: 100%;
@@ -108,7 +107,6 @@
 	}
 	.article-content br{
 		line-height: 300%;
-
 	}
 	.article-content h1{
 		line-height: 20%;
@@ -116,6 +114,7 @@
 		font-family: 'Proxima BlackIt';
 	}
 	.article-content p{
+		margin-left: 3%;
 		font-family: 'Proxima Semibold';
 	}
 /* GUI */
