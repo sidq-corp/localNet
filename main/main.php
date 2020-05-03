@@ -1,6 +1,13 @@
 <?php
-		$login = $_GET['login'];
+		if(isset($_GET['login'])){
+			$login = $_GET['login'];
+		}elseif (isset($_COOKIE['login'])) {
+			$login = $_COOKIE['login'];
+		}else{
+			echo"<script>error()</script>";
+		}
 		setcookie("login", $login, time() + 172800, '/');
+		setcookie("login", $login, time() + 172800);
 
 		
 		// phpinfo(32);
