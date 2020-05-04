@@ -163,8 +163,8 @@
 								<b>Выберите цепочку сообщений</b><br>
 
 							</div>
-							<input list="guys" type="text" name="goto" id="goto" >
-							<datalist id="guys">
+							<!-- <input list="guys" type="text" name="goto" id="goto" > -->
+							<select id="goto" name="goto">
 								<?php 
 									$files = scandir("../php/account");
 									foreach ($files as $file) {
@@ -179,7 +179,7 @@
 										}
 									}
 								?>
-			   				</datalist> 
+			   				</select> 
 			   				<button style="margin-top: 3%;" type = 'button' onclick="start_c()" class = 'gui-but gui-but-small'>Выбрать</button>
 			   				<div id="help_div">
 								<p type = "button" onclick="clean_c()">Очистить поле ввода</p>
