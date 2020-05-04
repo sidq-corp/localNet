@@ -440,3 +440,20 @@
 		margin-left: 20%;
 	}
 }
+
+@media screen and (min-height: 100px) and (max-height: 600px){
+	#result_form, #local_answer{
+		height: 30%;
+	}
+}
+@media screen and (min-height: 600px) and (max-height: 700px){
+	#result_form, #local_answer{
+		height: 40%;
+	}
+}
+
+@media screen and (min-height: 700px) and (max-height: 850px){
+	#result_form, #local_answer{
+		height: 50%;
+	}
+}
