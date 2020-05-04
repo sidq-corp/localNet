@@ -1,6 +1,6 @@
 function init_main_js(){
 	lchat_check()
-	center_article_text()
+	// center_article_text()
 }
 function center_article_text(){
 	elems = document.getElementsByClassName('article')
