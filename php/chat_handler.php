@@ -8,7 +8,7 @@
 	}
 
 	if (isset($_POST["mess"])) { 
-		$mess = $_POST["mess"];
+		$mess = strip_tags($_POST["mess"]);
 		if($mess != '' and strlen($mess) <= 100){
 			if($mess == '/clear'){
 				$name = $_POST['name'];
