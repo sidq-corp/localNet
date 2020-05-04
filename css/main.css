@@ -64,14 +64,14 @@
 		height: 60%;
 		padding: 2%;
 	}
-	#global_chat input, #local_chat input{
+	#global_chat input, #local_chat input, #local_chat select{
 		width: calc(100% - 20px);
 		margin-left: 10px;
 		background-color: #e8e8e8;
 		border: none;
 		padding: 10px;
 	}
-	#global_chat input:focus, #local_chat input:focus{
+	#global_chat input:focus, #local_chat input:focus, #local_chat select:focus{
 		outline: none;
 	}
 	/*#global_chat button{

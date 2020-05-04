@@ -75,13 +75,13 @@ function check_c(){
 	
 }
 function update(){
-	name = document.getElementById("user_name").innerHTML;
-    login = document.getElementById("user_login").innerHTML;
-	to = document.getElementById("goto").value;
-	me = login + '(' + name + ')';
-	get_file("../php/messlog/localchat/" + me + "-" + to + '.log');
-	get_file("../php/messlog/localchat/" + to + "-" + me + '.log');
-	if(cepochka){
+	if (cepochka == true){
+		name = document.getElementById("user_name").innerHTML;
+	    login = document.getElementById("user_login").innerHTML;
+		to = document.getElementById("goto").value;
+		me = login + '(' + name + ')';
+		get_file("../php/messlog/localchat/" + me + "-" + to + '.log');
+		get_file("../php/messlog/localchat/" + to + "-" + me + '.log');
 		setTimeout(update, 1500);
 	}
 }

@@ -25,8 +25,8 @@
 			$ip = $_SERVER['REMOTE_ADDR'];
 			$user_agent = $_SERVER['HTTP_USER_AGENT'];
 			if($ip != $lip or $user_agent != $luser_agent){
-				header ('Location: ../index.php');
-	   			exit();
+				// !ОТКЛЮЧИТЬ! header ('Location: ../index.php');
+	   			// exit();
 			}
 			echo "<script src='../js/main.js'></script>";
 
