@@ -2,7 +2,7 @@
 
 	$me = $_GET['me'];
 	$to = $_GET['to'];
-	$mess = $_GET['mess'];
+	$mess = strip_tags($_GET['mess']);
 	if(file_exists("messlog/localchat/$me-$to.log")){
 		if($mess != ''){
 			$f = fopen("messlog/localchat/$me-$to.log", "r");
