@@ -8,21 +8,24 @@
 			setcookie("login", $login, time() + 172800, '/');
 			setcookie("login", $login, time() + 172800);
 		}else{
-			echo"<script>error()</script>";
+			header ('Location: ../index.php');  // перенаправление на нужную страницу
+   			exit();
 		}
-		
-		
+		if(!file_exists("../php/account/$login.id")){
+			header ('Location: ../index.php');  // перенаправление на нужную страницу
+	   		exit();
+		}		
 		// phpinfo(32);
-		echo "<script src='../js/main.js'></script>";
-
-		$f = fopen("../php/account/$login.id", "r");
-		$all = fread($f,  filesize("../php/account/$login.id"));
-		list($id, $login, $name, $pass, $lip, $luser_agent) = explode("\n", $all);
-		$ip = $_SERVER['REMOTE_ADDR'];
-		$user_agent = $_SERVER['HTTP_USER_AGENT'];
-		if($ip != $lip or $user_agent != $luser_agent){
-			echo"<script>error()</script>";
-		}
+			$f = fopen("../php/account/$login.id", "r");
+			$all = fread($f,  filesize("../php/account/$login.id"));
+			list($id, $login, $name, $pass, $lip, $luser_agent) = explode("\n", $all);
+			$ip = $_SERVER['REMOTE_ADDR'];
+			$user_agent = $_SERVER['HTTP_USER_AGENT'];
+			if($ip != $lip or $user_agent != $luser_agent){
+				header ('Location: ../index.php');  // перенаправление на нужную страницу
+	   			exit();
+			}
+		
 	?>
 
 <!DOCTYPE html>
