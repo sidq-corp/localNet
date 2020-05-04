@@ -5,8 +5,8 @@ function init_main_js(){
 function center_article_text(){
 	elems = document.getElementsByClassName('article')
 	for (var i = 0; i < elems.length; i++) {
-		h1 = document.getElementsByClassName('article-picker')[i].clientHeight
-		h2 = elems[i].clientHeight
+		h1 = document.getElementsByClassName('article-picker')[i].offsetHeight
+		h2 = elems[i].offsetHeight
 		h = h2 - h1
 		h = h / 2
 		h = h +'px'
