@@ -317,6 +317,9 @@
 	#article-tp-to-chat{
 		display: block;
 	}
+	.article-sub-text{
+		display: none;
+	}
 }
 @media screen and (min-width: 500px) and (max-width: 600px) {
 	#wrapper-content{

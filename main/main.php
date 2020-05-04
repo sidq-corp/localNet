@@ -88,7 +88,7 @@
 			<a href = '#global_chat' id = 'article-tp-to-chat'>
 				<div class = 'header-item header-item-a' style = "margin-right: 3%;">
 					<div class = 'header-picker'>
-						Чаты <i id = 'phone-i-rotate' style = 'transform: skewX(-12deg) rotate(0deg); transition: all 1s ease;' class="fas fa-caret-down"></i>
+						Чаты <i id = 'phone-i-rotate' style = 'transform: skewX(-12deg) rotate(0deg); transition: all 1s ease; margin-left: 6.6px;' class="fas fa-caret-down"></i>
 					</div>
 				</div>
 			</a>
@@ -131,7 +131,7 @@
 					<br>
 					<div class = 'article-picker'>
 						<h1>Почему птенцы детей рожают узбеков?</h1>
-						<p>Или как мир несправедлив</p>
+						<p class = 'article-sub-text'>Или как мир несправедлив</p>
 					</div>
 				</div>
 			</div>
@@ -169,7 +169,7 @@
 					<br>
 					<div class = 'article-picker'>
 						<h1>Ищем свежих казахов!</h1>
-						<p>Из авторской серии: как найти девушку?</p>
+						<p class = 'article-sub-text'>Из авторской серии: как найти девушку?</p>
 					</div>
 				</div>
 			</div>

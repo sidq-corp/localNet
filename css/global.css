@@ -186,6 +186,9 @@ body{
 		width: 30%;
 		background-size: 95%;
 	}
+	/*.header-item{
+		width: 5%;
+	}*/
 	#header-menu{
 		display: none;
 	}
