@@ -1,14 +1,16 @@
 <?php
 		if(isset($_GET['login'])){
 			$login = $_GET['login'];
+			setcookie("login", $login, time() + 172800, '/');
+			setcookie("login", $login, time() + 172800);
 		}elseif (isset($_COOKIE['login'])) {
 			$login = $_COOKIE['login'];
+			setcookie("login", $login, time() + 172800, '/');
+			setcookie("login", $login, time() + 172800);
 		}else{
 			echo"<script>error()</script>";
 		}
-		setcookie("login", $login, time() + 172800, '/');
-		setcookie("login", $login, time() + 172800);
-
+		
 		
 		// phpinfo(32);
 		echo "<script src='../js/main.js'></script>";
@@ -19,7 +21,7 @@
 		$ip = $_SERVER['REMOTE_ADDR'];
 		$user_agent = $_SERVER['HTTP_USER_AGENT'];
 		if($ip != $lip or $user_agent != $luser_agent){
-			// ! ОТКЛЮЧИТЬ !echo"<script>error()</script>";
+			echo"<script>error()</script>";
 		}
 	?>
 
