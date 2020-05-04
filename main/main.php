@@ -48,7 +48,21 @@
 	</div>
 	<div id = "phone-header-menu">
 		<div id = "phone-header-top">
-			<br>
+			<div class = 'phone-header-top-item'>
+				Вероника
+			</div>
+			<div class = 'phone-header-top-item '>
+				-_-
+			</div>
+			<div class = 'phone-header-top-item'>
+				Медиа
+			</div>
+			<div class = 'phone-header-top-item'>
+				Локал чат
+			</div>
+			<div class = 'phone-header-top-item'>
+				О проэкте
+			</div>
 		</div>
 		<div id = "phone-header-bot">
 			<a href="/main/main.php?login=<?php echo $login; ?>"><div id = 'header-logo'></div></a>

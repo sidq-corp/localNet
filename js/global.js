@@ -12,6 +12,13 @@ function center_button_text(){
 
 		document.getElementsByClassName('header-picker')[i].style.marginTop = h
 	}
+	elems = document.getElementsByClassName('header-item-p')
+	for (var i = 0; i < elems.length; i++) {
+		h = elems[i].clientHeight
+		h = h / 2
+		h = h +'px'
+		document.getElementsByClassName('header-picker-p')[i].style.marginTop = h
+	}
 }
 
 phone_menu_open = 0
