@@ -14,6 +14,42 @@
 :root{
 	--headerheight: 6%;
 }
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+#phone-header-menu{	
+	height: calc(var(--headerheight) * 10);
+	width: 90%;
+	/*top: -%;*/
+	top: -54%;
+	left: 0%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+	transition: top 1s ease;
+	z-index: 100;
+	background-color: #fff;
+	position: fixed;
+	display: none;
+}	
+	#phone-header-top{
+		width: 100%;
+		height: calc(var(--headerheight) * 15);
+		background-color: #f8f8f8;
+	}
+	#phone-header-bot{
+		width: 100%;
+		height: calc(var(--headerheight) * 1.66666667);
+		background-color: #fff;
+	}
+	#phone-header-menu #header-logo{
+		width: 20%;
+	}
+	#phone-header-menu .header-item{
+		width: 20%;
+		float: right;
+	}
 #header-menu{
 	position: fixed;
 	height: var(--headerheight);
@@ -25,6 +61,7 @@
 	padding-left: 20%;
 	padding-right: 20%;
 	z-index: 100;
+	display: block;
 }
 	#header-placeholder{
 		height: var(--headerheight);
@@ -117,9 +154,39 @@
 		transform: scale(1.05);
 	}
 
+/*@media screen and (min-width: 0px) and (max-width: 1470px) {
+	#header-login{
+		width: 15%; 
+		margin-left: 5%; 
+	}
+}
 @media screen and (min-width: 0px) and (max-width: 1470px) {
 	#header-login{
 		width: 15%; 
+		margin-left: 5%; 
+	}
+}*/
+@media screen and (min-width: 0px) and (max-width: 850px) {
+	#header-menu{
+		display: none;
+	}
+	#phone-header-menu{
+		display: block;
+	}
+}
+@media screen and (min-width: 850px) and (max-width: 1470px) {
+	.header-item{
+		width: 13.33333333%;	
+	}
+	#header-logo{
+		width: 13.33333333%;	
+	}
+	#header-menu{
+		padding-left: 10% !important;
+		padding-right: 10%;
+	}
+	#header-login{
+		/*width: 19.999999%; */
 		margin-left: 5%; 
 	}
 }

@@ -1,11 +1,20 @@
 function init_main_js(){
 	lchat_check()
-	
-/*	for (var i = 1; i < document.getElementsByClassName('article').length; i++) {
-		document.getElementsByClassName('article')[i].addEventListener("mouseover", () => article_watch(i), true);
-	}*/
-	// document.getElementById("goto").addEventListener("input", () => lchat_check_chain_input(), true);
+	center_article_text()
 }
+function center_article_text(){
+	elems = document.getElementsByClassName('article')
+	for (var i = 0; i < elems.length; i++) {
+		h1 = document.getElementsByClassName('article-picker')[i].clientHeight
+		h2 = elems[i].clientHeight
+		h = h2 - h1
+		h = h / 2
+		h = h +'px'
+
+		document.getElementsByClassName('article-picker')[i].style.marginTop = h
+	}
+}
+
 function error(){
 	document.location.href='../index.php';
 }
@@ -32,39 +41,6 @@ function check_gchat_if_disabled(){
 		setTimeout(set_gchat_text, 1000)
 	}
 }
-/*function lchat_check_chain_input(){
-	val = document.getElementById("goto").value
-	if (val != ''){
-		var found = 0
-		document.getElementById("local_answer").onChange = setTimeout(lchat_check_chain_input_p2, 1000)
-		while (found == 0){
-			sleep(100);
-			function lchat_check_chain_input_break(){
-				break
-			}
-			setTimeout(lchat_check_chain_input_break,1500)
-			if (document.getElementById("local_answer").innerHTML != 'Загрузка...'){
-				found = 1
-				break
-			}
-		}
-		if (found == 1){
-			document.getElementById("lchat-start").style.display = 'none'
-			document.getElementById("lchat-end").style.display = 'block'
-		}else{
-			display_error('Не найдено')
-		}
-	}
-}
-function lchat_check_chain_input_p2(){
-	if (document.getElementById("local_answer").innerHTML != 'Загрузка...'){
-		document.getElementById("lchat-start").style.display = 'none'
-		document.getElementById("lchat-end").style.display = 'block'
-	}
-}*/
-// function sleep(ms) {
-// 	return new Promise(resolve => setTimeout(resolve, ms));
-// }
 
 gchat_shown = 1
 lchat_shown = 1

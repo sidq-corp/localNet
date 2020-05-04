@@ -19,17 +19,19 @@
 		$ip = $_SERVER['REMOTE_ADDR'];
 		$user_agent = $_SERVER['HTTP_USER_AGENT'];
 		if($ip != $lip or $user_agent != $luser_agent){
-			echo"<script>error()</script>";
+			// ! ОТКЛЮЧИТЬ !echo"<script>error()</script>";
 		}
 	?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo $name; ?></title>
-	<link rel="stylesheet" href="../css/main.css">
+	
 	<link rel="stylesheet" href="../css/global.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<script src="../js/ajax_script.js"></script>
   	<script src="../js/ajax.js"></script>
   	<script src="../js/main.js"></script>
@@ -42,6 +44,19 @@
 			<div id="user_name"><?php echo $name; ?></div>
 			<div id="user_login"><?php echo $login; ?></div>
 			<p id = 'cepochka'>30%</p>
+		</div>
+	</div>
+	<div id = "phone-header-menu">
+		<div id = "phone-header-top">
+			<br>
+		</div>
+		<div id = "phone-header-bot">
+			<a href="/main/main.php?login=<?php echo $login; ?>"><div id = 'header-logo'></div></a>
+			<div class = 'header-item header-item-a' onclick = "phone_switch_menu()">
+				<div class = 'header-picker'>
+					Меню <i id = 'phone-i-rotate' style = 'transform: skewX(-12deg) rotate(0deg); transition: all 1s ease;' class="fas fa-caret-down"></i>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div id = "header-menu">
@@ -60,7 +75,8 @@
 			<div class = 'header-item header-item-a' onclick = "display_error('Недоступно (')"><div class = 'header-picker'>О проэкте</div></div>
 		</div>
 		<div class = 'header-item header-item-a' id = 'header-login' onclick = 'gui_account_check()'>
-			<div class = 'header-picker'>Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div>
+			<!-- <div class = 'header-picker'>Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div> -->
+			<div class = 'header-picker'>Аккаунт</div>
 		</div>
 	</div>
 	<!-- a -->
@@ -78,11 +94,11 @@
 					Просмотреть
 				</div> -->
 			</div>
-			<div class = 'article article-triple' style = 'background-image: url(../css/images/art2.jpg);'>
+			<div class = 'article article-triple' style = 'background-image: url(../css/images/art3.jpeg);'>
 				<div class = 'article-content'>
 					<br>
 					<div class = 'article-picker'>
-						<h1>Как акцизы Венесуэллы влияют на город Белорусь</h1>
+						<h1>Как акцизы Венесуэлы влияют на город Белорусь</h1>
 						<!-- <p>Или как мир несправедлив</p> -->
 					</div>
 				</div>
@@ -102,7 +118,7 @@
 				<div class = 'article-content'>
 					<br>
 					<div class = 'article-picker'>
-						<h1>Жьжьжьжьжьжь</h1>
+						<h1>Жьжьжь жьжьжь</h1>
 						<!-- <p>Или как мир несправедлив</p> -->
 					</div>
 				</div>
@@ -125,8 +141,7 @@
 
 				<div id = 'gchat-hide'>
 					<div id="help_div" style = "margin-top: 3%; margin-bottom: 3%;">
-						<b>Ваши сообщения увидят все </b><br>
-						<b>пользователи сайта</b>
+						<b>Ваши сообщения увидят вce пользователи сайта</b>
 					</div>
 					<form method="post" id="global_chat_form" action="" >
 				        <input placeholder="Сообщение" type="text" maxlength="50" name="mess" id="messin"><br>

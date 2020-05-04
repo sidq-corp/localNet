@@ -14,6 +14,27 @@ function center_button_text(){
 	}
 }
 
+phone_menu_open = 0
+function phone_switch_menu(){
+	if (phone_menu_open == 0){
+		phone_show_menu()
+		phone_menu_open = 1
+	}else if(phone_menu_open == 1){
+		phone_hide_menu()
+		phone_menu_open = 0
+	}
+}
+function phone_show_menu(){
+	document.getElementById('phone-header-menu').style.top = '0%';
+	document.getElementById('phone-i-rotate').style.transform = 'rotate(180deg)';
+}
+function phone_hide_menu(){
+	document.getElementById('phone-header-menu').style.top = '-54%';
+	document.getElementById('phone-i-rotate').style.transform = 'rotate(360deg)';
+}
+
+
+
 function display_error(arg1,arg2){
 	msg = '<br><p>'
 	document.getElementById('error_div').style.backgroundColor = 'rgba(245, 70, 12, 0.7)';

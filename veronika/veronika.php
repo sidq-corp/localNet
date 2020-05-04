@@ -7,6 +7,7 @@
 <html>
 <head>
 	<title>Вероника младшая</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="../css/global.css">
 	<script src="main.js"></script>
