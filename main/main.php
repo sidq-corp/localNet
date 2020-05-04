@@ -1,5 +1,5 @@
 <?php
-		if(isset($_GET['login'])){
+		if(isset($_GET['login'])){ // siski
 			$login = $_GET['login'];
 			setcookie("login", $login, time() + 172800, '/');
 			setcookie("login", $login, time() + 172800);
