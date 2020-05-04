@@ -1,4 +1,13 @@
 let cepochka;
+$( document ).ready(function() {
+    $("#lcl").click(
+		function(){
+            local_handler();
+			return false; 
+		}
+	);
+});
+
 function local_handler(){
 	cepochka = true;
 	name = document.getElementById("user_name").innerHTML;
