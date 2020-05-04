@@ -11,10 +11,14 @@
 			header ('Location: ../index.php');  // перенаправление на нужную страницу
    			exit();
 		}
+		// echo "<script src='../js/main.js'></script>";
+
 		if(!file_exists("../php/account/$login.id")){
 			header ('Location: ../index.php');  // перенаправление на нужную страницу
 	   		exit();
-		}		
+		}	
+		echo "<script src='../js/main.js'></script>";
+	
 		// phpinfo(32);
 			$f = fopen("../php/account/$login.id", "r");
 			$all = fread($f,  filesize("../php/account/$login.id"));
@@ -36,12 +40,12 @@
 	
 	<link rel="stylesheet" href="../css/global.css">
 	<link rel="stylesheet" href="../css/main.css">
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-	<script src="../js/ajax_script.js"></script>
-  	<script src="../js/ajax.js"></script>
-  	<script src="../js/main.js"></script>
-  	<script src="../js/global.js"></script>
-  	<script src="../js/local.js"></script>
+	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script type="text/javascript" src="../js/ajax_script.js"></script>
+  	<script type="text/javascript" src="../js/ajax.js"></script>
+  	<script type="text/javascript" src="../js/main.js"></script>
+  	<script type="text/javascript" src="../js/global.js"></script>
+  	<script type="text/javascript" src="../js/local.js"></script>
 </head>
 <body onload="global_init(); update(); init(); init_main_js();">
 	<div id = 'header-placeholder'>
