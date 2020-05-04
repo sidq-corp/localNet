@@ -4,15 +4,18 @@ function init_main_js(){
 }
 function center_article_text(){
 	elems = document.getElementsByClassName('article')
+	msg=''
 	for (var i = 0; i < elems.length; i++) {
 		h1 = document.getElementsByClassName('article-picker')[i].offsetHeight
 		h2 = elems[i].offsetHeight
+		msg = msg+'block='+h1+' text='+h2+'\n'
 		h = h2 - h1
 		h = h / 2
 		h = h +'px'
 
 		document.getElementsByClassName('article-picker')[i].style.marginTop = h
 	}
+	alert(msg)
 }
 
 function error(){
