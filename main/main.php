@@ -36,7 +36,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
 	<title><?php echo $name; ?></title>
 	
 	<link rel="stylesheet" href="../css/global.css">
@@ -83,7 +83,15 @@
 				<div class = 'header-picker'>
 					Меню <i id = 'phone-i-rotate' style = 'transform: skewX(-12deg) rotate(0deg); transition: all 1s ease;' class="fas fa-caret-down"></i>
 				</div>
+				
 			</div>
+			<a href = '#global_chat' id = 'article-tp-to-chat'>
+				<div class = 'header-item header-item-a' style = "margin-right: 3%;">
+					<div class = 'header-picker'>
+						Чаты <i id = 'phone-i-rotate' style = 'transform: skewX(-12deg) rotate(0deg); transition: all 1s ease;' class="fas fa-caret-down"></i>
+					</div>
+				</div>
+			</a>
 		</div>
 	</div>
 	<div id = "header-menu">
@@ -108,6 +116,16 @@
 	<!-- a -->
 	<div id = 'wrapper-content'>
 		<div id = 'wrapper-left'>
+			<!-- <a href = '#global_chat'>
+				<div class = 'article article-one' id = 'article-tp-to-chat' style = 'background-color: #333; background-image: none; height: 8%;'>
+					<div class = 'article-content' style = "background: none;">
+						<br>
+						<div class = 'article-picker'>
+							<h1 style = "color: #fff;">Перейти к чатам <i style = 'transform: skewX(-12deg);' class="fas fa-caret-down"></i></h1>
+						</div>
+					</div>
+				</div>
+			</a> -->
 			<div class = 'article article-one' style = 'background-image: url(../css/images/art1.jpg);'>
 				<div class = 'article-content'>
 					<br>
@@ -116,9 +134,6 @@
 						<p>Или как мир несправедлив</p>
 					</div>
 				</div>
-				<!-- <div class = 'article-watch'>
-					Просмотреть
-				</div> -->
 			</div>
 			<div class = 'article article-triple' style = 'background-image: url(../css/images/art3.jpeg);'>
 				<div class = 'article-content'>

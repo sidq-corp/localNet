@@ -113,6 +113,9 @@
 	float: left;
 	
 }	
+	#article-tp-to-chat{
+		display: none;
+	}
 	.article{
 		transition: all 0.5s ease;
 	}
@@ -259,11 +262,136 @@
 		/*width: auto;*/
 		/*margin: 5px;*/
 	}
-
-@media screen and (min-width: 0px) and (max-width: 910px) {
+@media screen and (min-width: 0px) and (max-width: 300px) {
 	#wrapper-content{
 		width: 98%;
 		margin-left: 1%;
+	}
+	.gui{
+		--width: 100%;
+		margin-left: -3%;
+	}
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+	#wrapper-content{
+		width: 98%;
+		margin-left: 1%;
+	}
+	.gui{
+		--width: 80%;
+		margin-left: calc((100% - var(--width))/2 - 3%);
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+	#wrapper-content{
+		width: 98%;
+		margin-left: 1%;
+	}
+	.gui{
+		--width: 70%;
+		margin-left: calc((100% - var(--width))/2 - 3%);
+	}
+
+	.article-one{
+		height: 15%;
+	}	
+	.article-triple{
+		width: 100%;
+		background-size: 100%;
+		height: 15%;
+	}	
+	.article-triple-separator{
+		display: none;
+	}
+	#wrapper-left{
+		width: 100%;
+		padding-right: 0%;
+	}
+	#wrapper-right{
+		width: 100%;
+	}
+	.gui-but-small{
+		width: 85%;
+		margin-left: 7.5%;
+	}
+	#article-tp-to-chat{
+		display: block;
+	}
+}
+@media screen and (min-width: 500px) and (max-width: 600px) {
+	#wrapper-content{
+		width: 98%;
+		margin-left: 1%;
+	}
+	.gui{
+		--width: 60%;
+		margin-left: calc((100% - var(--width))/2 - 3%);
+	}
+	.article-one{
+		height: 15%;
+	}	
+	.article-triple{
+		width: 100%;
+		background-size: 100%;
+		height: 15%;
+	}	
+	.article-triple-separator{
+		display: none;
+	}
+	#wrapper-left{
+		width: 63%;
+		padding-right: 2%;
+	}
+	#wrapper-right{
+		width: 35%;
+	}
+	.gui-but-small{
+		width: 85%;
+		margin-left: 7.5%;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+	#wrapper-content{
+		width: 98%;
+		margin-left: 1%;
+	}
+	.gui{
+		--width: 60%;
+	}
+	.article-one{
+		height: 15%;
+	}	
+	.article-triple{
+		width: 100%;
+		background-size: 100%;
+		height: 15%;
+	}	
+	.article-triple-separator{
+		display: none;
+	}
+	#wrapper-left{
+		width: 63%;
+		padding-right: 2%;
+	}
+	#wrapper-right{
+		width: 35%;
+	}
+	.gui-but-small{
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+@media screen and (min-width: 800px) and (max-width: 910px) {
+	.gui-but-small{
+		width: 80%;
+		margin-left: 10%;
+	}
+	#wrapper-content{
+		width: 98%;
+		margin-left: 1%;
+	}
+	.gui{
+		--width: 50%;
 	}
 }
 @media screen and (min-width: 910px) and (max-width: 1100px) {
@@ -274,6 +402,9 @@
 	#wrapper-content{
 		width: 90%;
 		margin-left: 5%;
+	}
+	.gui{
+		--width: 35%;
 	}
 }
 
@@ -286,11 +417,17 @@
 		width: 80%;
 		margin-left: 10%;
 	}
+	.gui{
+		--width: 30%;
+	}
 }
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
 	.gui-but-small{
 		width: 70%;
 		margin-left: 15%;
+	}
+	.gui{
+		--width: 30%;
 	}
 }
 

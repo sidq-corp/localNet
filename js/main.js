@@ -93,7 +93,7 @@ function gui_account_check(){
 		gui_account_opened = 1
 		gui_account_open()
 	}else if(gui_account_opened == 1){
-		document.getElementById('header-login').style.backgroundColor = "#fff"
+		document.getElementById('header-login').style.backgroundColor = "#f8f8f8"
 		document.getElementById('header-login').style.color = "#000"
 		gui_account_opened = 0
 		gui_account_close()
