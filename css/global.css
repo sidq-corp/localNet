@@ -118,7 +118,7 @@ body{
 		color: #000;
 		text-decoration: none;
 	}	
-	.header-item a{
+	a{
 		color: inherit;
 		text-decoration: inherit;
 	}
@@ -130,11 +130,11 @@ body{
 		cursor: pointer;
 		color: white;
 	}
-	#header-login{
+	/*#header-login-not-phone{
 		margin-left: 10%; 
 		width: 10%; 
 		font-size: 100%
-	}
+	}*/
 
 /* ERROR*/
 #error_div{
@@ -181,7 +181,19 @@ body{
 		margin-left: 5%; 
 	}
 }*/
-@media screen and (min-width: 0px) and (max-width: 850px) {
+@media screen and (min-width: 0px) and (max-width: 500px) {
+	#phone-header-menu #header-logo{
+		width: 30%;
+		background-size: 95%;
+	}
+	#header-menu{
+		display: none;
+	}
+	#phone-header-menu{
+		display: block;
+	}
+}
+@media screen and (min-width: 500px) and (max-width: 850px) {
 	#header-menu{
 		display: none;
 	}
@@ -200,8 +212,8 @@ body{
 		padding-left: 10% !important;
 		padding-right: 10%;
 	}
-	#header-login{
-		/*width: 19.999999%; */
+	/*#header-login{
+		width: 19.999999%; 
 		margin-left: 5%; 
-	}
+	}*/
 }

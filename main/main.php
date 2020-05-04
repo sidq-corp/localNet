@@ -49,7 +49,9 @@
 	<div id = "phone-header-menu">
 		<div id = "phone-header-top">
 			<div class = 'phone-header-top-item'>
-				Вероника
+				<a href="../veronika/veronika.php">
+					<!-- <b>[</b>NEW<b>]</b> --> Вероника
+				</a>
 			</div>
 			<div class = 'phone-header-top-item '>
 				-_-
@@ -58,10 +60,11 @@
 				Медиа
 			</div>
 			<div class = 'phone-header-top-item'>
-				Локал чат
-			</div>
-			<div class = 'phone-header-top-item'>
 				О проэкте
+			</div>
+			<div class = 'phone-header-top-item' id = 'header-login' onclick = 'phone_switch_menu(); gui_account_check();'>
+				<!-- <div class = 'header-picker'>Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div> -->
+				Аккаунт
 			</div>
 		</div>
 		<div id = "phone-header-bot">
@@ -79,18 +82,17 @@
 			<div class = 'header-item header-item-a' >
 				<div class = 'header-picker'>
 					<a href="../veronika/veronika.php">
-						<b>[</b>NEW<b>]</b> Вероника
+						<!-- <b>[</b>NEW<b>]</b> --> Вероника
 					</a>
 				</div>
 			</div>
 			<div class = 'header-item header-item-a' onclick = "display_error('Недоступно (')"><div class = 'header-picker'>-_-</div></div>
 			<div class = 'header-item header-item-a' onclick = "display_error('Недоступно (')"><div class = 'header-picker'>Медиа</div></div>
 			<div class = 'header-item header-item-a' onclick = "display_error('Недоступно (')"><div class = 'header-picker'>Локал Чат</div></div>
-			<div class = 'header-item header-item-a' onclick = "display_error('Недоступно (')"><div class = 'header-picker'>О проэкте</div></div>
-		</div>
-		<div class = 'header-item header-item-a' id = 'header-login' onclick = 'gui_account_check()'>
+			<div class = 'header-item header-item-a' id = 'header-login' onclick = 'gui_account_check()'>
 			<!-- <div class = 'header-picker'>Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div> -->
-			<div class = 'header-picker'>Аккаунт</div>
+				<div class = 'header-picker'>Аккаунт</div>
+			</div>
 		</div>
 	</div>
 	<!-- a -->
