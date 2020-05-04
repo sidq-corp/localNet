@@ -16,6 +16,7 @@
 	$login = $_GET['reg_login'];
 	$name = $_GET['reg_name'];
 	$pass = $_GET['reg_pass'];
+	$money = 5;
 	if(strlen($login) < 6 or strlen($pass) < 6 or strlen($name) < 2 or file_exists("account/$login.id") or strlen($login) > 30 or strlen($pass) > 30 or strlen($name) > 30){
 		echo "<script>error()</script>";
 		echo "Ошибка регестраци";
@@ -28,6 +29,8 @@
 		fwrite($f, "$login\n");
 		fwrite($f, "$name\n");
 		fwrite($f, "$pass\n");
+		fwrite($f, "$money\n");
+
 		fclose($f);
 		echo "Успешная регестрация";
    	    echo "<script>correct()</script>";
