@@ -9,7 +9,7 @@
 
 	if (isset($_POST["mess"])) { 
 		$mess = $_POST["mess"];
-		if($mess != '' and strlen($mess) <= 50){
+		if($mess != '' and strlen($mess) <= 100){
 			if($mess == '/clear'){
 				$name = $_POST['name'];
 				$f = fopen("messlog/globalchat.log", "w");

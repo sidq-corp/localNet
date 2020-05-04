@@ -160,7 +160,7 @@
 						<b>Ваши сообщения увидят вce пользователи сайта</b>
 					</div>
 					<form method="post" id="global_chat_form" action="" >
-				        <input placeholder="Сообщение" type="text" maxlength="50" name="mess" id="messin"><br>
+				        <input placeholder="Сообщение" type="text" maxlength="100" name="mess" id="messin"><br>
 				        <button id="glb" style="margin-top: 3%;" onclick = "check_gchat_if_disabled()" class = 'gui-but gui-but-small'>Отправить</button>
 				    </form>
 

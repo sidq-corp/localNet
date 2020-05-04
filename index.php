@@ -45,7 +45,7 @@
 			<div id="login_form" class = "generic_form">
 				<form action="php/login.php" method="get">
 					<input  type="text" name="user_login" id="user_login"  placeholder="Логин">
-					<input type="text" name="user_pass" id="user_pass" placeholder="Пароль">
+					<input type="password" name="user_pass" id="user_pass" placeholder="Пароль">
 					<button name="submit" id="check_log" class="check_but" style="display: none;">Войти</button>
 				</form>
 				<button onclick="display_error('Вы ввели логин или пароль','длинна которого меньше 6 символов')" class="check_but" id="fake_check_log" style="display: block;">Войти</button>
