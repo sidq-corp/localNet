@@ -100,6 +100,7 @@
 	background-size: 100%;
 	background-position: center;
 	margin-bottom: 3%;
+	padding: 0px;
 	float: left;
 }
 .article-triple{
@@ -109,6 +110,7 @@
 	background-size: 120%;
 	background-position: center;
 	margin-bottom: 3%;
+	padding: 0px;
 	/*margin-right: 3%;*/
 	float: left;
 	
@@ -149,13 +151,17 @@
 		line-height: 0%;
 	}
 	.article-content h1{
-		line-height: 80%;
+		line-height: 30px;
+		margin-top: 3%;
 		margin-left: 3%;
 		font-family: 'Proxima BlackIt';
 	}
 	.article-content p{
 		margin-left: 3%;
 		font-family: 'Proxima Semibold';
+	}
+	.article-shadow{
+		text-shadow: #fff 1px 1px 3px;
 	}
 /* GUI */
 .gui{
