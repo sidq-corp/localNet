@@ -11,7 +11,6 @@
 			header ('Location: ../index.php');  // перенаправление на нужную страницу
    			exit();
 		}
-		// echo "<script src='../js/main.js'></script>";
 
 		if(!file_exists("../php/account/$login.id")){
 			header ('Location: ../index.php');  // перенаправление на нужную страницу
@@ -21,12 +20,12 @@
 		// phpinfo(32);
 			$f = fopen("../php/account/$login.id", "r");
 			$all = fread($f,  filesize("../php/account/$login.id"));
-			list($id, $login, $name, $pass, $lip, $luser_agent) = explode("\n", $all);
+			list($id, $login, $name, $pass, $money, $lip, $luser_agent) = explode("\n", $all);
 			$ip = $_SERVER['REMOTE_ADDR'];
 			$user_agent = $_SERVER['HTTP_USER_AGENT'];
 			if($ip != $lip or $user_agent != $luser_agent){
-				// !ОТКЛЮЧИТЬ! header ('Location: ../index.php');
-	   			// exit();
+				header ('Location: ../index.php');
+	   			exit();
 			}
 			echo "<script src='../js/main.js'></script>";
 
@@ -47,8 +46,9 @@
   	<script type="text/javascript" src="../js/main.js"></script>
   	<script type="text/javascript" src="../js/global.js"></script>
   	<script type="text/javascript" src="../js/local.js"></script>
+  	<script type="text/javascript" src="../js/audio.js"></script>
 </head>
-<body onload="global_init(); update(); init(); init_main_js();">
+<body onload="global_init(); update(); init(); init_main_js(); dir('/js')">
 	<div id = 'header-placeholder'>
 		<div style = 'display: none;'>
 			<div id="user_name"><?php echo $name; ?></div>
