@@ -19,7 +19,7 @@
 		<div id="user_login"><?php echo $login; ?></div>
 	</div>
 	<div id = 'header'>
-
+		
 	</div>
 
 	<div id="main">
