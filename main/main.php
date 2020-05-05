@@ -48,7 +48,8 @@
   	<script type="text/javascript" src="../js/local.js"></script>
   	<script type="text/javascript" src="../js/audio.js"></script>
 </head>
-<body onload="global_init(); update(); init(); init_main_js(); dir('/js')">
+<body onload="global_init(); update(); init(); init_main_js();">
+	<!-- <audio src="../content/music/1.mp3"></audio> -->
 	<div style = "display: none;">
 		<div id="user_name"><?php echo $name; ?></div>
 		<div id="user_login"><?php echo $login; ?></div>
@@ -197,6 +198,7 @@
 			<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
 				<b>Ваш никнейм: <?php echo $name; ?></b><br>
 				<b>Ваш логин: <?php echo $login; ?></b><br>
+				<b>Баланс: <?php echo $money; ?></b><br>
 				<b>Ваш пароль: Хз, у нас хэши</b>
 			</div>
 
