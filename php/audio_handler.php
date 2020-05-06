@@ -57,11 +57,11 @@
 
 		while(count($deltas) != 0){
 
-			$max = max($deltas);
-			$index = array_search($max, $deltas);
+			$min = min($deltas);
+			$index = array_search($min, $deltas);
 			unset($deltas[$index]);
 
-			if($max < 70){
+			if($min < 70){
 				array_push($good_deltas, $index);
 			}
 
@@ -82,6 +82,6 @@
 
 	}
 	
-	echo search_sound(34,234,23,234,230);	
+	print_r(search_sound(34,234,23,234,230));	
 
 ?>
