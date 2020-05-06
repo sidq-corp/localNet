@@ -1,3 +1,42 @@
-#reg{
-
+body{
+	overflow: hidden;
 }
+#loading-wrapper{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	left: 0px;
+
+	z-index: 999;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	background-image: url(images/logo_transp_b.png);
+	background-position: center;
+	background-size: 10%;
+	transition: visibility 0s, opacity 0.5s linear;
+	visibility: visible;
+  	opacity: 1;
+}
+	#loading-wrapper-gradient{
+		width: 100%;
+		height: 100%;
+		top: 0px;
+		left: 0%;
+
+		background: linear-gradient(115deg, rgba(28,28,124,0) 35%, rgba(255,255,255,0.7) 37%, rgba(2,0,36,0) 39%);
+		animation-duration: 3s;
+ 		animation-name: load;
+ 		animation-iteration-count: infinite;
+	}
+	@keyframes load {
+	  from {
+	    margin-left: 5%;
+	  }
+
+	  to {
+	    margin-left: 25%;
+	  }
+	}

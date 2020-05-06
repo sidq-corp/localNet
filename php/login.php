@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Регестрация</title>
+	<title>Вход... </title>
 	<script src="../js/login.js"></script>
 	<link rel="stylesheet" href="../css/reg.css">
 </head>
 <body>
+	<div id = 'loading-wrapper'>
+		<div id = 'loading-wrapper-gradient'>
+
+		</div>
+	</div>
 	<?php
 	$login = $_GET['user_login'];
 	$pass_user = hash("sha256", $_GET['user_pass']);
