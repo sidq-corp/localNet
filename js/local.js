@@ -1,3 +1,9 @@
+function getCookie(name) {
+  let matches = document.cookie.match(new RegExp(
+    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+  ));
+  return matches ? decodeURIComponent(matches[1]) : undefined;
+}
 let cepochka;
 $( document ).ready(function() {
     $("#lcl").click(
@@ -10,8 +16,8 @@ $( document ).ready(function() {
 
 function local_handler(){
 	cepochka = true;
-	name = document.getElementById("user_name").innerHTML;
-    login = document.getElementById("user_login").innerHTML;
+	name = getCookie('name');
+    login = getCookie('login');
 	mess = document.getElementById("messloc").value;
 	to = document.getElementById("goto").value;
 	me = login + '(' + name + ')';
@@ -85,8 +91,8 @@ function check_c(){
 }
 function update(){
 	if (cepochka == true){
-		name = document.getElementById("user_name").innerHTML;
-	    login = document.getElementById("user_login").innerHTML;
+		name = getCookie('name');
+  	    login = getCookie('login');
 		to = document.getElementById("goto").value;
 		me = login + '(' + name + ')';
 		get_file("../php/messlog/localchat/" + me + "-" + to + '.log');

@@ -1,10 +1,16 @@
+function getCookie(name) {
+  let matches = document.cookie.match(new RegExp(
+    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+  ));
+  return matches ? decodeURIComponent(matches[1]) : undefined;
+}
 function init(){
     document.getElementById("goto").addEventListener("input", () => check_local(), true);
     reader();
 }
 function check_local(){
-    name = document.getElementById("user_name").innerHTML;
-    to = document.getElementById("user_login").innerHTML;
+    name = getCookie('name');
+    to = getCookie('login');
 
 }
 function ginputgo(){
@@ -17,7 +23,7 @@ function ginputgo(){
 $( document ).ready(function() {
     $("#glb").click(
 		function(){
-            name = document.getElementById("user_name").innerHTML;
+            name = getCookie('name');
 			sendAjaxForm('result_form', '../php/chat_handler.php', name);
             document.getElementById('messin').value = '';
             document.getElementById('glb').disabled = 1;

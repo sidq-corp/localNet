@@ -27,6 +27,10 @@
 				header ('Location: ../index.php');
 	   			exit();
 			}
+			setcookie("name", $name, time() + 172800, '/');
+			setcookie("name", $name, time() + 172800);
+
+
 			echo "<script src='../js/main.js'></script>";
 
 		
@@ -49,10 +53,6 @@
   	<script type="text/javascript" src="../js/audio.js"></script>
 </head>
 <body onload="global_init(); update(); init(); init_main_js(); dir('/js')">
-	<div style = "display: none;">
-		<div id="user_name"><?php echo $name; ?></div>
-		<div id="user_login"><?php echo $login; ?></div>
-	</div>
 	<div id = 'header'>
 
 	</div>
