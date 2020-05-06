@@ -1,0 +1,17 @@
+#wrapper{
+	height: 100%;
+	margin-top: 7%;
+	top: 0px;
+	width: 50%;
+	margin-left: 25%;
+	background-color: #fff;
+}
+	#wrapper h1{
+		font-family: 'Proxima BlackIt';
+		font-size: 200%;
+		padding-left: 2px;
+	}
+	#wrapper p{
+		font-family: 'Proxima Semibold';
+		font-size: 100%;
+	}

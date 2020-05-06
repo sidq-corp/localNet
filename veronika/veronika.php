@@ -2,16 +2,18 @@
 		$f = fopen("../php/account/$login.id", "r");
 		$all = fread($f,  filesize("../php/account/$login.id"));
 		list($id, $login, $name, $pass, $money, $lip, $luser_agent) = explode("\n", $all);
+		$user_agent = $_SERVER['HTTP_USER_AGENT'];
 		?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Вероника младшая</title>
-	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="../css/global.css">
 	<script src="main.js"></script>
 	<script src="../js/global.js"></script>
+	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body onload="global_init(); chat()">
 	<div style = "display: none;">
@@ -48,6 +50,21 @@
 		<div id="chat_text">
 			text
 		</div>
+	</div>
+
+	<div id = 'gui-container'>
+		<b>Ваш никнейм: <i><?php echo $name; ?></i></b><br>
+		<b>Ваш логин: <i><?php echo $login; ?></i></b><br>
+		<b>Ваш пароль: <i>Хз, у нас хэши</i></b><br>
+		<b>Ваш id: <i><?php echo $id; ?></i></b><br>
+		<b>Ваш юзер агент: <i><?php echo $user_agent; ?></i></b>
+	</div>
+
+	<div id="error_div" onclick="dismiss_error()">
+		<br>
+		<p>Вы хуйло!</p>
+		<p>Блять</p>
+		<br>
 	</div>
 </body>
 </html>

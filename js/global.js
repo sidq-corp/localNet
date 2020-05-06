@@ -1,5 +1,6 @@
 function global_init(){
 	header_insert()
+	gui_insert()
 	center_button_text()
 }
 	
@@ -43,7 +44,7 @@ function phone_hide_menu(){
 }
 
 
-
+// Error
 function display_error(arg1,arg2){
 	msg = '<br><p>'
 	document.getElementById('error_div').style.backgroundColor = 'rgba(245, 70, 12, 0.7)';
@@ -67,10 +68,64 @@ function dismiss_error(){
 	document.getElementById('error_div').style.opacity = '0';
 	document.getElementById('error_div').style.transform = 'translateX(-30px)';
 }
+// Gui
+gui_account_opened = 0;
+function gui_account_check(){
+	if (gui_account_opened == 0){
+		document.getElementById('header-login').style.backgroundColor = "#333"
+		document.getElementById('header-login').style.color = "#fff"
+		gui_account_opened = 1
+		gui_account_open()
+	}else if(gui_account_opened == 1){
+		document.getElementById('header-login').style.backgroundColor = "#f8f8f8"
+		document.getElementById('header-login').style.color = "#000"
+		gui_account_opened = 0
+		gui_account_close()
+	}else{
+		display_error('Ошибка. Код ошибки: gui_account_open != (1 or 0)');
+	}
+}
+function gui_account_open(){
+	document.getElementById('gui-bg').style.display = "block"
+	document.getElementById('gui-account').style.display = "block"
+}
+function gui_account_close(){
+	document.getElementById('gui-bg').style.display = "none"
+	document.getElementById('gui-account').style.display = "none"
+}
+
 
 function header_insert(){
 	document.getElementById('header').innerHTML = header
+	path = location.pathname.split('?')
+	if (path[0] != '/main/main.php'){
+		document.getElementById('article-tp-to-chat').style.display = 'none'
+	}
 }
+function gui_insert(){
+	existing = document.getElementById('gui-container').innerHTML
+	newhtml = gui + existing + gui2
+	document.getElementById('gui-container').innerHTML = newhtml
+
+}
+gui = `	<div id="gui-bg" onclick="gui_account_check()"></div>
+		<div id="gui-account" class = 'gui' style = "display: none;">
+			<div class="gui_title">
+				Аккаунт
+			</div>
+
+			<div class = "generic_form">
+				<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">`
+					
+gui2 = `		</div>
+
+				<button onclick="gui_account_check()" class="gui-but gui-but-small">Вернуться</button>
+				<div id="help_div" style = "margin-top: 3%;">
+					<a href='/'><p>Выйти</p></a>
+				</div>
+			</div>
+		</div>`
+
 header =`<div id = "header-placeholder">
 			<div style = "display: none;">
 				<p id = "cepochka">30%</p>
@@ -78,20 +133,23 @@ header =`<div id = "header-placeholder">
 		</div>
 		<div id = "phone-header-menu">
 			<div id = "phone-header-top">
-				<div class = "phone-header-top-item">
-					<a href="../veronika/veronika.php">
+				<a href="../veronika/veronika.php">
+					<div class = "phone-header-top-item">
 						<!-- <b>[</b>NEW<b>]</b> --> Вероника
-					</a>
-				</div>
+					</div>
+				</a>
+				
 				<div class = "phone-header-top-item ">
-					-_-
-				</div>
-				<div class = "phone-header-top-item">
 					Медиа
 				</div>
 				<div class = "phone-header-top-item">
-					О проэкте
+					Залипалки
 				</div>
+				<a href="../php/about.php">
+					<div class = "phone-header-top-item">
+						О проэкте
+					</div>
+				</a>
 				<div class = "phone-header-top-item" id = "header-login" onclick = "phone_switch_menu(); gui_account_check();">
 					<!-- <div class = "header-picker">Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div> -->
 					Аккаунт
@@ -118,16 +176,22 @@ header =`<div id = "header-placeholder">
 		<div id = "header-menu">
 			<!-- <div id = "header-items"> -->
 				<a href="/main/main.php"><div id = "header-logo"></div></a>
-				<div class = "header-item header-item-a" >
-					<div class = "header-picker">
-						<a href="../veronika/veronika.php">
-							<!-- <b>[</b>NEW<b>]</b> --> Вероника
-						</a>
+				<a href="../veronika/veronika.php">
+					<div class = "header-item header-item-a">
+						<div class = "header-picker">
+							Вероника
+						</div>
 					</div>
-				</div>
-				<div class = "header-item header-item-a" onclick = "display_error("Недоступно (")"><div class = "header-picker">-_-</div></div>
-				<div class = "header-item header-item-a" onclick = "display_error("Недоступно (")"><div class = "header-picker">Медиа</div></div>
-				<div class = "header-item header-item-a" onclick = "display_error("Недоступно (")"><div class = "header-picker">Локал Чат</div></div>
+				</a>
+				<div class = "header-item header-item-a" onclick = "display_error('Недоступно (')"><div class = "header-picker">Медиа</div></div>
+				<div class = "header-item header-item-a" onclick = "display_error('Недоступно (')"><div class = "header-picker">Залипалки</div></div>
+				<a href="../php/about.php">
+					<div class = "header-item header-item-a">
+						<div class = "header-picker">
+							О проэкте
+						</div>
+					</div>
+				</a>
 				<div class = "header-item header-item-a" id = "header-login" onclick = "gui_account_check()">
 				<!-- <div class = "header-picker">Никнейм: <?php echo $name; ?>,<br> Логин: <?php echo $login; ?></div> -->
 					<div class = "header-picker">Аккаунт</div>

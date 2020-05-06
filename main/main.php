@@ -91,7 +91,7 @@
 					<div class = 'article-picker'>
 						<!-- <h1>Ммм... Масло.</h1>
 						<p>А пахне як...</p> -->
-						<h1>С днём глазурованного сырка!</h1>
+						<h1>С днём сырка!</h1>
 						<p class = 'article-sub-text'>А пахне як...</p>
 					</div>
 				</div>
@@ -187,24 +187,13 @@
 		</div>
 	</div>
 
-	<div id="gui-bg" onclick="gui_account_check()"></div>
-	<div id="gui-account" class = 'gui' style = "display: none;">
-		<div class="gui_title">
-			Аккаунт
-		</div>
-
-		<div class = "generic_form">
-			<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
-				<b>Ваш никнейм: <?php echo $name; ?></b><br>
-				<b>Ваш логин: <?php echo $login; ?></b><br>
-				<b>Ваш пароль: Хз, у нас хэши</b>
-			</div>
-
-			<button onclick="gui_account_check()" class="gui-but gui-but-small">Вернуться</button>
-			<div id="help_div" style = "margin-top: 3%;">
-				<a href='/'><p>Выйти</p></a>
-			</div>
-		</div>
+	
+	<div id = 'gui-container'>
+		<b>Ваш никнейм: <i><?php echo $name; ?></i></b><br>
+		<b>Ваш логин: <i><?php echo $login; ?></i></b><br>
+		<b>Ваш пароль: <i>Хз, у нас хэши</i></b><br>
+		<b>Ваш id: <i><?php echo $id; ?></i></b><br>
+		<b>Ваш юзер агент: <i><?php echo $user_agent; ?></i></b>
 	</div>
 
 
