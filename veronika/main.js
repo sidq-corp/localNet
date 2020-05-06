@@ -24,9 +24,8 @@ function chat(){
 
 	}
 	request.send(null);
-	setTimeout(chat, 100);
 }
 function start(){
-	chat()
-	setTimeout(get_answer, 1500)
+	setTimeout(get_answer, 1500);
+	document.getElementById('input').value = "";
 }
