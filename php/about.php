@@ -44,6 +44,7 @@
 			Наш телеграм канал: <a  href = 'https://t.me/deposidqdev'>../dev</a><br>
 			Нет телеграма – скачай!
 		</p>
+		<h2>С *сердечко* <b id = 'wrapper-logo'>localnet</b></h2>
 	</div>
 
 
