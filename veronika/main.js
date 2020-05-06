@@ -6,7 +6,7 @@ function get_answer(){
 	request.onload = function () {
 	    text = request.responseText;
 	    console.log(text);
-	    document.getElementById('answer').innerHTML = "Ответ: " + text;
+	    document.getElementById('answer').innerHTML = text;
 
 	}
 	request.send(null);

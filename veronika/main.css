@@ -1,8 +1,90 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');*/
+html, body { height: 100%; min-height: 100%; min-width: 100%; width: 100%; margin: 0; }
+#wrapper{
+	--width: 50%;
+	width: var(--width);
+	position: absolute;
+	top: 6.7%;
+	left: 0%;
+	margin-left: calc(var(--width) / 2);
+	height: 100%;
+}
+	#wrapper-left{
+		width: 48.5%;
+		float: left;
+		height: 100%;
+		margin-right: 3%;
+		overflow-y: hidden;
+	}
+	#wrapper-right{
+		width: 48.5%;
+		float: left;
+		height: 100%;
+	}
+
+.side-tab{
+	z-index: 20;
+	text-align: center;
+	width: 100%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+
+	transition: all 0.5s ease;
+	line-height: 400%;
+	color: #fff;
+	font-family: 'Proxima BlackIt';
+	font-size: 150%;
+	background-color: #333;
+}
+	.side-tab-b{
+		transform: skewX(-12deg);
+		font-family: 'Proxima Black';
+	}
+	.side-tab-b b{
+		background-color: #e401cf; 
+		/*background-color: #e8e8e8; */
+
+		color: #fff;
+		/*color: #333;*/
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.side-tab-small{
+		line-height: 100% !important;
+	}
+	.side-tab-small:hover{
+		line-height: 100% !important;
+		cursor: default !important;
+	}
+	.side-tab:hover{
+		cursor: pointer;
+		line-height: 500%;
+	}
+	#side-tab-log{
+		line-height: 200%;
+	}
+	#side-tab-log:hover{
+		line-height: 300%;
+	}
+#bot-log{
+	height: 70%;
+	background-color: #f8f8f8;
+}
+	#bot-log input{
+		width: calc(100% - 40px);
+		margin-left: 10px;
+		background-color: #e8e8e8;
+		border: none;
+		padding: 10px;
+	}
+	#bot-log input:focus{
+		outline: none;
+	}
+
 #main{
 	position: absolute;
 	left:25%;
-	top:10%;
+	top:50%;
 	background-color: #d1d1d1;
 	height: 30%;
 	width: 20%;
@@ -12,7 +94,7 @@
 #chat{
 	position: absolute;
 	left:55%;
-	top:10%;
+	top:50%;
 	background-color: #d1d1d1;
 	height: 50%;
 	width: 20%;
@@ -22,27 +104,22 @@
 	font-size: 25px;	
 }
 #chat_text{
-	text-align: left;
-	position: absolute;
-	left:10%;
-	top:10%;
-	height: 80%;
-	width: 90%;
-	font-family: 'Comfortaa', cursive;
-	font-size: 20px;
+	height: 50%;
+	width: calc(100% - 20px);
+	margin: 10px;
 	overflow-y: scroll;
 }
-#form{
+/*#form{
 	width: 60%;
 	position: absolute;
 	left: 20%;
 	top: 20%;
-}
-#answer{
+}*/
+/*#answer{
 	margin-bottom: 7px;
 	font-family: 'Comfortaa', cursive;
-}
-#input{
+}*/
+/*#input{
 	width: 100%;
 	margin-bottom: 7px;
 	font-family: 'Comfortaa', cursive;
@@ -51,4 +128,4 @@
 	width: 100%;
 	margin-bottom: 7px;
 	font-family: 'Comfortaa', cursive;
-}
+}*/
