@@ -24,6 +24,7 @@
 				Регистрация
 			</div>
 			<div id="reg_form" class = "generic_form">
+				<p>Пробелы в конце удаляются</p>
 				<form action="php/reg.php" method="get">
 					<input type="text" placeholder="Никнейм" id = "reg_name" name="reg_name"  maxlength="20">
 					<input  type="text" placeholder="Логин" id = "reg_login" name="reg_login" maxlength="20">
