@@ -2,8 +2,18 @@ function global_init(){
 	header_insert()
 	gui_insert()
 	center_button_text()
+	show_hidden_on_start()
+	document.getElementById('loading-wrapper').style.visibility = 'invisible'
+	document.getElementById('loading-wrapper').style.opacity = '0'
+	setTimeout("document.getElementById('loading-wrapper').style.display = 'none'",500) 
 }
-	
+function show_hidden_on_start(){
+	// class = 'hidden-on-start'
+	elems = document.getElementsByClassName('hidden-on-start')
+	for (var i = 0; i < elems.length; i++) {
+		elems[i].style.display = 'block'
+	}
+}	
 function center_button_text(){
 	elems = document.getElementsByClassName('header-item')
 	for (var i = 0; i < elems.length; i++) {

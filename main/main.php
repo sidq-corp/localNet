@@ -53,6 +53,11 @@
   	<script type="text/javascript" src="../js/audio.js"></script>
 </head>
 <body onload="global_init(); update(); init(); init_main_js(); dir('/js')">
+	<div id = 'loading-wrapper'>
+		<div id = 'loading-wrapper-gradient'>
+
+		</div>
+	</div>
 	<div id = 'header'>
 
 	</div>
@@ -188,7 +193,7 @@
 	</div>
 
 	
-	<div id = 'gui-container'>
+	<div id = 'gui-container' class = 'hidden-on-start'>
 		<b>Ваш никнейм: <i><?php echo $name; ?></i></b><br>
 		<b>Ваш логин: <i><?php echo $login; ?></i></b><br>
 		<b>Ваш пароль: <i>Хз, у нас хэши</i></b><br>
