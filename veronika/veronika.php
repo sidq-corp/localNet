@@ -72,7 +72,7 @@
 						</div>
 					</form>
 
-				    <div id="result_form"></div> 
+				    <!-- <div id="result_form"></div>  -->
 				</div>
 			</div>
 		</div>

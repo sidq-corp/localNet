@@ -80,6 +80,12 @@ html, body { height: 100%; min-height: 100%; min-width: 100%; width: 100%; margi
 	#bot-log input:focus{
 		outline: none;
 	}
+	#bot-log-hide{
+		height: 100%;
+	}
+	#bot-log-hide form{
+		height: 100%;
+	}
 
 #main{
 	position: absolute;
@@ -104,7 +110,7 @@ html, body { height: 100%; min-height: 100%; min-width: 100%; width: 100%; margi
 	font-size: 25px;	
 }
 #chat_text{
-	height: 50%;
+	height: 60%;
 	width: calc(100% - 20px);
 	margin: 10px;
 	overflow-y: scroll;
