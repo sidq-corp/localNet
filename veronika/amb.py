@@ -1,12 +1,7 @@
 import time
 import datetime
-import codecs
 import sys
 
-def remove_non_ascii(text):
-    return ''.join([i if ord(i) <= 1071 else ' ' for i in text])
-def deEmojify(inputString):
-    return inputString.encode('utf-8', 'ignore').decode('utf-8')
 
 def eliminate_all(text,al):
     for i in al:
@@ -139,18 +134,3 @@ def isinstr(var,what):
 	except:
 		return -1
 
-def checktime(frtime):
-	tim = int(time.time())
-	if (tim - frtime < 10):
-		return 1
-	else:
-		return 0
-
-def check_run_time(frtime):
-	tim = int(time.time())
-	if (tim - frtime < 10):
-		return 1
-	else:
-		return 0
-
-# print(deEmojify('🥰🥰'))

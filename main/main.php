@@ -75,8 +75,8 @@
 				</div>
 			</a> -->
 			<?php 
-			$f = fopen("artic.txt", "r");
-			echo fread($f, filesize("artic.txt"));
+			$f = fopen("artic.html", "r");
+			echo fread($f, filesize("artic.html"));
 			?>
 		</div>
 		<div id = 'wrapper-right'>
