@@ -1,0 +1,44 @@
+<div class = 'article article-one' style = 'background-image: url(../css/images/art1.jpg);'>
+				<div class = 'article-content'>
+					<div class = 'article-picker'>
+						<h1>Почему птенцы детей рожают узбеков?</h1>
+						<p class = 'article-sub-text'>Или как мир несправедлив</p>
+					</div>
+				</div>
+			</div>
+			<div class = 'article article-triple' style = 'background-image: url(../css/images/art3.jpeg);'>
+				<div class = 'article-content'>
+					<div class = 'article-picker article-shadow'>
+						<h1>Как пылесосы влияют на ковёр</h1>
+						<p class = 'article-sub-text'>В связи с covid-19 пылесосы влияют позитивно</p>
+					</div>
+				</div>
+			</div>	
+			<div class = 'article-triple-separator'><br></div>
+			<div class = 'article article-triple' style = 'background-image: url(../css/images/art4.jpg);'>
+				<div class = 'article-content'>
+					<div class = 'article-picker'>
+						<!-- <h1>Ммм... Масло.</h1>
+						<p>А пахне як...</p> -->
+						<h1>С днём сырка!</h1>
+						<p class = 'article-sub-text'>А пахне як...</p>
+					</div>
+				</div>
+			</div>
+			<div class = 'article-triple-separator'><br></div>
+			<div class = 'article article-triple' style = 'background-image: url(../css/images/art1.jpg);'>
+				<div class = 'article-content'>
+					<div class = 'article-picker'>
+						<h1>Жьжьжь жьжьжь</h1>
+						<p class = 'article-sub-text'>Жьжьь жьжььь жьжьь</p>
+					</div>
+				</div>
+			</div>
+			<div class = 'article article-one' style = 'background-image: url(../css/images/art2.jpg);'>
+				<div class = 'article-content'>
+					<div class = 'article-picker'>
+						<h1>Ищем свежих казахов!</h1>
+						<p class = 'article-sub-text'>Из авторской серии: как найти девушку?</p>
+					</div>
+				</div>
+			</div>
