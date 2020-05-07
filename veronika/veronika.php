@@ -53,7 +53,7 @@
 						<b>Ваши сообщения увидят вce пользователи сайта</b>
 					</div>
 					<form method="get" id="form" action="veronika.php">
-						
+						<input type="text" name="name" style='display: none;' value="<?php echo $name; ?>">
 						<input type="text" name="text" id="input" placeholder="Сообщение Веронике">
 						<button style="margin-top: 3%;" class = 'gui-but gui-but-small' type="submit" name="submit" id="enter">Отправить</button>
 						<?php
