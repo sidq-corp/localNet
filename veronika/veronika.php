@@ -36,7 +36,7 @@
 				<div class = 'side-tab-b'>Вероника: <b>Работает</b></div>
 			</div>
 
-			<div class = 'side-tab side-tab-small' style = 'margin-top: 5%;'>
+			<div class = 'side-tab side-tab-small side-hide' style = 'margin-top: 5%;'>
 				<div class = 'side-tab-b' >Последний ответ: <b style = 'background-color: #333; color: #e8e8e8;' id="answer"></b></div>
 			</div>
 			<!-- <div class = 'side-tab side-tab-small'>
@@ -45,12 +45,12 @@
 		</div>
 		<div id = 'wrapper-right'>
 			<div id = 'bot-log'>
-				<div class = 'side-tab' id = 'side-tab-log'>
+				<div class = 'side-tab' onclick = 'chat_switch()' id = 'side-tab-log'>
 					<div class = 'side-tab-b' >Чат</div>
 				</div>
 				<div id = 'bot-log-hide'>
 					<div id="help_div" style = "margin-top: 3%; margin-bottom: 3%;">
-						<b>Ваши сообщения увидят вce пользователи сайта</b>
+						<b>Вашу переписку увидят вce пользователи сайта</b>
 					</div>
 					<form method="get" id="form" action="veronika.php">
 						<input type="text" name="name" style='display: none;' value="<?php echo $name; ?>">

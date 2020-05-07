@@ -1,5 +1,5 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');*/
-html, body { height: 100%; min-height: 100%; min-width: 100%; width: 100%; margin: 0; }
+html, body { height: 100%; min-height: 100%; min-width: 100%; width: 100%; margin: 0; overflow-y: scroll;}
 #wrapper{
 	--width: 50%;
 	width: var(--width);
@@ -86,52 +86,94 @@ html, body { height: 100%; min-height: 100%; min-width: 100%; width: 100%; margi
 	#bot-log-hide form{
 		height: 100%;
 	}
+	#chat_text{
+		height: 60%;
+		width: calc(100% - 20px);
+		margin: 10px;
+		overflow-y: scroll;
+	}
 
-#main{
-	position: absolute;
-	left:25%;
-	top:50%;
-	background-color: #d1d1d1;
-	height: 30%;
-	width: 20%;
-	border-radius:20px;
+@media screen and (min-width: 0px) and (max-width: 300px){
+	#wrapper{
+		--width: 90%;
+		margin-left: 5%;
+	}
+	#wrapper-left{
+		width: 100%;
+		height: auto;
+	}
+	#wrapper-right{
+		margin-top: 3%;
+		width: 100%;
+	}
+	.side-tab{
+		line-height: 100%;
+	}
+	.side-tab:hover{
+		line-height: 300%;
+	}
+	.side-hide{
+		display: none;
+	}
 
 }
-#chat{
-	position: absolute;
-	left:55%;
-	top:50%;
-	background-color: #d1d1d1;
-	height: 50%;
-	width: 20%;
-	border-radius:20px;
-	text-align: center;
-	font-family: 'Comfortaa', cursive;
-	font-size: 25px;	
+@media screen and (min-width: 300px) and (max-width: 500px){
+	#wrapper{
+		--width: 80%;
+		margin-left: 10%;
+	}
+	#wrapper-left{
+		width: 100%;
+		height: auto;
+	}
+	#wrapper-right{
+		margin-top: 3%;
+		width: 100%;
+	}
+	.side-tab{
+		line-height: 200%;
+	}
+	.side-tab:hover{
+		line-height: 300%;
+	}
+	.side-hide{
+		display: none;
+	}
+
 }
-#chat_text{
-	height: 60%;
-	width: calc(100% - 20px);
-	margin: 10px;
-	overflow-y: scroll;
+@media screen and (min-width: 500px) and (max-width: 800px){
+	#wrapper{
+		--width: 70%;
+		margin-left: 15%;
+	}
+	#wrapper-left{
+		width: 100%;
+		height: auto;
+	}
+	#wrapper-right{
+		margin-top: 3%;
+		width: 100%;
+	}
+	.side-tab{
+		line-height: 200%;
+	}
+	.side-tab:hover{
+		line-height: 300%;
+	}
+	.side-hide{
+		display: none;
+	}
+
 }
-/*#form{
-	width: 60%;
-	position: absolute;
-	left: 20%;
-	top: 20%;
-}*/
-/*#answer{
-	margin-bottom: 7px;
-	font-family: 'Comfortaa', cursive;
-}*/
-/*#input{
-	width: 100%;
-	margin-bottom: 7px;
-	font-family: 'Comfortaa', cursive;
+@media screen and (min-width: 800px) and (max-width: 900px){
+	#wrapper{
+		--width: 80%;
+		margin-left: 10%;
+	}
 }
-#enter{
-	width: 100%;
-	margin-bottom: 7px;
-	font-family: 'Comfortaa', cursive;
-}*/
+@media screen and (min-width: 900px) and (max-width: 1200px){
+	#wrapper{
+		--width: 70%;
+		margin-left: 15%;
+	}
+}
