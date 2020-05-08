@@ -61,7 +61,7 @@
 			$index = array_search($min, $deltas);
 			unset($deltas[$index]);
 
-			if($min < 70){
+			if($min < 50){
 				array_push($good_deltas, $index);
 			}
 
@@ -81,6 +81,9 @@
 		return $answer;
 	}
 	
-	print_r(search_sound(34,234,23,234,230));	
+	function go(){
+
+		print_r(search_sound(34,234,23,234,230));	
+	}
 
 ?>

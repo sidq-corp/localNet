@@ -1,3 +1,4 @@
+speed = 1000;
 (function() {
     var lastTime = 0;
     var vendors = ['ms', 'moz', 'webkit', 'o'];
@@ -80,7 +81,7 @@ var Game = new function() {
   this.loop = function() { 
     var curTime = new Date().getTime();
     requestAnimationFrame(Game.loop);
-    var dt = (curTime - lastTime)/1000;
+    var dt = (curTime - lastTime) / speed;
     if(dt > maxTime) { dt = maxTime; }
 
     for(var i=0,len = boards.length;i<len;i++) {
