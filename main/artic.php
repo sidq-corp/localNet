@@ -32,8 +32,19 @@
 				fclose($f);
 				list($title, $subtitle, $imgs, $text) = explode("\n", $all);
 				$imgs = explode(" ", $imgs);
+				// $imgs = str_replace("\n", '', $imgs);
+				// echo "<script>load_images('$imgs')</script>";
 				echo "<h1>$title</h1><h3>$subtitle</h3><p>$text</p>";
-				// print_r($imgs);
+				// echo "<img>$title</h1><h3>$subtitle</h3><p>$text</p>";
+				foreach ($imgs as &$value) {
+					// echo "<h1>$value</h1>";
+				    // echo "<img src='contimg/$value'>";
+				    echo "<div id = 'wrapper-img' style='background-image: url(contimg/$value)'><br></div>";
+				    // $img = ';
+				    // $img = $img
+				    // echo "<h1>$img</h1>";
+				    // echo "<div class = 'artic-img' style = 'background-image: url(\"contimg/$value\")'>dsdsdsds</div>";
+				}
 			} 
 		?>
 		<!-- <h3>
