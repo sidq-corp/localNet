@@ -49,7 +49,7 @@
 			<div class = 'article-content'>
 				<div class = 'article-picker article-shadow'>
 					<h1>Alien invasion</h1>
-					<p class = 'article-sub-text'>Конспирология...</p>
+					<p class = 'article-sub-text'>Бета!</p>
 					<br>
 					<br>
 				</div>

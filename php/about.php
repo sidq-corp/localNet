@@ -45,7 +45,7 @@
 		</p>
 		<h1>Контакты:</h1>
 		<p>
-			Telegram: <a  href = 'https://t.me/restylesidq'>@restylesidq</a> или <a  href = 'https://t.me/depozzyx'>@depozzyx</a><br>
+			Telegram: <a  href = 'https://t.me/sidqdev'>@restylesidq</a> или <a  href = 'https://t.me/depozzyx'>@depozzyx</a><br>
 			Наш телеграм канал: <a  href = 'https://t.me/deposidqdev'>../dev</a><br>
 			Нет телеграма – скачай!
 		</p>
