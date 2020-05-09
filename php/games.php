@@ -49,7 +49,18 @@
 			<div class = 'article-content'>
 				<div class = 'article-picker article-shadow'>
 					<h1>Alien invasion</h1>
-					<p class = 'article-sub-text'>Конспирология...</p>
+					<p class = 'article-sub-text'><b>Бета</b> Игра про самолётик</p>
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+		<h1>Музыка</h1>
+		<div class = 'article article-double' onclick="link(2)" style = 'height: 20%; background-image: url(../css/images/art7.jpg);'>
+			<div class = 'article-content'>
+				<div class = 'article-picker article-shadow'>
+					<h1>Подбор музыки</h1>
+					<p class = 'article-sub-text'><b>Бета</b></p>
 					<br>
 					<br>
 				</div>

@@ -81,6 +81,14 @@
 		margin-left: 3%;
 		font-family: 'Proxima Semibold';
 	}
+	.article-content p b{
+		background-color: #333;
+		padding: 3px;
+		padding-left: 5px;
+		padding-right: 5px;
+
+		color: #fff;
+	}
 
 #wrapper{
 	height: 100%;
