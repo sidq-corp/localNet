@@ -58,21 +58,32 @@
 
 			array_push($deltas, $max_delta);
 		}
+		// $save_deltas = $deltas;
+		$k = 0; 
+		// while(count($good_deltas) < 4){
+		// 	echo "$k\n";
+			// $deltas = $save_deltas;
+			// echo "$all_delta\n";
+			// $good_deltas = array();
 
-		$all_delta = (100 / get_len_audio_dir()) + 30;
-		
-		while(count($deltas) != 0){
+			while(count($deltas) != 0 and $k < 40){
 
-			$min = min($deltas);
-			$index = array_search($min, $deltas);
-			unset($deltas[$index]);
+				$all_delta = round((100 / get_len_audio_dir()) + $k);
 
-			if($min < $all_delta){
-				array_push($good_deltas, $index);
+				$min = min($deltas);
+				$index = array_search($min, $deltas);
+				// unset($deltas[$index]);
+
+				if($min < $all_delta){
+					array_push($good_deltas, $index);
+					unset($deltas[$index]);
+				}else{
+					$k += 5;
+				}
+
 			}
-
-		}
-		
+		// 	$k += 5;
+		// }
 		for ($i = 0; $i < count($good_deltas); $i++) { 
 			$favorite_sound = json_decode($sounds[$good_deltas[$i]], true);
 
@@ -87,8 +98,6 @@
 		return $answer;
 	}
 	
-	function go(){
-		print_r(search_sound(34,234,23,234,230));	
-	}
-
+		// print_r(search_sound(34,50,23,50,30));	
+	
 ?>
