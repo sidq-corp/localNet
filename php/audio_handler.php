@@ -61,7 +61,7 @@
 			$index = array_search($min, $deltas);
 			unset($deltas[$index]);
 
-			if($min < 50){
+			if($min < 40){
 				array_push($good_deltas, $index);
 			}
 

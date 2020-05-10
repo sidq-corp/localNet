@@ -26,7 +26,7 @@
 			if(!file_exists($uploadfile)){
 				if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
 			    	echo "Файл корректен и был успешно загружен.\n";
-			    	add_sound($uploadfile, $_POST['name'], $_POST['singer'], $_POST['rhythm'], $_POST['melody'], $_POST['bass'], $_POST['adequacy'], $_POST['ringing']);
+			    	add_sound(basename($_FILES['userfile']['name']), $_POST['name'], $_POST['singer'], $_POST['rhythm'], $_POST['melody'], $_POST['bass'], $_POST['adequacy'], $_POST['ringing']);
 			    // break;
 				} else {
 					echo "Ошибка";
