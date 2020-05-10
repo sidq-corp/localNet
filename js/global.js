@@ -2,7 +2,7 @@ function global_init(){
 	header_insert()
 	gui_insert()
 	center_button_text()
-	// player_update()
+	player_update()
 	show_hidden_on_start()
 	document.getElementById('loading-wrapper').style.visibility = 'invisible'
 	document.getElementById('loading-wrapper').style.opacity = '0'
@@ -119,10 +119,17 @@ function player_add_audio(file,name,author){
 let audio_playing = 0
 function player_update(){
 	file = getCookie('current_audio_path')
+	pathhtml = location.pathname.split('?')
+	pre_audio = ''
+	if ((pathhtml[0] != '/main/main.php') || (pathhtml[0] != '/veronika/veronika.php')){
+		pre_audio = '../php/'
+	}
+
+	
 	document.getElementById('player').innerHTML = `
 		<h1>${getCookie('current_audio_name')} <b>by ${getCookie('current_audio_author')}</b></h1>
 		<div id = 'player-wrap'>
-			<audio id="player-object" src="audio/${getCookie('current_audio_path')}"></audio>
+			<audio id="player-object" src="${pre_audio}audio/${getCookie('current_audio_path')}"></audio>
 			<a onclick='player_switch_audio()' id='player-button-object'>Стоп</a>
 		</div>
 	`
