@@ -2,10 +2,12 @@ function global_init(){
 	header_insert()
 	gui_insert()
 	center_button_text()
+	player_update()
 	show_hidden_on_start()
 	document.getElementById('loading-wrapper').style.visibility = 'invisible'
 	document.getElementById('loading-wrapper').style.opacity = '0'
 	setTimeout("document.getElementById('loading-wrapper').style.display = 'none'",500) 
+	// alert(getCookie('lox'))
 }
 function show_hidden_on_start(){
 	// class = 'hidden-on-start'
@@ -102,6 +104,86 @@ function gui_account_open(){
 function gui_account_close(){
 	document.getElementById('gui-bg').style.display = "none"
 	document.getElementById('gui-account').style.display = "none"
+}
+
+// Player
+function player_add_audio(file,name,author){
+	document.cookie = "current_audio_path="+file+";path=/;"
+	document.cookie = "current_audio_name="+name+";path=/;"
+	document.cookie = "current_audio_author="+author+";path=/;"
+	document.cookie = "current_audio_time=0;path=/;"
+	document.cookie = "current_audio_pause=0;path=/;"
+	// alert(document.cookie)
+	player_update()
+}	
+let audio_playing = 0
+function player_update(){
+	file = getCookie('current_audio_path')
+	document.getElementById('player').innerHTML = `
+		<h1>${getCookie('current_audio_name')} <b>by ${getCookie('current_audio_author')}</b></h1>
+		<div id = 'player-wrap'>
+			<audio id="player-object" src="audio/${getCookie('current_audio_path')}"></audio>
+			<a onclick='player_switch_audio()' id='player-button-object'>Стоп</a>
+		</div>
+	`
+	if (getCookie('current_audio_pause') == 0){
+		audio_playing = 0
+		document.getElementById('player-object').play()
+		document.getElementById('player-button-object').innerHTML = 'Пауза'
+		
+	}else if (getCookie('current_audio_pause') == 1){
+		audio_playing = 1
+		document.getElementById('player-object').pause()
+		document.getElementById('player-button-object').innerHTML = 'Играть'
+	}
+
+	// if (getCookie('current_audio_time') != 'undefined'){
+		// alert(getCookie('current_audio_time'))
+	time = getCookie('current_audio_time')
+	// alert(time)
+	alert(time)
+	document.getElementById('player-object').currentTime = time;
+	alert(document.getElementById('player-object').currentTime)
+	// }
+	player_loop()
+}
+
+function player_loop(){
+	setTimeout(function() { 
+		display_error(document.getElementById('player-object').currentTime)
+		// document.cookie = "current_audio_time="+document.getElementById('player-object').currentTime+";path=/;"
+		// display_error(getCookie('current_audio_time'))
+		if (audio_playing == 0){
+			player_loop()
+			// display_error(getCookie('current_audio_time'))
+		}
+	}, 1000)
+}
+
+function player_switch_audio(){
+	if (audio_playing == 0){
+		audio_playing = 1
+		document.getElementById('player-object').pause()
+		document.getElementById('player-button-object').innerHTML = 'Играть'
+		document.cookie = "current_audio_pause=1;path=/;"
+		
+	}else if (audio_playing == 1){
+		audio_playing = 0
+		time = getCookie('current_audio_time')
+		document.getElementById('player-object').startTime = time;
+		document.getElementById('player-object').play()
+		document.getElementById('player-object').startTime = time;
+		document.getElementById('player-button-object').innerHTML = 'Пауза'
+		document.cookie = "current_audio_pause=0;path=/;"
+		player_loop()	
+	}
+}
+
+function getCookie(name) {
+  let matches = document.cookie.match(new RegExp(
+    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+  ));
+  return matches ? decodeURIComponent(matches[1]) : undefined;
 }
 
 
@@ -215,4 +297,11 @@ header =`<div id = "header-placeholder">
 					<div class = "header-picker">Аккаунт</div>
 				</div>
 			<!-- </div> -->
-		</div>`
+		</div>
+		<div id = 'player'>
+			<h1>Жопа коня <b>by sidq</b></h1>
+			<div id = 'player-wrap'>
+				<a onclick='player_stop_audio()'>Стоп</a>
+			</div>
+		</div>
+	</div>	`

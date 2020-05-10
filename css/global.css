@@ -179,6 +179,59 @@ body{
 .hidden-on-start{
 	display: none;
 }
+#player{
+	position: absolute;
+	top: 80%;
+	height: 15%;
+	left: 80%;
+	width: 15%;
+	padding: 10px;
+	padding-top: 0px;
+
+	background-color: #f3f3f3;
+	color: #333;
+}
+	#player h1{
+		font-family: 'Proxima BlackIt';
+		font-size: 120%;
+		line-height: 100%;
+		padding-top: 15px;
+		padding-left: 2px;
+	}
+	#player h1 b{
+		background-color: #333;
+		padding: 3px;
+		font-size: 80%;
+		padding-left: 5px;
+		padding-right: 5px;
+
+		color: #fff;
+	}
+	#player-wrap{
+		padding-top: 3%;
+
+		font-family: 'Proxima Semibold';
+		font-size: 130%;
+		text-align: center;
+	}
+	#player a{
+		color: #555;
+
+		background-color: #fff;
+		transition: all 0.5s ease;
+		padding-left: 3px;
+		padding-right: 3px;
+		/*text-decoration: underline;*/
+	}
+	#player a:hover{
+		color: #fff;
+		cursor: pointer;
+		background-color: #333;
+	}
+	#player p{
+		font-family: 'Proxima Semibold';
+		font-size: 100%;
+	}
 /* GUI */
 .gui{
 	--width: 20%;

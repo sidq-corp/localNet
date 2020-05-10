@@ -30,6 +30,12 @@
 	<div id = 'header'>
 		
 	</div>
+	<!-- <div id = 'player'>
+		<h1>Жопа коня <b>by sidq</b></h1>
+		<div id = 'player-wrap'>
+			<a>Стоп</a>
+		</div>
+	</div> -->	
 
 	<div id = 'wrapper'>
 		<h1>Add</h1>
