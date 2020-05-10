@@ -60,6 +60,7 @@
 		}
 
 		$all_delta = (100 / get_len_audio_dir()) + 30;
+		
 		while(count($deltas) != 0){
 
 			$min = min($deltas);
