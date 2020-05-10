@@ -1,4 +1,8 @@
 <?php 
+	function get_len_audio_dir(){
+		$dir = scandir('audio');
+		return count($dir);
+	}
 	function writer($text){
 		$f = fopen("audio/info.json", "a");
 		fwrite($f, "$text\n");
@@ -55,13 +59,14 @@
 			array_push($deltas, $max_delta);
 		}
 
+		$all_delta = (100 / get_len_audio_dir()) + 30;
 		while(count($deltas) != 0){
 
 			$min = min($deltas);
 			$index = array_search($min, $deltas);
 			unset($deltas[$index]);
 
-			if($min < 40){
+			if($min < $all_delta){
 				array_push($good_deltas, $index);
 			}
 
