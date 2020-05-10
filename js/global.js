@@ -141,9 +141,9 @@ function player_update(){
 		// alert(getCookie('current_audio_time'))
 	time = getCookie('current_audio_time')
 	// alert(time)
-	alert(time)
+	// alert(time)
 	document.getElementById('player-object').currentTime = time;
-	alert(document.getElementById('player-object').currentTime)
+	// alert(document.getElementById('player-object').currentTime)
 	// }
 	player_loop()
 }
