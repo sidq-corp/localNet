@@ -2,7 +2,7 @@ function global_init(){
 	header_insert()
 	gui_insert()
 	center_button_text()
-	player_update()
+	// player_update()
 	show_hidden_on_start()
 	document.getElementById('loading-wrapper').style.visibility = 'invisible'
 	document.getElementById('loading-wrapper').style.opacity = '0'
