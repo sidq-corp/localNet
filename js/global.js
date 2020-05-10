@@ -119,6 +119,14 @@ function player_add_audio(file,name,author){
 let audio_playing = 0
 function player_update(){
 	file = getCookie('current_audio_path')
+	if (file == undefined){
+		document.cookie = "current_audio_path=none.mp3;path=/;"
+		document.cookie = "current_audio_name=Нет песни;path=/;"
+		document.cookie = "current_audio_author=-;path=/;"
+		document.cookie = "current_audio_time=0;path=/;"
+		document.cookie = "current_audio_pause=0;path=/;"
+		file = getCookie('current_audio_path')
+	}
 	pathhtml = location.pathname.split('?')
 	pre_audio = ''
 	if ((pathhtml[0] != '/main/main.php') || (pathhtml[0] != '/veronika/veronika.php')){

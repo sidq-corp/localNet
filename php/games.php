@@ -14,7 +14,6 @@
 	<link rel="stylesheet" href="../css/global.css">
 
 	<script src="../js/games.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="../js/global.js"></script>
 	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
