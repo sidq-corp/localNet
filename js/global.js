@@ -2,7 +2,7 @@ function global_init(){
 	header_insert()
 	gui_insert()
 	center_button_text()
-	player_update()
+	// player_update()
 	show_hidden_on_start()
 	document.getElementById('loading-wrapper').style.visibility = 'invisible'
 	document.getElementById('loading-wrapper').style.opacity = '0'
@@ -116,10 +116,12 @@ function player_add_audio(file,name,author){
 	// alert(document.cookie)
 	player_update()
 }	
+let js_audio_obj = -1
 let audio_playing = 0
 function player_update(){
 	file = getCookie('current_audio_path')
-	if (file == undefined){
+	// || (getCookie('current_audio_name') == undefined) || (getCookie('current_audio_author') == undefined))
+	if (file == undefined) {
 		document.cookie = "current_audio_path=none.mp3;path=/;"
 		document.cookie = "current_audio_name=Нет песни;path=/;"
 		document.cookie = "current_audio_author=-;path=/;"
@@ -137,18 +139,23 @@ function player_update(){
 	document.getElementById('player').innerHTML = `
 		<h1>${getCookie('current_audio_name')} <b>by ${getCookie('current_audio_author')}</b></h1>
 		<div id = 'player-wrap'>
-			<audio id="player-object" src="${pre_audio}audio/${getCookie('current_audio_path')}"></audio>
+			<!-- <audio id="player-object" src="${pre_audio}audio/${getCookie('current_audio_path')}"></audio> -->
 			<a onclick='player_switch_audio()' id='player-button-object'>Стоп</a>
 		</div>
 	`
 	if (getCookie('current_audio_pause') == 0){
 		audio_playing = 0
-		document.getElementById('player-object').play()
+		js_audio_obj = new Audio(`${pre_audio}audio/${getCookie('current_audio_path')}`);
+		js_audio_obj.oncanplay = function() {
+/*			js_audio_obj.play();
+			js_audio_obj.pause();*/
+			js_audio_obj.currentTime = getCookie('current_audio_time');
+			// js_audio_obj.play();
+		}
 		document.getElementById('player-button-object').innerHTML = 'Пауза'
 		
 	}else if (getCookie('current_audio_pause') == 1){
 		audio_playing = 1
-		document.getElementById('player-object').pause()
 		document.getElementById('player-button-object').innerHTML = 'Играть'
 	}
 
@@ -157,7 +164,7 @@ function player_update(){
 	time = getCookie('current_audio_time')
 	// alert(time)
 	// alert(time)
-	document.getElementById('player-object').currentTime = time;
+	js_audio_obj.currentTime = time;
 	// alert(document.getElementById('player-object').currentTime)
 	// }
 	player_loop()
@@ -165,12 +172,15 @@ function player_update(){
 
 function player_loop(){
 	setTimeout(function() { 
-		display_error(document.getElementById('player-object').currentTime)
-		// document.cookie = "current_audio_time="+document.getElementById('player-object').currentTime+";path=/;"
+		if (js_audio_obj.currentTime != ''){
+			document.cookie = "current_audio_time="+js_audio_obj.currentTime+";path=/;"
+		}
+		// 
 		// display_error(getCookie('current_audio_time'))
 		if (audio_playing == 0){
 			player_loop()
-			// display_error(getCookie('current_audio_time'))
+			display_error(getCookie('current_audio_time'))
+			// document.getElementById('player-object').currentTime = getCookie('current_audio_time')
 		}
 	}, 1000)
 }
@@ -178,16 +188,44 @@ function player_loop(){
 function player_switch_audio(){
 	if (audio_playing == 0){
 		audio_playing = 1
-		document.getElementById('player-object').pause()
+		js_audio_obj.pause()
 		document.getElementById('player-button-object').innerHTML = 'Играть'
 		document.cookie = "current_audio_pause=1;path=/;"
 		
 	}else if (audio_playing == 1){
 		audio_playing = 0
-		time = getCookie('current_audio_time')
-		document.getElementById('player-object').startTime = time;
-		document.getElementById('player-object').play()
-		document.getElementById('player-object').startTime = time;
+
+		pathhtml = location.pathname.split('?')
+		pre_audio = ''
+		if ((pathhtml[0] != '/main/main.php') || (pathhtml[0] != '/veronika/veronika.php')){
+			pre_audio = '../php/'
+		}
+
+		js_audio_obj = new Audio(`${pre_audio}audio/${getCookie('current_audio_path')}`);
+		js_audio_obj.ondurationchange = function() {
+			js_audio_obj.play();
+			js_audio_obj.pause();
+			if (getCookie('current_audio_time') == undefined){
+				document.cookie = "current_audio_time=0;path=/;"
+			}
+			js_audio_obj.load();
+			js_audio_obj.currentTime = getCookie('current_audio_time');
+			js_audio_obj.play();
+			js_audio_obj.currentTime = getCookie('current_audio_time');
+		}	
+
+		// playerobj = document.getElementById('player-object')
+		// tme = getCookie('current_audio_time')
+		// console.log('tme = '+tme)
+		// document.getElementById('player-object').currentTime = tme;
+		// console.log('player-object.currentTime = '+document.getElementById('player-object').currentTime)
+		// playerobj.play()
+		
+		// playerobj.oncanplay = function() {
+		   
+		// };
+		
+		// alert(document.getElementById('player-object').currentTime)
 		document.getElementById('player-button-object').innerHTML = 'Пауза'
 		document.cookie = "current_audio_pause=0;path=/;"
 		player_loop()	
@@ -313,10 +351,10 @@ header =`<div id = "header-placeholder">
 				</div>
 			<!-- </div> -->
 		</div>
-		<div id = 'player'>
+		<!-- <div id = 'player'>
 			<h1>Жопа коня <b>by sidq</b></h1>
 			<div id = 'player-wrap'>
 				<a onclick='player_stop_audio()'>Стоп</a>
 			</div>
-		</div>
+		</div> -->
 	</div>	`
