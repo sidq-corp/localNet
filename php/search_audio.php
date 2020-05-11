@@ -1,8 +1,27 @@
-<?php $login = $_COOKIE['login']; 
+<?php   
+		if(!isset($_COOKIE['login'])){
+			header ('Location: ../index.php');  // перенаправление на нужную страницу
+	   		exit();
+		}else{
+			$login = $_COOKIE['login']; 
+		}
+
+		if(!file_exists("../php/account/$login.id")){
+			header ('Location: ../index.php');  // перенаправление на нужную страницу
+	   		exit();
+		}
+
+		// $login = $_COOKIE['login']; 
 		$f = fopen("../php/account/$login.id", "r");
 		$all = fread($f,  filesize("../php/account/$login.id"));
 		list($id, $login, $name, $pass, $money, $lip, $luser_agent) = explode("\n", $all);
-		$user_agent = $_SERVER['HTTP_USER_AGENT'];
+		$ip = $_SERVER['REMOTE_ADDR'];
+			$user_agent = $_SERVER['HTTP_USER_AGENT'];
+			if($ip != $lip or $user_agent != $luser_agent){
+				header ('Location: ../index.php');
+	   			exit();
+			}
+
 		?>
 <!DOCTYPE html>
 <html>
