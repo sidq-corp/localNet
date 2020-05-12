@@ -43,8 +43,54 @@ function reader_file(url){
 
 	request.onload = function () {
 	    // console.log(request.responseText);
+	    reqsplt = request.responseText.split('\n')
+	    me = getCookie('login');
+	    inner = ''
+	    /*for (var i = 0; i < reqsplt.length-1; i++) {
+	    	ind = reqsplt[i].search('\\(')
+	    	ind2 = reqsplt[i].search('\\)')
+	    	reqsplt[i] = reqsplt[i].replace(reqsplt[i].substring(ind, ind2+1),'').replace('<br>','')
+	    	// reqsplt[i] = reqsplt[i].slice(ind, ind2)
 
-	    document.getElementById("local_answer").innerHTML = request.responseText;
+	    	tempme = reqsplt[i].substring(0, ind)
+	    	console.log('me: '+me+' tempme: '+tempme)
+	    	if (tempme == me){
+	    		reqsplt[i] ='<div class="chat-my-msg">'+reqsplt[i]+'</div><br>'
+	    	}else{
+	    		reqsplt[i] ='<div class="chat-companion-msg">'+reqsplt[i]+'</div><br>'
+	    	}
+	    	inner = inner + reqsplt[i]
+
+	    }*/
+	    lastme = ''
+	    for (var i = 0; i < reqsplt.length-1; i++) {
+	    	ind = reqsplt[i].search('\\(')
+	    	ind2 = reqsplt[i].search('\\)')
+	    	reqsplt[i] = reqsplt[i].replace(reqsplt[i].substring(ind, ind2+1),'').replace('<br>','')
+	    	// reqsplt[i] = reqsplt[i].slice(ind, ind2)
+
+	    	tempme = reqsplt[i].substring(0, ind)
+	    	m = reqsplt[i].split(': ')
+	    	if (tempme == lastme){
+	    		if (tempme == me){
+	    			inner = inner + '<div class="chat-my-msg">'+m[1]+'</div><br>'
+	    		}else{
+		    		inner = inner + '<div class="chat-companion-msg">'+m[1]+'</div><br>'
+		    	}
+	    	}else{
+	    		lastme = tempme
+	    		if (tempme == me){
+	    			inner = inner + '<div class="chat-my-header">'+m[0]+'</div><br>'
+	    			inner = inner + '<div class="chat-my-msg">'+m[1]+'</div><br>'
+	    		}else{
+		    		inner = inner + '<div class="chat-companion-header">'+m[0]+'</div><br>'
+	    			inner = inner + '<div class="chat-companion-msg">'+m[1]+'</div><br>'
+		    	}
+	    		
+	    	}
+
+	    }
+	    document.getElementById("local_answer").innerHTML = inner;
 
 
 	};
@@ -77,7 +123,7 @@ function start_c(){
 	document.getElementById('lchat-end').style.display = 'block';
 	document.getElementById('local_chat').style.height = '70%'
 	cepochka = true;
-	setTimeout(check_c, 1500);
+	setTimeout(check_c, 1000);
 	update();
 }
 function clean_c(){
@@ -98,5 +144,8 @@ function update(){
 		get_file("../php/messlog/localchat/" + me + "-" + to + '.log');
 		get_file("../php/messlog/localchat/" + to + "-" + me + '.log');
 		setTimeout(update, 1500);
+		if (cepochka == false){
+			document.getElementById('local_answer').innerHTML = 'Загрузка...';
+		}
 	}
 }

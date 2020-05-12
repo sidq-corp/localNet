@@ -1,7 +1,4 @@
 
- /*DEPENDENCIES*/
-
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
 #wrapper-content{
 	height: 100%;
 	margin: 0px;
@@ -83,14 +80,34 @@
 		padding: 10px;
 	}*/
 
+
 #local_chat{
 	margin-top: 3%;
 	width: calc(100% - 0px);
 	height: 20%;
 	background-color: #fff;
 	background-color: #f8f8f8;
+	font-family: 'Proxima Semibold';
 	/*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
+	.chat-my-msg{
+		float: left;
+		border-left: 3px #e401cf solid;
+		padding-left: 3px;
+	}
+	.chat-my-header{
+		float: left;
+		color: #e401cf;
+	}
+	.chat-companion-msg{
+		float: right;
+		border-right: 3px #333 solid;
+		padding-right: 3px;
+	}
+	.chat-companion-header{
+		float: right;
+		color: #333;
+	}
 
 /* ARTICLE */
 .article-one{

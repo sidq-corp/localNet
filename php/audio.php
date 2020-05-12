@@ -57,50 +57,78 @@
 	</div> -->	
 
 	<div id = 'wrapper'>
-		<h1>Add</h1>
-		<form enctype="multipart/form-data" action="audio.php" method="POST">
-			  Ритм: <input name="rhythm" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
-			  Мелодия: <input name="melody" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
-			  Басс: <input name="bass" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
-			  Адекватность: <input name="adequacy" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
-			  Звучность: <input name="ringing" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
-			  Исполнитель: <input type="text" name="singer"><br>
-			  Название: <input type="text" name="name"><br>
-	   		  Отправить этот файл: <input name="userfile" type="file"><br>
+		<div id = 'wrapper-left'>
+			<h1>Поиск</h1>
+			<p>Найдите музыку по критериям:</p>
+			<form action="search_audio.php" method="GET">
+				<div class='audio-rate'>
+					Ритм: <input name="rhythm" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					Мелодия: <input name="melody" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					Басс: <input name="bass" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					Адекватность: <input name="adequacy" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					Звучность: <input name="ringing" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+				</div>
+				<button type="submit" name="submit" class = 'gui-but gui-but-small'>Найти</button>
+			</form>
+		</div>
+		<div id = 'wrapper-right'>
+			<h1>Добавить свою музыку</h1>
+			<form enctype="multipart/form-data" action="audio.php" method="POST">
+				<p>Ввести основные данные:</p>
+				<input class='wrapper-full-inp' type="text" name="singer" placeholder="Автор"><br>
+				<input class='wrapper-full-inp' type="text" name="name" placeholder="Название"><br>
+		   		<input class='wrapper-full-inp' name="userfile" type="file" accept=".mp3, .ogg"><br>
+		   		<p>Оценить трек:</p>
+		   		<div class='audio-rate'>
+					Ритм: <input name="rhythm" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					Мелодия: <input name="melody" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					Басс: <input name="bass" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					Адекватность: <input name="adequacy" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					Звучность: <input name="ringing" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+				</div>
+				<!-- <div class='audio-form-left'>
+					Ритм:<br>
+					Мелодия:<br>
+					Басс:<br> 		
+					Адекватность:<br> 
+					Звучность:<br> 	
+				</div>
+				  
+				<div class='audio-form-right'>
+					<input name="rhythm" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					<input name="melody" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					<input name="bass" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					<input name="adequacy" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+					<input name="ringing" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>  	
+				</div>  -->
+				  
 
-			  <input type="submit" name="submit">
-		</form>
-		<?php
-		include("audio_handler.php");
-		$uploaddir =  getcwd() . "/audio/";
-		$uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
-		if(explode('/', $_FILES['userfile']['type'])[0] == 'audio'){
-			// while(1){
-				if(!file_exists($uploadfile)){
-					if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
-				    	echo "Файл корректен и был успешно загружен.\n";
-				    	add_sound(basename($_FILES['userfile']['name']), $_POST['name'], $_POST['singer'], $_POST['rhythm'], $_POST['melody'], $_POST['bass'], $_POST['adequacy'], $_POST['ringing']);
-				    // break;
+				<button type="submit" name="submit" class = 'gui-but gui-but-small'>Добавить</button>
+			</form>
+			<?php
+			include("audio_handler.php");
+			$uploaddir =  getcwd() . "/audio/";
+			$uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
+			if(explode('/', $_FILES['userfile']['type'])[0] == 'audio'){
+				// while(1){
+					if(!file_exists($uploadfile)){
+						if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
+					    	echo "Файл корректен и был успешно загружен.\n";
+					    	add_sound(basename($_FILES['userfile']['name']), $_POST['name'], $_POST['singer'], $_POST['rhythm'], $_POST['melody'], $_POST['bass'], $_POST['adequacy'], $_POST['ringing']);
+					    // break;
+						} else {
+							echo "Ошибка";
+						}
 					} else {
-						echo "Ошибка";
+						    echo "Файл сущевствует";
 					}
-				} else {
-					    echo "Файл сущевствует";
-				}
-			// }
-			// print_r($_FILES);
+				// }
+				// print_r($_FILES);
 
-		}
-		?>
-		<h1>Search</h1>
-		<form action="search_audio.php" method="GET">
-			  Ритм: <input name="rhythm" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
-			  Мелодия: <input name="melody" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
-			  Басс: <input name="bass" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
-			  Адекватность: <input name="adequacy" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
-			  Звучность: <input name="ringing" type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
-			  <input type="submit" name="submit">
-		</form>
+			}
+			?>
+		</div>
+
 	</div>
 	<div id = 'gui-container' class = 'hidden-on-start'>
 			<b>Ваш никнейм: <i><?php echo $name; ?></i></b><br>

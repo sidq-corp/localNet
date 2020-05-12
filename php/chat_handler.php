@@ -31,7 +31,7 @@
 				fclose($f);
 
 			    // Переводим массив в JSON
-			    echo json_encode($name);
+			    echo json_encode('$name');
 		    }
 
 		}else{
