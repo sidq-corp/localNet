@@ -46,22 +46,6 @@ function reader_file(url){
 	    reqsplt = request.responseText.split('\n')
 	    me = getCookie('login');
 	    inner = ''
-	    /*for (var i = 0; i < reqsplt.length-1; i++) {
-	    	ind = reqsplt[i].search('\\(')
-	    	ind2 = reqsplt[i].search('\\)')
-	    	reqsplt[i] = reqsplt[i].replace(reqsplt[i].substring(ind, ind2+1),'').replace('<br>','')
-	    	// reqsplt[i] = reqsplt[i].slice(ind, ind2)
-
-	    	tempme = reqsplt[i].substring(0, ind)
-	    	console.log('me: '+me+' tempme: '+tempme)
-	    	if (tempme == me){
-	    		reqsplt[i] ='<div class="chat-my-msg">'+reqsplt[i]+'</div><br>'
-	    	}else{
-	    		reqsplt[i] ='<div class="chat-companion-msg">'+reqsplt[i]+'</div><br>'
-	    	}
-	    	inner = inner + reqsplt[i]
-
-	    }*/
 	    lastme = ''
 	    for (var i = 0; i < reqsplt.length-1; i++) {
 	    	ind = reqsplt[i].search('\\(')

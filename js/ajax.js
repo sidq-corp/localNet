@@ -57,9 +57,41 @@ function reader(){
 
     request.open('GET', '/php/messlog/globalchat.log', true);
 
-    request.onload = function () {
+    /*request.onload = function () {
         console.log(request.responseText);
                 document.getElementById('result_form').innerHTML = request.responseText;
+    };*/
+
+    request.onload = function () {
+        reqsplt = request.responseText.split('<br>')
+        me = getCookie('name');
+        inner = ''
+        lastme = ''
+        for (var i = 0; i < reqsplt.length-1; i++) {
+            m = reqsplt[i].split(': ')
+            tempme = m[0]
+            if (tempme == lastme){
+                if (tempme == me){
+                    inner = inner + '<div class="chat-my-msg">'+m[1]+'</div><br>'
+                }else{
+                    inner = inner + '<div class="chat-companion-msg">'+m[1]+'</div><br>'
+                }
+                console.log(inner)
+            }else{
+                lastme = tempme
+                if (tempme == me){
+                    inner = inner + '<div class="chat-my-header">'+m[0]+'</div><br>'
+                    inner = inner + '<div class="chat-my-msg">'+m[1]+'</div><br>'
+                }else{
+                    inner = inner + '<div class="chat-companion-header">'+m[0]+'</div><br>'
+                    inner = inner + '<div class="chat-companion-msg">'+m[1]+'</div><br>'
+                }
+                
+            }
+
+        }
+        console.log(inner)
+        document.getElementById('result_form').innerHTML = inner;   
     };
 
     request.send(null);

@@ -23,6 +23,7 @@
 		background-color: #fff; 
 	}
 #global_chat{
+	font-family: 'Proxima Semibold';
 	width: calc(100% - 0px);
 	height: 70%;
 	background-color: #f8f8f8;
