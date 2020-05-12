@@ -44,7 +44,36 @@ function sendAjaxForm(result_form, url, name) {
         data: {"mess" : document.getElementById('messin').value, "name" : name},  // Сеарилизуем объект
         success: function(response) { //Данные отправлены успешно
         	result = $.parseJSON(response);
-        	$('#result_form').html(result);
+            reqsplt = result.split('<br>')
+            me = getCookie('name');
+            inner = ''
+            lastme = ''
+            for (var i = 0; i < reqsplt.length-1; i++) {
+                m = reqsplt[i].split(': ')
+                tempme = m[0]
+                m[0] = ''
+                message = m.join(' ')
+                if (tempme == lastme){
+                    if (tempme == me){
+                        inner = inner + '<div class="chat-my-msg">'+message+'</div><br>'
+                    }else{
+                        inner = inner + '<div class="chat-companion-msg">'+message+'</div><br>'
+                    }
+                    console.log(inner)
+                }else{
+                    lastme = tempme
+                    if (tempme == me){
+                        inner = inner + '<br><div class="chat-my-header">'+tempme+'</div><br>'
+                        inner = inner + '<div class="chat-my-msg">'+message+'</div><br>'
+                    }else{
+                        inner = inner + '<br><div class="chat-companion-header">'+tempme+'</div><br>'
+                        inner = inner + '<div class="chat-companion-msg ">'+message+'</div><br>'
+                    }
+                    
+                }
+
+            }
+        	$('#result_form').html(inner);
     	},
     	error: function(response) { // Данные не отправлены
             $('#result_form').html('Ошибка. Данные не отправлены.');
@@ -70,21 +99,23 @@ function reader(){
         for (var i = 0; i < reqsplt.length-1; i++) {
             m = reqsplt[i].split(': ')
             tempme = m[0]
+            m[0] = ''
+            message = m.join(' ')
             if (tempme == lastme){
                 if (tempme == me){
-                    inner = inner + '<div class="chat-my-msg">'+m[1]+'</div><br>'
+                    inner = inner + '<div class="chat-my-msg">'+message+'</div><br>'
                 }else{
-                    inner = inner + '<div class="chat-companion-msg">'+m[1]+'</div><br>'
+                    inner = inner + '<div class="chat-companion-msg">'+message+'</div><br>'
                 }
                 console.log(inner)
             }else{
                 lastme = tempme
                 if (tempme == me){
-                    inner = inner + '<div class="chat-my-header">'+m[0]+'</div><br>'
-                    inner = inner + '<div class="chat-my-msg">'+m[1]+'</div><br>'
+                    inner = inner + '<br><div class="chat-my-header">'+tempme+'</div><br>'
+                    inner = inner + '<div class="chat-my-msg">'+message+'</div><br>'
                 }else{
-                    inner = inner + '<div class="chat-companion-header">'+m[0]+'</div><br>'
-                    inner = inner + '<div class="chat-companion-msg">'+m[1]+'</div><br>'
+                    inner = inner + '<br><div class="chat-companion-header">'+tempme+'</div><br>'
+                    inner = inner + '<div class="chat-companion-msg ">'+message+'</div><br>'
                 }
                 
             }
