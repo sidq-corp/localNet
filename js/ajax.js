@@ -51,8 +51,8 @@ function sendAjaxForm(result_form, url, name) {
             for (var i = 0; i < reqsplt.length-1; i++) {
                 m = reqsplt[i].split(': ')
                 tempme = m[0]
-                m[0] = ''
-                message = m.join(' ')
+                m.shift()
+                message = m.join(': ')
                 if (tempme == lastme){
                     if (tempme == me){
                         inner = inner + '<div class="chat-my-msg">'+message+'</div><br>'
@@ -99,8 +99,8 @@ function reader(){
         for (var i = 0; i < reqsplt.length-1; i++) {
             m = reqsplt[i].split(': ')
             tempme = m[0]
-            m[0] = ''
-            message = m.join(' ')
+            m.shift()
+            message = m.join(': ')
             if (tempme == lastme){
                 if (tempme == me){
                     inner = inner + '<div class="chat-my-msg">'+message+'</div><br>'
