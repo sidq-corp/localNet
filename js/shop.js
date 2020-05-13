@@ -55,7 +55,7 @@ function buy_color_to(id){
 
                 type: "POST",
                 url: "../php/shop_handler.php",
-                data: {"login" : login, },
+                data: {"id" : id},
                 success: function(data){
                     title = data;
                     console.log(title)

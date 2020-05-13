@@ -15,6 +15,7 @@
 
 	<link rel="stylesheet" href="../css/shop.css">
 	<link rel="stylesheet" href="../css/global.css">
+	<script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
 	<script src="../js/shop.js"></script>
 	<script src="../js/global.js"></script>
