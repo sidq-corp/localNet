@@ -1,7 +1,7 @@
 <?php $login = $_COOKIE['login']; 
 		$f = fopen("../php/account/$login.id", "r");
 		$all = fread($f,  filesize("../php/account/$login.id"));
-		list($id, $login, $name, $pass, $money, $lip, $luser_agent) = explode("\n", $all);
+		list($id, $login, $name, $pass, $money, $color, $prefix, $lip, $luser_agent) = explode("\n", $all);
 		$user_agent = $_SERVER['HTTP_USER_AGENT'];
 		?>
 <!DOCTYPE html>
@@ -85,7 +85,7 @@
 		<b>Ваш id: <i><?php echo $id; ?></i></b><br>
 		<b>Ваш пароль: <i>Хз, у нас хэши</i></b><br>
 		<b>Ваш баланс: <i><?php echo $money; ?></i> <i class="fas fa-coins"></i></b><br>
-		<b>Ваш цвет: <i><?php echo $color; ?></i></b><br>
+		<b>Ваш цвет: <i style='color: <?php echo $color; ?>; background-color: <?php echo $color; ?>;'>Не смотри</i></b><br>
 		<b>Ваш префикс: <i><?php echo $prefix; ?></i></b><br>
 		<b>Ваш юзер агент: <i><?php echo $user_agent; ?></i></b>
 	</div>
