@@ -38,7 +38,7 @@
 
 	<div class = 'wrapper' id = 'wrapper-base'>
 		<h1>Чат</h1>
-		<div class = 'article article-double' onclick="switch_wrapper('wrapper-color')" style = 'height: 20%; background-image: url(../css/images/art5.jpg);'>
+		<div class = 'article article-double' onclick="switch_wrapper('wrapper-color')" style = 'height: 20%; background-image: url(../css/images/shp1.jpg);'>
 			<div class = 'article-content'>
 				<div class = 'article-picker article-shadow'>
 					<h1>Цвет ника</h1>
