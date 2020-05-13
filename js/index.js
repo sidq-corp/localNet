@@ -99,7 +99,7 @@ function check_all_oks_log(){
 }
 function check_blur_reg(elem){
 	str = document.getElementById(elem).value
-	if ((str.length >= 6) || ((elem == 'reg_name') && (str.length >= 3))) {
+	if (((str.length >= 6) || ((elem == 'reg_name') && (str.length >= 3))) && (str.search(':') == -1)) {
 		oks_reg.set(elem, 1);
 		check_all_oks_reg()
 	}else{
@@ -154,9 +154,9 @@ function throw_error_by_id(arg){
 	}else if (arg == 'login_not_found'){
 		setTimeout(display_error,50,'Такого логина нет!')
 	}else if (arg == 'no_error'){
-		setTimeout(display_error,50,'Вы успешно зарегистрировались!',1)
+		setTimeout(display_error,50,'Вы успешно зарегистрировались!<br> p.s.: пробелы в конце удаляются',1)
 	}else if (arg=='reg_error'){
-		setTimeout(display_error,50,'Вы не зарегистрировались.','Скорее всего ваш логин занят!')
+		setTimeout(display_error,50,'Вы не зарегистрировались.','Скорее всего ваш логин занят')
 	}
 }
 // Login - Register link
