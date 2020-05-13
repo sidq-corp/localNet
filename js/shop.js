@@ -50,6 +50,19 @@ function buy_gui(arg){
 		buy_gui_open()
 	}
 }
+function buy_color_to(){
+	$.ajax({
+
+                type: "POST",
+                url: "../php/shop_handler.php",
+                data: {"login" : login, },
+                success: function(data){
+                    title = data;
+                    console.log(title)
+
+                }
+            });
+}
 function buy_gui_build(name,price,color){
 	buy_gui_html = `	
 			<div id="gui-buy" class = 'gui'>
@@ -62,7 +75,7 @@ function buy_gui_build(name,price,color){
 						<b>Вы действительно хотите купить <strong style='color: ${color};'>${name}</strong> за ${price} <i class="fas fa-coins"></i> ?</b>
 					</div>
 
-					<button onclick="gui_account_check()" class="gui-but gui-but-small">Да</button>
+					<button onclick="buy_color_to()" class="gui-but gui-but-small">Да</button>
 					<div id="help_div" style = "margin-top: 3%;">
 						<a onclick="close_gui()"><p>Вернуться</p></a>
 					</div>
