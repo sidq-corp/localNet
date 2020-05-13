@@ -283,13 +283,14 @@ header =`<div id = "header-placeholder">
 						<!-- <b>[</b>NEW<b>]</b> --> Вероника
 					</div>
 				</a>
-				
-				<div class = "phone-header-top-item ">
-					Медиа
-				</div>
 				<a href="../php/games.php">
 					<div class = "phone-header-top-item">
 						Залипалки
+					</div>
+				</a>
+				<a href="../php/shop.php">
+					<div class = "phone-header-top-item">
+						Магазин
 					</div>
 				</a>
 				<a href="../php/about.php">
@@ -330,11 +331,17 @@ header =`<div id = "header-placeholder">
 						</div>
 					</div>
 				</a>
-				<div class = "header-item header-item-a" onclick = "display_error('Недоступно (')"><div class = "header-picker">Медиа</div></div>
 				<a href="../php/games.php">
 					<div class = "header-item header-item-a">
 						<div class = "header-picker">
 							Залипалки
+						</div>
+					</div>
+				</a>
+				<a href="../php/shop.php">
+					<div class = "header-item header-item-a">
+						<div class = "header-picker">
+							Магазин
 						</div>
 					</div>
 				</a>
