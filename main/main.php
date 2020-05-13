@@ -158,9 +158,11 @@
 	<div id = 'gui-container' class = 'hidden-on-start'>
 		<b>Ваш никнейм: <i><?php echo $name; ?></i></b><br>
 		<b>Ваш логин: <i><?php echo $login; ?></i></b><br>
+		<b>Ваш id: <i><?php echo $id; ?></i></b><br>
 		<b>Ваш пароль: <i>Хз, у нас хэши</i></b><br>
 		<b>Ваш баланс: <i><?php echo $money; ?></i> <i class="fas fa-coins"></i></b><br>
-		<b>Ваш id: <i><?php echo $id; ?></i></b><br>
+		<b>Ваш цвет: <i><?php echo $color; ?></i></b><br>
+		<b>Ваш префикс: <i><?php echo $prefix; ?></i></b><br>
 		<b>Ваш юзер агент: <i><?php echo $user_agent; ?></i></b>
 	</div>
 
