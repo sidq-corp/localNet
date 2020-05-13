@@ -4,13 +4,21 @@ function getCookie(name) {
   ));
   return matches ? decodeURIComponent(matches[1]) : undefined;
 }
+
+let nick_color = '#333'
+let nick_prefix = '#333'
 function init(){
+    arg = document.getElementById('header').innerHTML.split('<br>')
+    nick_color = arg[1]
+    nick_prefix = arg[3]
+    document.getElementById('header').innerHTML = ''
     document.getElementById("goto").addEventListener("input", () => check_local(), true);
     reader();
 }
 function check_local(){
     name = getCookie('name');
     to = getCookie('login');
+
 
 }
 function ginputgo(){

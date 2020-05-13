@@ -254,7 +254,6 @@ function getCookie(name) {
   return matches ? decodeURIComponent(matches[1]) : undefined;
 }
 
-
 function header_insert(){
 	document.getElementById('header').innerHTML = header
 	path = location.pathname.split('?')
