@@ -18,7 +18,7 @@
 
 		$f = fopen("account/$login.id", "r");
 		$all = fread($f,  filesize("account/$login.id"));
-		list($id, $login, $name, $pass, $money) = explode("\n", $all);
+		list($id, $login, $name, $pass, $money, $color, $prefix) = explode("\n", $all);
 		fclose($f);
 		
 
@@ -31,6 +31,8 @@
 			fwrite($f, "$name\n");
 			fwrite($f, "$pass\n");
 			fwrite($f, "$money\n");
+			fwrite($f, "$color\n");
+			fwrite($f, "$prefix\n");
 			fwrite($f, "$ip\n");
 			fwrite($f, $user_agent);
 			fclose($f);

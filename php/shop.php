@@ -1,7 +1,7 @@
 <?php $login = $_COOKIE['login']; 
 		$f = fopen("../php/account/$login.id", "r");
 		$all = fread($f,  filesize("../php/account/$login.id"));
-		list($id, $login, $name, $pass, $money, $lip, $luser_agent) = explode("\n", $all);
+		list($id, $login, $name, $pass, $money, $color, $prefix, $lip, $luser_agent) = explode("\n", $all);
 		$user_agent = $_SERVER['HTTP_USER_AGENT'];
 		?>
 <!DOCTYPE html>

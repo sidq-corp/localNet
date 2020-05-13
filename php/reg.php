@@ -17,6 +17,8 @@
 	$name = rtrim($_GET['reg_name'], " ");
 	$pass = rtrim($_GET['reg_pass'], " ");
 	$money = 5;
+	$color = '';
+	$prefix = '';
 	if(strlen($login) < 6 or strlen($pass) < 6 or strlen($name) < 2 or file_exists("account/$login.id") or strlen($login) > 30 or strlen($pass) > 30 or strlen($name) > 30){
 		echo "<script>error()</script>";
 		echo "Ошибка регестраци";
@@ -30,7 +32,8 @@
 		fwrite($f, "$name\n");
 		fwrite($f, "$pass\n");
 		fwrite($f, "$money\n");
-
+		fwrite($f, "$color\n");
+		fwrite($f, "$prefix\n");
 		fclose($f);
 		echo "Успешная регестрация";
    	    echo "<script>correct()</script>";
