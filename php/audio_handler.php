@@ -1,4 +1,5 @@
 <?php 
+	include("account_handler.php");
 	function get_len_audio_dir(){
 		$dir = scandir('audio');
 		return count($dir);
@@ -18,6 +19,8 @@
 
 	function add_sound($file_name, $sound_name, $sound_singer,
 					   $rhythm, $melody, $bass, $adequacy, $ringing){
+		$login = $_COOKIE['login'];
+		set_money($login, get_money($login) + 1);
 		$info = array(
 			"file_name"    => $file_name,
 			"sound_name"   => $sound_name,
