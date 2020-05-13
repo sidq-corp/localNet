@@ -1,5 +1,7 @@
 function __init__(){
 	build_wrapper_color()
+	buy_gui_build('none',10000,'none',-1)
+	buy_gui_close()
 }
 
 wrappers = ['wrapper-base','wrapper-color','wrapper-prefix']
@@ -51,17 +53,39 @@ function buy_gui(arg){
 	}
 }
 function buy_color_to(id){
+	buy_gui_edit(`
+		<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
+			<b>Обработка...</b>
+		</div>`)
 	$.ajax({
-
-                type: "POST",
-                url: "../php/shop_handler.php",
-                data: {"id" : id},
-                success: function(data){
-                    title = data;
-                    console.log(title)
-
-                }
-            });
+        type: "POST",
+        url: "../php/shop_handler.php",
+        data: {"id" : id},
+        success: function(data){
+        	
+        	title = data.replace('"','').replace('"','')
+        	console.log(title)
+            if (title == 'good'){
+            	buy_gui_edit(`
+					<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
+						<b>Покупка успешна. Вы молодец.</b>
+					</div>
+					<div id="help_div">
+						<a onclick="close_gui()"><p>Ок</p></a>
+					</div>`)
+            }
+            else{
+            	console.log('ok')
+            	buy_gui_edit(`
+					<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
+						<b>Вы не купили! Скорее всего у вас не хватает монет.</b>
+					</div>
+					<div id="help_div">
+						<a onclick="close_gui()"><p>Вернуться</p></a>
+					</div>`)
+            }
+        }
+    });
 }
 function buy_gui_build(name,price,color,id){
 	buy_gui_html = `	
@@ -70,7 +94,7 @@ function buy_gui_build(name,price,color,id){
 					Покупка
 				</div>
 
-				<div class = "generic_form">
+				<div class = "generic_form" id='gui-buy-edit'>
 					<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
 						<b>Вы действительно хотите купить <strong style='color: ${color};'>${name}</strong> за ${price} <i class="fas fa-coins"></i> ?</b>
 					</div>
@@ -83,6 +107,10 @@ function buy_gui_build(name,price,color,id){
 			</div>`
 
 	document.getElementById('gui-shop-container').innerHTML = buy_gui_html
+}
+
+function buy_gui_edit(text){
+	document.getElementById('gui-buy-edit').innerHTML = text
 }
 
 function buy_gui_open(){

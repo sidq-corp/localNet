@@ -21,7 +21,7 @@
 	<script src="../js/global.js"></script>
 	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-<body onload="global_init(); init_games();">
+<body onload="global_init();">
 	<div style = "display: none;">
 		<div id="user_name"><?php echo $name; ?></div>
 		<div id="user_login"><?php echo $login; ?></div>
