@@ -32,9 +32,9 @@
 	</div>
 
 
-	<div id = 'wrapper'>
+	<div class = 'wrapper' id = 'wrapper-base'>
 		<h1>Чат</h1>
-		<div class = 'article article-double' onclick="link(0)" style = 'height: 20%; background-image: url(../css/images/art5.jpg);'>
+		<div class = 'article article-double' onclick="switch_wrapper('wrapper-color')" style = 'height: 20%; background-image: url(../css/images/art5.jpg);'>
 			<div class = 'article-content'>
 				<div class = 'article-picker article-shadow'>
 					<h1>Цвет ника</h1>
@@ -45,7 +45,7 @@
 			</div>
 		</div>
 		<div class = 'article-triple-separator'><br></div>
-		<div class = 'article article-double' onclick="link(1)" style = 'height: 20%; background-image: url(../css/images/art6.jpg);'>
+		<div class = 'article article-double' onclick="switch_wrapper('wrapper-prefix')" style = 'height: 20%; background-image: url(../css/images/art6.jpg);'>
 			<div class = 'article-content'>
 				<div class = 'article-picker article-shadow'>
 					<h1>Шильдики</h1>
@@ -56,7 +56,7 @@
 			</div>
 		</div>
 		<h1>Музыка</h1>
-		<div class = 'article article-double' onclick="link(2)" style = 'height: 20%; background-image: url(../css/images/art7.jpg);'>
+		<div class = 'article article-double' onclick="switch_wrapper('wrapper-color')" style = 'height: 20%; background-image: url(../css/images/art7.jpg);'>
 			<div class = 'article-content'>
 				<div class = 'article-picker article-shadow'>
 					<h1>Подбор музыки</h1>
@@ -67,6 +67,30 @@
 			</div>
 		</div>
 
+	</div>
+
+	<div class = 'wrapper' id = 'wrapper-color' style="display: none;">
+		<h1>Цвета ника</h1>
+		<div class = 'article article-one' onclick="switch_wrapper('wrapper-base')" style = 'height: 20%; background-image: url(../css/images/art7.jpg);'>
+			<div class = 'article-content'>
+				<div class = 'article-picker article-shadow'>
+					<h1>Назад в магазин</h1>
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class = 'wrapper' id = 'wrapper-prefix' style="display: none;">
+		<h1>Шильдики</h1>
+		<div class = 'article article-one' onclick="switch_wrapper('wrapper-base')" style = 'height: 20%; background-image: url(../css/images/art7.jpg);'>
+			<div class = 'article-content'>
+				<div class = 'article-picker article-shadow'>
+					<h1>Назад в магазин</h1>
+					<br>
+				</div>
+			</div>
+		</div>
 	</div>
 
 

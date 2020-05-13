@@ -3,11 +3,14 @@ function init_games(){
 	// console.log(document.cookie)
 	// alert(getCookie('lox'))
 }
-var links = ['../games/2048/index.html', '../games/AlienInvasion/index.html', 'audio.php'];
-function link(arg){
-	window.location.href = links[arg]
-}
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
+wrappers = ['wrapper-base','wrapper-color','wrapper-prefix']
+function switch_wrapper(arg){
+	for (var i = 0; i < wrappers.length; i++) {
+		if (arg == wrappers[i]){
+			document.getElementById(arg).style.display = 'block';
+		}else{
+			document.getElementById(wrappers[i]).style.display = 'none';
+		}
+	}
 }
