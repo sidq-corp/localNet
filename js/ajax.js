@@ -107,7 +107,7 @@ function reader(){
                 }else{
                     inner = inner + '<div class="chat-companion-msg">'+message+'</div><br>'
                 }
-                console.log(inner)
+                // console.log(inner)
             }else{
                 lastme = tempme
                 if (tempme == me){
@@ -121,7 +121,7 @@ function reader(){
             }
 
         }
-        console.log(inner)
+        // console.log(inner)
         document.getElementById('result_form').innerHTML = inner;   
     };
 

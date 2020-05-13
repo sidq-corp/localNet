@@ -64,10 +64,10 @@ function reader_file(url){
 	    	}else{
 	    		lastme = tempme
 	    		if (tempme == me){
-	    			inner = inner + '<div class="chat-my-header">'+m[0]+'</div><br>'
+	    			inner = inner + '<div class="chat-my-header">'+getCookie('name')+'</div><br>'
 	    			inner = inner + '<div class="chat-my-msg">'+m[1]+'</div><br>'
 	    		}else{
-		    		inner = inner + '<div class="chat-companion-header">'+m[0]+'</div><br>'
+		    		inner = inner + '<div class="chat-companion-header">'+getCookie('name')+'</div><br>'
 	    			inner = inner + '<div class="chat-companion-msg">'+m[1]+'</div><br>'
 		    	}
 	    		
