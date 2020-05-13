@@ -1,3 +1,6 @@
+function __init__(){
+	console.log('__init__')
+}
 function get_answer(){
 	var request = new XMLHttpRequest;
 

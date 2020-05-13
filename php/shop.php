@@ -1,8 +1,11 @@
-<?php $login = $_COOKIE['login']; 
+<?php 
+		include("account_handler.php");
+		$login = $_COOKIE['login']; 
 		$f = fopen("../php/account/$login.id", "r");
 		$all = fread($f,  filesize("../php/account/$login.id"));
 		list($id, $login, $name, $pass, $money, $color, $prefix, $lip, $luser_agent) = explode("\n", $all);
 		$user_agent = $_SERVER['HTTP_USER_AGENT'];
+
 		?>
 <!DOCTYPE html>
 <html>
@@ -71,18 +74,19 @@
 
 	<div class = 'wrapper' id = 'wrapper-color' style="display: none;">
 		<h1>Цвета ника</h1>
-		<div class = 'article article-one' onclick="switch_wrapper('wrapper-base')" style = 'height: 20%; background-image: url(../css/images/art7.jpg);'>
-			<div class = 'article-content'>
-				<div class = 'article-picker article-shadow'>
-					<h1>Назад в магазин</h1>
-					<br>
-				</div>
-			</div>
+		<div id = 'wrapper-color-container'>
+
+		</div>
+
+		<br><br>
+		<div class = 'article article-one article-text' onclick="switch_wrapper('wrapper-base')" style = 'background: none;'>
+			<h1>Назад в магазин</h1>
 		</div>
 	</div>
 
 	<div class = 'wrapper' id = 'wrapper-prefix' style="display: none;">
 		<h1>Шильдики</h1>
+
 		<div class = 'article article-one' onclick="switch_wrapper('wrapper-base')" style = 'height: 20%; background-image: url(../css/images/art7.jpg);'>
 			<div class = 'article-content'>
 				<div class = 'article-picker article-shadow'>
@@ -94,6 +98,9 @@
 	</div>
 
 
+	<div id = 'gui-shop-container'>
+
+	</div>
 	<div id = 'gui-container' class = 'hidden-on-start'>
 		<b>Ваш никнейм: <i><?php echo $name; ?></i></b><br>
 		<b>Ваш логин: <i><?php echo $login; ?></i></b><br>

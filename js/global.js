@@ -3,6 +3,7 @@ function global_init(){
 	gui_insert()
 	center_button_text()
 	// player_update()
+	__init__()
 	show_hidden_on_start()
 	document.getElementById('loading-wrapper').style.visibility = 'invisible'
 	document.getElementById('loading-wrapper').style.opacity = '0'
@@ -86,24 +87,38 @@ function gui_account_check(){
 	if (gui_account_opened == 0){
 		document.getElementById('header-login').style.backgroundColor = "#333"
 		document.getElementById('header-login').style.color = "#fff"
-		gui_account_opened = 1
+		
 		gui_account_open()
 	}else if(gui_account_opened == 1){
 		document.getElementById('header-login').style.backgroundColor = "#f8f8f8"
 		document.getElementById('header-login').style.color = "#000"
-		gui_account_opened = 0
+		
 		gui_account_close()
 	}else{
 		display_error('Ошибка. Код ошибки: gui_account_open != (1 or 0)');
 	}
 }
 function gui_account_open(){
+	gui_account_opened = 1
+	pathhtml = location.pathname.split('?')
+	if (pathhtml[0] == '/php/shop.php'){
+		buy_gui_close()
+	}
+		
 	document.getElementById('gui-bg').style.display = "block"
 	document.getElementById('gui-account').style.display = "block"
 }
 function gui_account_close(){
+	gui_account_opened = 0
 	document.getElementById('gui-bg').style.display = "none"
 	document.getElementById('gui-account').style.display = "none"
+}
+function close_gui(){
+	pathhtml = location.pathname.split('?')
+	gui_account_close()
+	if (pathhtml[0] == '/php/shop.php'){
+		buy_gui_close()
+	}
 }
 
 // Player
@@ -247,13 +262,15 @@ function header_insert(){
 		document.getElementById('article-tp-to-chat').style.display = 'none'
 	}
 }
+
+
+
 function gui_insert(){
 	existing = document.getElementById('gui-container').innerHTML
 	newhtml = gui + existing + gui2
 	document.getElementById('gui-container').innerHTML = newhtml
-
 }
-gui = `	<div id="gui-bg" onclick="gui_account_check()"></div>
+gui = `	<div id="gui-bg" onclick="close_gui()"></div>
 		<div id="gui-account" class = 'gui' style = "display: none;">
 			<div class="gui_title">
 				Аккаунт

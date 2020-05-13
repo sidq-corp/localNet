@@ -46,10 +46,27 @@
 	.article-triple:hover{
 		background-size: 130%;
 		cursor: pointer;
+		padding-left: 20px;
+		width: calc(31.33333% - 20px);
 	}
 	.article-triple-separator{
 		width: 3%;
 		float: left;
+	}
+	.article-one-separator{
+		width: 100%;
+		float: left;
+	}
+	.article-text{
+		text-decoration: underline;
+
+	}
+	.article-text:hover{
+		background-color: #333 !important;
+		padding-left: 20px;
+		width: calc(100% - 20px);
+		color: #fff;
+		cursor: pointer;
 	}
 	.article-content{
 		background: linear-gradient(to right, rgba(255,255,255,0.7) 0%, 50%,rgba(255,255,255,0) 100%);
@@ -188,6 +205,9 @@
 		height: 15%;
 		font-size: 80%;
 	}	
+	.article-triple:hover{
+		width: calc(100% - 20px);
+	}
 	.article-triple-separator{
 		display: none;
 	}
@@ -198,6 +218,9 @@
 	.article-sub-text{
 		display: none;
 	}
+	.article-sub-money{
+		display: block !important;
+	}
 }
 @media screen and (min-width: 300px) and (max-width: 500px) {
 	.article-one{
@@ -207,7 +230,11 @@
 		width: 100%;
 		background-size: 100%;
 		height: 15%;
+
 	}	
+	.article-triple:hover{
+		width: calc(100% - 20px);
+	}
 	.article-triple-separator{
 		display: none;
 	}
@@ -216,6 +243,9 @@
 	}
 	.article-sub-text{
 		display: none;
+	}
+	.article-sub-money{
+		display: block !important;
 	}
 }
 @media screen and (min-width: 500px) and (max-width: 600px) {
@@ -227,14 +257,20 @@
 		background-size: 100%;
 		height: 15%;
 	}	
+	.article-triple:hover{
+		width: calc(100% - 20px);
+	}
 	.article-triple-separator{
 		display: none;
 	}
 	.article-sub-text{
 		display: none;
 	}
+	.article-sub-money{
+		display: block !important;
+	}
 }
-@media screen and (min-width: 600px) and (max-width: 800px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
 	.article-one{
 		height: 20%;
 	}	
@@ -243,28 +279,14 @@
 		background-size: 100%;
 		height: 20%;
 	}	
+	.article-triple:hover{
+		width: calc(100% - 20px);
+	}
 	.article-triple-separator{
 		display: none;
 	}
 }
-@media screen and (min-width: 800px) and (max-width: 910px) {
-	.wrapper-content{
-		width: 98%;
-		margin-left: 1%;
-	}
-	.article{
-		font-size: 90%;
-	}
-	.article-double{
-		width: 100%;
-		background-size: 100%;
-		height: 20%;
-	}	
-	.article-triple .article-sub-text{
-		display: none;
-	}
-}
-@media screen and (min-width: 910px) and (max-width: 1100px) {
+@media screen and (min-width: 900px) and (max-width: 1100px) {
 	.wrapper-content{
 		width: 90%;
 		margin-left: 5%;

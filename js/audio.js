@@ -1,4 +1,6 @@
-
+function __init__(){
+	console.log('__init__')
+}
 function insert_players(jsstring){
 	 // alert(getCookie('lox'))
 	console.log(jsstring)

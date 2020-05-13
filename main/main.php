@@ -52,7 +52,7 @@
   	<script type="text/javascript" src="../js/local.js"></script>
   	<script type="text/javascript" src="../js/audio.js"></script>
 </head>
-<body onload="global_init(); update(); init(); init_main_js(); dir('/js')">
+<body onload="global_init(); update(); init();">
 	<div id = 'loading-wrapper'>
 		<div id = 'loading-wrapper-gradient'>
 
