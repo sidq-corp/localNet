@@ -75,7 +75,6 @@ function buy_color_to(id){
 					</div>`)
             }
             else{
-            	console.log('ok')
             	buy_gui_edit(`
 					<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
 						<b>Вы не купили! Скорее всего у вас не хватает монет.</b>
@@ -96,6 +95,12 @@ function buy_gui_build(name,price,color,id){
 
 				<div class = "generic_form" id='gui-buy-edit'>
 					<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
+						<b>В чате это будет смотрется так:</b>
+						<div id='local_chat'>
+							<div class="chat-my-header" style="color: ${color}">${getCookie('name')}</div><br>
+	                    	<div class="chat-my-msg" style="border-left: 3px ${color} solid">Я ахуенный/ая</div><br>
+						</div>
+						<br>
 						<b>Вы действительно хотите купить <strong style='color: ${color};'>${name}</strong> за ${price} <i class="fas fa-coins"></i> ?</b>
 					</div>
 
@@ -145,4 +150,11 @@ function build_wrapper_color(){
 		}
 	}
 	document.getElementById('wrapper-color-container').innerHTML = inner
+}
+
+function getCookie(name) {
+  let matches = document.cookie.match(new RegExp(
+    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+  ));
+  return matches ? decodeURIComponent(matches[1]) : undefined;
 }

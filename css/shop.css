@@ -107,6 +107,21 @@
 		color: #fff;
 	}
 
+#local_chat{
+	padding: 3px;
+	background-color: #f8f8f8;
+	font-family: 'Proxima Semibold';
+}
+	.chat-my-msg{
+		float: left;
+		border-left: 3px #e401cf solid;
+		padding-left: 3px;
+	}
+	.chat-my-header{
+		float: left;
+		color: #e401cf;
+	}
+
 .wrapper{
 	height: 100%;
 	margin-top: 7%;
