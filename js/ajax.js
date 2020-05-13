@@ -58,24 +58,27 @@ function sendAjaxForm(result_form, url, name) {
             lastme = ''
             for (var i = 0; i < reqsplt.length-1; i++) {
                 m = reqsplt[i].split(': ')
-                tempme = m[0]
+                tempme = m[0].split('||')
+                tempcolor = tempme[1]
+                tempme = tempme[0]
                 m.shift()
                 message = m.join(': ')
-                if (tempme == lastme){
+                if ((tempme == lastme) && (tempcolor == lastcolor)){
                     if (tempme == me){
-                        inner = inner + '<div class="chat-my-msg">'+message+'</div><br>'
+                        inner = inner + '<div class="chat-my-msg" style="border-left: 3px '+tempcolor+' solid">'+message+'</div><br>'
                     }else{
-                        inner = inner + '<div class="chat-companion-msg">'+message+'</div><br>'
+                        inner = inner + '<div class="chat-companion-msg" style="border-right: 3px '+tempcolor+' solid">'+message+'</div><br>'
                     }
-                    console.log(inner)
+                    // console.log(inner)
                 }else{
                     lastme = tempme
+                    lastcolor = tempcolor
                     if (tempme == me){
-                        inner = inner + '<br><div class="chat-my-header">'+tempme+'</div><br>'
-                        inner = inner + '<div class="chat-my-msg">'+message+'</div><br>'
+                        inner = inner + '<br><div class="chat-my-header" style="color: '+tempcolor+'">'+tempme+'</div><br>'
+                        inner = inner + '<div class="chat-my-msg" style="border-left: 3px '+tempcolor+' solid">'+message+'</div><br>'
                     }else{
-                        inner = inner + '<br><div class="chat-companion-header">'+tempme+'</div><br>'
-                        inner = inner + '<div class="chat-companion-msg ">'+message+'</div><br>'
+                        inner = inner + '<br><div class="chat-companion-header" style="color: '+tempcolor+'">'+tempme+'</div><br>'
+                        inner = inner + '<div class="chat-companion-msg " style="border-right: 3px '+tempcolor+' solid">'+message+'</div><br>'
                     }
                     
                 }
@@ -106,24 +109,27 @@ function reader(){
         lastme = ''
         for (var i = 0; i < reqsplt.length-1; i++) {
             m = reqsplt[i].split(': ')
-            tempme = m[0]
+            tempme = m[0].split('||')
+            tempcolor = tempme[1]
+            tempme = tempme[0]
             m.shift()
             message = m.join(': ')
-            if (tempme == lastme){
+            if ((tempme == lastme) && (tempcolor == lastcolor)){
                 if (tempme == me){
-                    inner = inner + '<div class="chat-my-msg">'+message+'</div><br>'
+                    inner = inner + '<div class="chat-my-msg" style="border-left: 3px '+tempcolor+' solid">'+message+'</div><br>'
                 }else{
-                    inner = inner + '<div class="chat-companion-msg">'+message+'</div><br>'
+                    inner = inner + '<div class="chat-companion-msg" style="border-right: 3px '+tempcolor+' solid">'+message+'</div><br>'
                 }
                 // console.log(inner)
             }else{
                 lastme = tempme
+                lastcolor = tempcolor
                 if (tempme == me){
-                    inner = inner + '<br><div class="chat-my-header">'+tempme+'</div><br>'
-                    inner = inner + '<div class="chat-my-msg">'+message+'</div><br>'
+                    inner = inner + '<br><div class="chat-my-header" style="color: '+tempcolor+'">'+tempme+'</div><br>'
+                    inner = inner + '<div class="chat-my-msg" style="border-left: 3px '+tempcolor+' solid">'+message+'</div><br>'
                 }else{
-                    inner = inner + '<br><div class="chat-companion-header">'+tempme+'</div><br>'
-                    inner = inner + '<div class="chat-companion-msg ">'+message+'</div><br>'
+                    inner = inner + '<br><div class="chat-companion-header" style="color: '+tempcolor+'">'+tempme+'</div><br>'
+                    inner = inner + '<div class="chat-companion-msg " style="border-right: 3px '+tempcolor+' solid">'+message+'</div><br>'
                 }
                 
             }
