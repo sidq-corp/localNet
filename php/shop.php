@@ -59,17 +59,6 @@
 				</div>
 			</div>
 		</div>
-		<h1>Музыка</h1>
-		<div class = 'article article-double' onclick="switch_wrapper('wrapper-color')" style = 'height: 20%; background-image: url(../css/images/art7.jpg);'>
-			<div class = 'article-content'>
-				<div class = 'article-picker article-shadow'>
-					<h1>Подбор музыки</h1>
-					<p class = 'article-sub-text'><b>Бета</b></p>
-					<br>
-					<br>
-				</div>
-			</div>
-		</div>
 
 	</div>
 
@@ -88,13 +77,8 @@
 	<div class = 'wrapper' id = 'wrapper-prefix' style="display: none;">
 		<h1>Шильдики</h1>
 
-		<div class = 'article article-one' onclick="switch_wrapper('wrapper-base')" style = 'height: 20%; background-image: url(../css/images/art7.jpg);'>
-			<div class = 'article-content'>
-				<div class = 'article-picker article-shadow'>
-					<h1>Назад в магазин</h1>
-					<br>
-				</div>
-			</div>
+		<div class = 'article article-one article-text' onclick="switch_wrapper('wrapper-base')" style = 'background: none;'>
+			<h1>Назад в магазин</h1>
 		</div>
 	</div>
 

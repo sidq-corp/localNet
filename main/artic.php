@@ -50,8 +50,10 @@
 		<!-- <h3>
 			<a  href = 'main.php'>Назад...</a>
 		</h3> -->
-
-
+		<br>
+		<div class = 'article article-one article-text' onclick="document.location.href = 'main.php';" style = 'background: none;'>
+			<h1>Назад на главную</h1>
+		</div>
 		<h2>Больше в нашем телеграмме: <a  href = 'https://t.me/deposidqdev'>../dev</a><br></h2>
 	</div>
 
