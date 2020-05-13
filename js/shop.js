@@ -45,12 +45,12 @@ function buy_gui(arg){
 			array = items_colors
 		}
 		obj = array[index]
-		buy_gui_build(obj.get_name(),obj.get_price(),obj.get_color())
+		buy_gui_build(obj.get_name(),obj.get_price(),obj.get_color(),index)
 
 		buy_gui_open()
 	}
 }
-function buy_color_to(){
+function buy_color_to(id){
 	$.ajax({
 
                 type: "POST",
@@ -63,7 +63,7 @@ function buy_color_to(){
                 }
             });
 }
-function buy_gui_build(name,price,color){
+function buy_gui_build(name,price,color,id){
 	buy_gui_html = `	
 			<div id="gui-buy" class = 'gui'>
 				<div class="gui_title">
@@ -75,7 +75,7 @@ function buy_gui_build(name,price,color){
 						<b>Вы действительно хотите купить <strong style='color: ${color};'>${name}</strong> за ${price} <i class="fas fa-coins"></i> ?</b>
 					</div>
 
-					<button onclick="buy_color_to()" class="gui-but gui-but-small">Да</button>
+					<button onclick="buy_color_to(${id})" class="gui-but gui-but-small">Да</button>
 					<div id="help_div" style = "margin-top: 3%;">
 						<a onclick="close_gui()"><p>Вернуться</p></a>
 					</div>
