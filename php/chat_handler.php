@@ -1,4 +1,21 @@
 <?php
+			if (isset($_COOKIE['login'])) {
+				$login = $_COOKIE['login'];
+			}else{
+				header ('Location: ../index.php');  // перенаправление на нужную страницу
+	   			exit();
+			}
+
+			$f = fopen("../php/account/$login.id", "r");
+			$all = fread($f,  filesize("../php/account/$login.id"));
+			list($id, $login, $name, $pass, $money, $color, $prefix, $lip, $luser_agent) = explode("\n", $all);
+			$ip = $_SERVER['REMOTE_ADDR'];
+			$user_agent = $_SERVER['HTTP_USER_AGENT'];
+			if($ip != $lip or $user_agent != $luser_agent){
+				header ('Location: ../index.php');
+	   			exit();
+			}
+
 	function fulllog($mess_1)
 	{
 		$l = fopen("messlog/fullGlobal.log", 'a');
@@ -25,7 +42,7 @@
 				fclose($f);
 
 				$f = fopen("messlog/globalchat.log", "w");
-				$name .=": $mess";
+				$name ="$prefix$name||$color: $mess";
 				$name.= "<br>$all";
 				fwrite($f, $name);
 				fclose($f);
