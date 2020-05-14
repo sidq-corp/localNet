@@ -17,7 +17,8 @@
 body{
 	width: 100%;
 	overflow-x: hidden;
-	overflow-y: initial;
+	/*overflow-y: initial;*/
+	overflow-y: hidden;
 }
 #loading-wrapper{
 	width: 100%;
@@ -313,6 +314,18 @@ body{
 		.gui-but-small{
 			width: 85%;
 			margin-left: 7.5%;}
+		#loading-wrapper{
+			background-size: 60%;
+		}
+		@keyframes load {
+		  from {
+		    margin-left: 0%;
+		  }
+
+		  to {
+		    margin-left: 60%;
+		  }
+		}
 	}
 	@media screen and (min-width: 300px) and (max-width: 500px) {
 		.gui{
@@ -321,6 +334,18 @@ body{
 		.gui-but-small{
 			width: 85%;
 			margin-left: 7.5%;}
+		#loading-wrapper{
+			background-size: 40%;
+		}
+		@keyframes load {
+		  from {
+		    margin-left: 0%;
+		  }
+
+		  to {
+		    margin-left: 50%;
+		  }
+		}
 	}
 	@media screen and (min-width: 500px) and (max-width: 600px) {
 		.gui{
@@ -329,11 +354,35 @@ body{
 		.gui-but-small{
 			width: 85%;
 			margin-left: 7.5%;}
+		#loading-wrapper{
+			background-size: 40%;
+		}
+		@keyframes load {
+		  from {
+		    margin-left: 0%;
+		  }
+
+		  to {
+		    margin-left: 45%;
+		  }
+		}
 	}
 	@media screen and (min-width: 600px) and (max-width: 800px) {
 		.gui{--width: 60%;}
 		.gui-but-small{
 			width: 80%;margin-left: 10%;
+		}
+		#loading-wrapper{
+			background-size: 30%;
+		}
+		@keyframes load {
+		  from {
+		    margin-left: 3%;
+		  }
+
+		  to {
+		    margin-left: 35%;
+		  }
 		}
 	}
 	@media screen and (min-width: 800px) and (max-width: 910px) {
@@ -341,12 +390,36 @@ body{
 			width: 80%;
 			margin-left: 10%;}
 		.gui{--width: 50%;}
+		#loading-wrapper{
+			background-size: 20%;
+		}
+		@keyframes load {
+		  from {
+		    margin-left: 5%;
+		  }
+
+		  to {
+		    margin-left: 30%;
+		  }
+		}
 	}
 	@media screen and (min-width: 910px) and (max-width: 1100px) {
 		.gui-but-small{
 			width: 80%;
 			margin-left: 10%;}
 		.gui{--width: 35%;}
+		#loading-wrapper{
+			background-size: 20%;
+		}
+		@keyframes load {
+		  from {
+		    margin-left: 5%;
+		  }
+
+		  to {
+		    margin-left: 30%;
+		  }
+		}
 	}
 
 	@media screen and (min-width: 1100px) and (max-width: 1200px) {
@@ -354,6 +427,9 @@ body{
 			width: 80%;
 			margin-left: 10%;}
 		.gui{--width: 30%;}
+		#loading-wrapper{
+			background-size: 20%;
+		}
 	}
 	@media screen and (min-width: 1200px) and (max-width: 1400px) {
 		.gui-but-small{

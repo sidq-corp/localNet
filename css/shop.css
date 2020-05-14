@@ -226,9 +226,6 @@
 		height: 15%;
 		font-size: 80%;
 	}	
-	.article-triple:hover{
-		width: calc(100% - 20px);
-	}
 	.article-triple-separator{
 		display: none;
 	}
@@ -253,9 +250,6 @@
 		height: 15%;
 
 	}	
-	.article-triple:hover{
-		width: calc(100% - 20px);
-	}
 	.article-triple-separator{
 		display: none;
 	}
@@ -278,9 +272,6 @@
 		background-size: 100%;
 		height: 15%;
 	}	
-	.article-triple:hover{
-		width: calc(100% - 20px);
-	}
 	.article-triple-separator{
 		display: none;
 	}
@@ -299,10 +290,8 @@
 		width: 100%;
 		background-size: 100%;
 		height: 20%;
+		
 	}	
-	.article-triple:hover{
-		width: calc(100% - 20px);
-	}
 	.article-triple-separator{
 		display: none;
 	}

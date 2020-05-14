@@ -5,10 +5,15 @@ function global_init(){
 	// player_update()
 	__init__()
 	show_hidden_on_start()
+	
+	show_page()
+}
+function show_page(){
 	document.getElementById('loading-wrapper').style.visibility = 'invisible'
 	document.getElementById('loading-wrapper').style.opacity = '0'
+	document.getElementsByTagName('body')[0].style.overflowY = 'initial'
 	setTimeout("document.getElementById('loading-wrapper').style.display = 'none'",500) 
-	// alert(getCookie('lox'))
+
 }
 function show_hidden_on_start(){
 	// class = 'hidden-on-start'
@@ -261,8 +266,6 @@ function header_insert(){
 		document.getElementById('article-tp-to-chat').style.display = 'none'
 	}
 }
-
-
 
 function gui_insert(){
 	existing = document.getElementById('gui-container').innerHTML

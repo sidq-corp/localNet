@@ -52,13 +52,14 @@
   	<script type="text/javascript" src="../js/local.js"></script>
   	<script type="text/javascript" src="../js/audio.js"></script>
 </head>
-<body onload="init(); global_init(); update(); " Булочка с корицей>
+<body onload="init(); global_init(); update(); ">
 	<div id = 'loading-wrapper'>
 		<div id = 'loading-wrapper-gradient'>
 
 		</div>
 	</div>
 	<div id = 'header'>
+		 Булочка с корицей перемещена сюда
 		<br><?php echo $color; ?><br>
 		<br><?php echo $prefix; ?><br>
 	</div>
