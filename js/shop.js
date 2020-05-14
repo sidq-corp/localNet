@@ -1,12 +1,20 @@
+// 
+// [1] Инициализация
+// 
 function __init__(){
 	build_wrapper_color()
 	build_wrapper_nameplate()
+	pick_col_and_pref()
 	buy_gui_build('none',10000,'none',-1)
 	buy_gui_close()
 }
 
+
 //* nameplate == np == prefix
 
+// 
+// [2] Хаб
+// 
 wrappers = ['wrapper-base','wrapper-color','wrapper-prefix']
 function switch_wrapper(arg){
 	for (var i = 0; i < wrappers.length; i++) {
@@ -18,6 +26,9 @@ function switch_wrapper(arg){
 	}
 }
 
+// 
+// [3] Массивы
+// 
 class item{
 	constructor(name,price,color,np) {
 		this.name = name;
@@ -39,12 +50,19 @@ class item{
 }
 // let user = new ite
 let items_colors = [new item('Золотой',15,'#fcba03'),new item('Лазуритовый',10,'#0c7ef7'),new item('Призмариновый',10,'#32a89d'),new item('Аркадий',10,'#36bf17'),
-new item('Коралловый',10,'#FF6F61'), new item('Удар лайма', 15, '#D6ED17FF')]
+new item('Коралловый',10,'#FF6F61'), new item('Хорусовый', 15, '#8a43cc')]
 
-let items_np = [new item('Орден ТКК',10,'#333','<i class="fas fa-toilet-paper"></i>'),new item('Золотой орден ТКК ',30,'#fcba03','<i class="fas fa-toilet-paper"></i>'),
-new item('Высший орден ТКК ',50,'#8a43cc','<i class="fas fa-toilet-paper"></i>'),new item('Офицер',10,'#333','<i class="fas fa-angle-up"></i>'),
-new item('Генерал',20,'#333','<i class="fas fa-angle-double-up"></i>'), new item('Фельдмаршалл', 50, '#cc4343','<i class="fas fa-star"></i>')]
+let items_np = [new item('Орден ТКК',10,'#fcba03','<i class="fas fa-toilet-paper"></i>'),
+				new item('Орден ПСР',20,'#eb8034','<i class="fas fa-compass"></i>'),
+				new item('Нашивка COVID',50,'#cc4343','<i class="fas fa-virus"></i>'),
+				new item('Офицер',10,'#fcba03','<i class="fas fa-angle-up"></i>'),
+				new item('Генерал',20,'#eb8034','<i class="fas fa-angle-double-up"></i>'), 
+				new item('Фельдмаршалл', 50, '#cc4343','<i class="fas fa-star"></i>')
+				]
 
+// 
+// [4] Gui покупки
+// 
 buy_gui_opened = 0
 function buy_gui(arg){
 	gui_account_close()
@@ -64,78 +82,24 @@ function buy_gui(arg){
 		buy_gui_open()
 	}
 }
-function buy_color_to(id){
-	buy_gui_edit(`
-		<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
-			<b>Обработка...</b>
-		</div>`)
-	$.ajax({
-        type: "POST",
-        url: "../php/color_handler.php",
-        data: {"id" : id},
-        success: function(data){
-        	
-        	title = data.replace('"','').replace('"','')
-        	console.log(title)
-            if (title == 'good'){
-            	buy_gui_edit(`
-					<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
-						<b>Покупка успешна. Вы молодец.</b>
-					</div>
-					<div id="help_div">
-						<a onclick="close_gui()"><p>Ок</p></a>
-					</div>`)
-            }
-            else{
-            	buy_gui_edit(`
-					<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
-						<b>Вы не купили! Скорее всего у вас не хватает монет.</b>
-					</div>
-					<div id="help_div">
-						<a onclick="close_gui()"><p>Вернуться</p></a>
-					</div>`)
-            }
-        }
-    });
-}
-
-function buy_nameplate_to(id){
-$.ajax({
-        type: "POST",
-        url: "../php/prefix_handler.php",
-        data: {"id" : id},
-        success: function(data){
-
-        }
-    });
-}
-
-function check_item(id,arg){
-	if (arg=='c'){
-		buy_color_to(id)
-		alert('c')
-	}else if(arg=='n'){
-		buy_nameplate_to(id)
-		alert('n')
-	}
-}
-
 function buy_gui_build(name,price,color,id,arg){
 	ex_inner =''
 	if (arg=='c'){
+		ico = visual_prefix
+		ico = ico.substring(0,2) +` style="color: ${color}" `+ ico.substring(3)
 		ex_inner = `
 			<div id='local_chat'>
-				<div class="chat-my-header" style="color: ${color}">${getCookie('name')}</div><br>
+				<div class="chat-my-header" style="color: ${color} !important;">${ico} ${getCookie('name')}</div><br>
             	<div class="chat-my-msg" style="border-left: 3px ${color} solid">Я ахуенный/ая</div><br>
 			</div>
 		`
 	}else if(arg=='n'){
 		ico = items_np[id].np
-		ico = ico.substring(0,2) +` style="color: ${color} !important" `+ ico.substring(3)
+		ico = ico.substring(0,2) +` style="color: ${visual_color}" `+ ico.substring(3)
 		ex_inner = `
 			<div id='local_chat'>
-				<div class="chat-my-header" style="color: #333">${getCookie('name')} ${ico}</div><br>
-            	<div class="chat-my-msg" style="border-left: 3px #333 solid">Я ахуенный/ая</div><br>
+				<div class="chat-my-header" style="color: ${visual_color}">${ico} ${getCookie('name')}</div><br>
+            	<div class="chat-my-msg" style="border-left: 3px ${visual_color} solid">Я соска</div><br>
 			</div>
 		`
 	}
@@ -162,11 +126,9 @@ function buy_gui_build(name,price,color,id,arg){
 
 	document.getElementById('gui-shop-container').innerHTML = buy_gui_html
 }
-
 function buy_gui_edit(text){
 	document.getElementById('gui-buy-edit').innerHTML = text
 }
-
 function buy_gui_open(){
 	document.getElementById('gui-bg').style.display = "block"
 	document.getElementById('gui-buy').style.display = 'block'
@@ -175,6 +137,76 @@ function buy_gui_open(){
 function buy_gui_close(){
 	document.getElementById('gui-buy').style.display = 'none'
 	buy_gui_opened = 0
+}
+
+// 
+// [5] Покупка
+// 
+function check_item(id,arg){
+	buy_edit_response('load')
+	if (arg=='c'){
+		buy_call_to_php("../php/color_handler.php",id,arg)
+	}else if(arg=='n'){
+		buy_call_to_php("../php/prefix_handler.php",id,arg)
+	}
+}
+function buy_call_to_php(path,id,arg){
+	$.ajax({
+        type: "POST",
+        url: path,
+        data: {"id" : id},
+        success: function(data){
+        	buy_edit_response(data)
+        	buy_edit_visual(data,[arg,id])
+        }
+    });
+}
+function buy_edit_response(data){
+	title = data.replace('"','').replace('"','')
+	console.log(title)
+    if (title == 'good'){
+    	buy_gui_edit(`
+			<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
+				<b>Покупка успешна. Вы молодец.</b>
+			</div>
+			<div id="help_div">
+				<a onclick="close_gui()"><p>Ок</p></a>
+			</div>`)
+    }else if (title == 'load'){
+    	buy_gui_edit(`
+			<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
+				<b>Обработка...</b>
+			</div>`)
+    }
+    else{
+    	buy_gui_edit(`
+			<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
+				<b>Вы не купили! Скорее всего у вас не хватает монет.</b>
+			</div>
+			<div id="help_div">
+				<a onclick="close_gui()"><p>Вернуться</p></a>
+			</div>`)
+    }
+}
+function buy_edit_visual(data,args){
+	title = data.replace('"','').replace('"','')
+    if (title == 'good'){
+		if (arg[0]=='c'){
+			visual_color = items_colors[arg[1]].color
+		}else if(arg[0]=='n'){
+			visual_prefix = items_np[arg[1]].np
+		}
+	}
+}
+
+// 
+// [6] Функции __init__
+// 
+visual_color = '#333'
+visual_prefix = ''
+function pick_col_and_pref(){
+	visual_color = document.getElementById('user_color').innerHTML
+	visual_prefix = document.getElementById('user_prefix').innerHTML
 }
 
 function build_wrapper_color(){

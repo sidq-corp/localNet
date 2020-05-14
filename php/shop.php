@@ -22,9 +22,11 @@
 	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body onload="global_init();">
-	<div style = "display: none;">
+	<div id = 'only-visual-features-here--try-to-hack-=>-u-will-suck' style = "display: none;">
 		<div id="user_name"><?php echo $name; ?></div>
 		<div id="user_login"><?php echo $login; ?></div>
+		<div id="user_color"><?php echo $color; ?></div>
+		<div id="user_prefix"><?php echo $prefix; ?></div>
 	</div>
 	<div id = 'loading-wrapper'>
 		<div id = 'loading-wrapper-gradient'>

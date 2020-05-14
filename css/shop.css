@@ -119,12 +119,10 @@
 }
 	.chat-my-msg{
 		float: left;
-		border-left: 3px #e401cf solid;
 		padding-left: 3px;
 	}
 	.chat-my-header{
 		float: left;
-		color: #e401cf;
 	}
 	.chat-my-header i{
 		color: inherit;
