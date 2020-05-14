@@ -61,8 +61,8 @@
 	<div id = 'header'>
 		<br><?php echo $color; ?><br>
 		<br><?php echo $prefix; ?><br>
+		<br>Булочка с корицей<br>
 	</div>
-	
 	<!-- a -->
 	<div id = 'wrapper-content'>
 		<div id = 'wrapper-left'>
