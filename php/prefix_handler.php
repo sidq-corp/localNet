@@ -1,7 +1,7 @@
 <?php
 	include("account_handler.php");
-	$ids = array(array(15, '#fcba03'), array(10, '#0c7ef7'), array(10, '#32a89d'),
-		  		 array(10, '#36bf17'), array(10, '#FF6F61'), array(15, '#D6ED17FF'));
+	$ids = array(array(10, '<i class="fas fa-toilet-paper"></i>'), array(30, '<i class="fas fa-toilet-paper"></i>'), array(50, '<i class="fas fa-toilet-paper"></i>'),
+		  		 array(10, '<i class="fas fa-angle-up"></i>'), array(20, '<i class="fas fa-angle-double-up"></i>'), array(50, '<i class="fas fa-star"></i>'));
 	if(isset($_POST['id']) and isset($_COOKIE['login'])){
 		$login = $_COOKIE['login'];
 		$id = $_POST['id'];

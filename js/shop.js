@@ -100,7 +100,14 @@ function buy_color_to(id){
 }
 
 function buy_nameplate_to(id){
+$.ajax({
+        type: "POST",
+        url: "../php/prefix_handler.php",
+        data: {"id" : id},
+        success: function(data){
 
+        }
+    });
 }
 
 function check_item(id,arg){
