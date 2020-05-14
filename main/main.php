@@ -52,7 +52,7 @@
   	<script type="text/javascript" src="../js/local.js"></script>
   	<script type="text/javascript" src="../js/audio.js"></script>
 </head>
-<body onload="init(); global_init(); update(); ">
+<body onload="init(); global_init(); update(); " Булочка с корицей>
 	<div id = 'loading-wrapper'>
 		<div id = 'loading-wrapper-gradient'>
 
@@ -61,7 +61,6 @@
 	<div id = 'header'>
 		<br><?php echo $color; ?><br>
 		<br><?php echo $prefix; ?><br>
-		<br>Булочка с корицей<br>
 	</div>
 	<!-- a -->
 	<div id = 'wrapper-content'>
