@@ -71,7 +71,7 @@ function buy_color_to(id){
 		</div>`)
 	$.ajax({
         type: "POST",
-        url: "../php/shop_handler.php",
+        url: "../php/color_handler.php",
         data: {"id" : id},
         success: function(data){
         	
@@ -98,6 +98,11 @@ function buy_color_to(id){
         }
     });
 }
+
+function buy_nameplate_to(id){
+
+}
+
 function check_item(id,arg){
 	if (arg=='c'){
 		buy_color_to(id)
