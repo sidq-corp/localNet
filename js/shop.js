@@ -178,10 +178,19 @@ function buy_edit_response(data){
 				<b>Обработка...</b>
 			</div>`)
     }
-    else{
+    else if (title == 'false'){
     	buy_gui_edit(`
 			<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
 				<b>Вы не купили! Скорее всего у вас не хватает монет.</b>
+			</div>
+			<div id="help_div">
+				<a onclick="close_gui()"><p>Вернуться</p></a>
+			</div>`)
+    }else{
+    	buy_gui_edit(`
+			<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
+				<b>Непредвиденный ответ! Сообщите @depozzyx или @sidq! Ответ:</b>
+				<div style='font-family: sans-serif;padding: 10px;padding-top: 0.5px;background-color: #f3f3f3;color: #333;'>${data}</div>
 			</div>
 			<div id="help_div">
 				<a onclick="close_gui()"><p>Вернуться</p></a>
