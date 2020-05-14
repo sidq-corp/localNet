@@ -8,6 +8,7 @@
 		$money = get_money($login);
 		if($money >= $ids[$id][0]){
 			set_money($login, $money-$ids[$id][0]);
+			set_money("localshop", get_money("localshop") + $ids[$id][0]);
 			set_color($login, $ids[$id][1]);
 			echo json_encode("good");
 		}else{
@@ -15,7 +16,7 @@
 		}
 
 	}else{
-		header ('Location: ../main/main.php');  
-   		exit();
+		// header ('Location: ../main/main.php');  
+   		// exit();
 	}
 ?>
