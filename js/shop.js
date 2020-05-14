@@ -113,8 +113,10 @@ $.ajax({
 function check_item(id,arg){
 	if (arg=='c'){
 		buy_color_to(id)
+		alert('c')
 	}else if(arg=='n'){
 		buy_nameplate_to(id)
+		alert('n')
 	}
 }
 
@@ -151,7 +153,7 @@ function buy_gui_build(name,price,color,id,arg){
 						<b>Вы действительно хотите купить <strong style='color: ${color};'>${name}</strong> за ${price} <i class="fas fa-coins"></i> ?</b>
 					</div>
 
-					<button onclick="check_item(${id},${arg})" class="gui-but gui-but-small">Да</button>
+					<button onclick="check_item(${id},'${arg}')" class="gui-but gui-but-small">Да</button>
 					<div id="help_div" style = "margin-top: 3%;">
 						<a onclick="close_gui()"><p>Вернуться</p></a>
 					</div>
