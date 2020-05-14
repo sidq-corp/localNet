@@ -19,7 +19,7 @@
 	
 }	
 .article-triple{
-	width: 31.33333%;
+	width: calc(31.33333% - 20px);
 	height: 20%;
 	background-image: url('images/bg.jpg');
 	background-size: 120%;
@@ -27,8 +27,13 @@
 	margin-bottom: 3%;
 	/*margin-right: 3%;*/
 	float: left;
+	padding-right: 20px;
+	padding-left: 0px;
 	
 }	
+	.article-picker i{
+		line-height: 100%;
+	}
 	#article-tp-to-chat{
 		display: none;
 	}
@@ -47,7 +52,7 @@
 		background-size: 130%;
 		cursor: pointer;
 		padding-left: 20px;
-		width: calc(31.33333% - 20px);
+		padding-right: 0px;
 	}
 	.article-triple-separator{
 		width: 3%;
@@ -120,6 +125,9 @@
 	.chat-my-header{
 		float: left;
 		color: #e401cf;
+	}
+	.chat-my-header i{
+		color: inherit;
 	}
 
 .wrapper{

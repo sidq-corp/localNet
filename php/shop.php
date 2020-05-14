@@ -49,11 +49,12 @@
 			</div>
 		</div>
 		<div class = 'article-triple-separator'><br></div>
-		<div class = 'article article-double' onclick="switch_wrapper('wrapper-prefix')" style = 'height: 20%; background-image: url(../css/images/art6.jpg);'>
+		<div class = 'article article-double' onclick="switch_wrapper('wrapper-prefix')" style = 'height: 20%; background-image: url(../css/images/shp2.jpg);'>
 			<div class = 'article-content'>
 				<div class = 'article-picker article-shadow'>
 					<h1>Шильдики</h1>
-					<p class = 'article-sub-text'><i class="fas fa-toilet-paper"></i><i class="fas fa-star"></i><i class="fas fa-toilet-compass"></i><i class="fas fa-angle-up"></i><i class="fas fa-angle-double-up"></i></p>
+					<p class = 'article-sub-text'>Префиксы-неймтеги-нп</p>
+					<!-- <p class = 'article-sub-text'><i class="fas fa-toilet-paper"></i><i class="fas fa-star"></i><i class="fas fa-compass"></i><i class="fas fa-angle-up"></i><i class="fas fa-angle-double-up"></i></p> -->
 					<br>
 					<br>
 				</div>
@@ -76,6 +77,9 @@
 
 	<div class = 'wrapper' id = 'wrapper-prefix' style="display: none;">
 		<h1>Шильдики</h1>
+		<div id = 'wrapper-np-container'>
+
+		</div>
 
 		<div class = 'article article-one article-text' onclick="switch_wrapper('wrapper-base')" style = 'background: none;'>
 			<h1>Назад в магазин</h1>
