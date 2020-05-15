@@ -59,7 +59,7 @@ function sendAjaxForm(result_form, url, name) {
     	}
  	});
 }
-
+// d
 function stripHtml(html)
 {
    var tmp = document.createElement("DIV");
