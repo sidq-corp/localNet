@@ -6,7 +6,7 @@ function getCookie(name) {
 }
 
 let nick_color = '#333'
-let nick_prefix = '#333'
+let nick_prefix = ''
 function init(){
     arg = document.getElementById('header').innerHTML.split('<br>')
     nick_color = arg[1]
@@ -52,44 +52,19 @@ function sendAjaxForm(result_form, url, name) {
         data: {"mess" : document.getElementById('messin').value, "name" : name},  // Сеарилизуем объект
         success: function(response) { //Данные отправлены успешно
         	result = $.parseJSON(response);
-            reqsplt = result.split('<br>')
-            me = getCookie('name');
-            inner = ''
-            lastme = ''
-            for (var i = 0; i < reqsplt.length-1; i++) {
-                m = reqsplt[i].split(': ')
-                tempme = m[0].split('||')
-                tempcolor = tempme[1]
-                tempme = tempme[0]
-                m.shift()
-                message = m.join(': ')
-                if ((tempme == lastme) && (tempcolor == lastcolor)){
-                    if (tempme == me){
-                        inner = inner + '<div class="chat-my-msg" style="border-left: 3px '+tempcolor+' solid">'+message+'</div><br>'
-                    }else{
-                        inner = inner + '<div class="chat-companion-msg" style="border-right: 3px '+tempcolor+' solid">'+message+'</div><br>'
-                    }
-                    // console.log(inner)
-                }else{
-                    lastme = tempme
-                    lastcolor = tempcolor
-                    if (tempme == me){
-                        inner = inner + '<br><div class="chat-my-header" style="color: '+tempcolor+'">'+tempme+'</div><br>'
-                        inner = inner + '<div class="chat-my-msg" style="border-left: 3px '+tempcolor+' solid">'+message+'</div><br>'
-                    }else{
-                        inner = inner + '<br><div class="chat-companion-header" style="color: '+tempcolor+'">'+tempme+'</div><br>'
-                        inner = inner + '<div class="chat-companion-msg " style="border-right: 3px '+tempcolor+' solid">'+message+'</div><br>'
-                    }
-                    
-                }
-
-            }
-        	$('#result_form').html(inner);
+            insert_chat(result)
     	},
     	error: function(response) { // Данные не отправлены
             $('#result_form').html('Ошибка. Данные не отправлены.');
     	}
  	});
+}
+
+function stripHtml(html)
+{
+   var tmp = document.createElement("DIV");
+   tmp.innerHTML = html;
+   return tmp.textContent || tmp.innerText || "";
 }
 
 function reader(){
@@ -103,43 +78,50 @@ function reader(){
     };*/
 
     request.onload = function () {
-        reqsplt = request.responseText.split('<br>')
-        me = getCookie('name');
-        inner = ''
-        lastme = ''
-        for (var i = 0; i < reqsplt.length-1; i++) {
-            m = reqsplt[i].split(': ')
-            tempme = m[0].split('||')
-            tempcolor = tempme[1]
-            tempme = tempme[0]
-            m.shift()
-            message = m.join(': ')
-            if ((tempme == lastme) && (tempcolor == lastcolor)){
-                if (tempme == me){
-                    inner = inner + '<div class="chat-my-msg" style="border-left: 3px '+tempcolor+' solid">'+message+'</div><br>'
-                }else{
-                    inner = inner + '<div class="chat-companion-msg" style="border-right: 3px '+tempcolor+' solid">'+message+'</div><br>'
-                }
-                // console.log(inner)
-            }else{
-                lastme = tempme
-                lastcolor = tempcolor
-                if (tempme == me){
-                    inner = inner + '<br><div class="chat-my-header" style="color: '+tempcolor+'">'+tempme+'</div><br>'
-                    inner = inner + '<div class="chat-my-msg" style="border-left: 3px '+tempcolor+' solid">'+message+'</div><br>'
-                }else{
-                    inner = inner + '<br><div class="chat-companion-header" style="color: '+tempcolor+'">'+tempme+'</div><br>'
-                    inner = inner + '<div class="chat-companion-msg " style="border-right: 3px '+tempcolor+' solid">'+message+'</div><br>'
-                }
-                
-            }
-
-        }
-        // console.log(inner)
-        document.getElementById('result_form').innerHTML = inner;   
+        insert_chat(request.responseText)
     };
 
     request.send(null);
     setTimeout(reader, 1500);
     
+}
+
+function insert_chat(respone){
+    reqsplt = respone.split('<br>')
+    me = getCookie('name');
+
+    inner = ''
+    lastme = ''
+    for (var i = 0; i < reqsplt.length-1; i++) {
+        m = reqsplt[i].split(': ')
+        tempme = m[0].split('||')
+        tempcolor = tempme[1]
+        orgme = tempme[0]
+        tempme = stripHtml(tempme[0])
+        m.shift()
+        message = m.join(': ')
+        if ((tempme == lastme) && (tempcolor == lastcolor)){
+
+            if (tempme == me){
+                inner = inner + '<div class="chat-my-msg" style="border-left: 3px '+tempcolor+' solid">'+message+'</div><br>'
+            }else{
+                inner = inner + '<div class="chat-companion-msg" style="border-right: 3px '+tempcolor+' solid">'+message+'</div><br>'
+            }
+            // console.log(inner)
+        }else{
+            lastme = tempme
+            lastcolor = tempcolor
+            if (tempme == me){
+                inner = inner + '<br><div class="chat-my-header" style="color: '+tempcolor+'">'+orgme+'</div><br>'
+                inner = inner + '<div class="chat-my-msg" style="border-left: 3px '+tempcolor+' solid">'+message+'</div><br>'
+            }else{
+                inner = inner + '<br><div class="chat-companion-header" style="color: '+tempcolor+'">'+orgme+'</div><br>'
+                inner = inner + '<div class="chat-companion-msg " style="border-right: 3px '+tempcolor+' solid">'+message+'</div><br>'
+            }
+            
+        }
+
+    }
+    // console.log(inner)
+    document.getElementById('result_form').innerHTML = inner;
 }
