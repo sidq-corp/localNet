@@ -13,8 +13,8 @@
 		return count($dir);
 	}
 
-	$login = rtrim($_GET['reg_login'], " ");
-	$name = rtrim($_GET['reg_name'], " ");
+	$login = strip_tags(rtrim($_GET['reg_login'], " "));
+	$name = strip_tags(rtrim($_GET['reg_name'], " "));
 	$pass = rtrim($_GET['reg_pass'], " ");
 	$money = 5;
 	$color = '#333';
