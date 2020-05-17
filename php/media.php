@@ -38,7 +38,7 @@
 
 
 	<div id = 'wrapper'>
-		<h2><b id = 'wrapper-logo'>Локал Media</b></h2>
+		<h2><b id = 'wrapper-logo'>Локалmedia</b></h2>
 
 		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
 			<div class = 'article-content'>
@@ -52,7 +52,7 @@
 			</div>
 		</div>
 		<div class = 'article-triple-separator'><br></div>
-		
+
 		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
 			<div class = 'article-content'>
 				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
@@ -65,6 +65,7 @@
 			</div>
 		</div>
 		<div class = 'article-triple-separator'><br></div>
+
 		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
 			<div class = 'article-content'>
 				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
@@ -76,32 +77,103 @@
 				</div>
 			</div>
 		</div>
+		<div class = 'article-one-separator'><br></div>
 
-		<h1>Для чего нужен localNet?</h1>
-		<p>
-			Этот сайт нужен для локального общения в сети без доступа к интернету. Помимо своей главной функции мы добаили на него достаточно много контента и функционала, что-бы можно было себя занять. Пентест, мирное сосуществование и анархия в одной wifi сети стало возможным благодаря нам. Для запуска достаточно просто скачать OpenServer и запустить сайт.
+		<div class = 'article-one article article-card'>
+			<div class = 'article-content'>
+				<div class = 'article-picker'>
+					<h1>Хочешь добавить своё фото?</h1>
+					<p class = 'article-sub-text'>Тыкай сюда!</p>
+				</div>
+			</div>
+		</div>
 
-		</p>
-		<h1>Кому говорить спасибо?</h1>
-		<p>
-			Спасибо нужно говорить @depozzyx и @sidq. Сайт был написал полностью с нуля, и мы воплощали в нем все свои идеи( на самом деле нет depozzyx 06/05/20 ). Перед нами вставало множество трудностей, багов, ошибок( ну это уже да ). Не одна сотня нервных клеток были похоронены на этом сайте. Мы ахуенные.
-			
-		</p>
-		<h1>Контакты:</h1>
+		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
+			<div class = 'article-content'>
+				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
+					<br>
+				</div>
+				<div class = 'article-picker'>
+					<h1>Почему птенцы детей рожают узбеков?</h1>
+					<p class = 'article-sub-text'>Или как мир несправедлив</p>
+				</div>
+			</div>
+		</div>
+		<div class = 'article-triple-separator'><br></div>
+
+		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
+			<div class = 'article-content'>
+				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
+					<br>
+				</div>
+				<div class = 'article-picker'>
+					<h1>Почему птенцы детей рожают узбеков? вдывдыдвыдвыд вдыв дывылвыдв ыдлывдылвдыл</h1>
+					<p class = 'article-sub-text'>Или как мир несправедлив</p>
+				</div>
+			</div>
+		</div>
+		<div class = 'article-triple-separator'><br></div>
+
+		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
+			<div class = 'article-content'>
+				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
+					<br>
+				</div>
+				<div class = 'article-picker'>
+					<h1>Почему птенцы детей рожают узбеков?</h1>
+					<p class = 'article-sub-text'>Или как мир несправедлив</p>
+				</div>
+			</div>
+		</div>
+		<div class = 'article-one-separator'><br></div>
+
+		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
+			<div class = 'article-content'>
+				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
+					<br>
+				</div>
+				<div class = 'article-picker'>
+					<h1>Почему птенцы детей рожают узбеков?</h1>
+					<p class = 'article-sub-text'>Или как мир несправедлив</p>
+				</div>
+			</div>
+		</div>
+		<div class = 'article-triple-separator'><br></div>
+
+		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
+			<div class = 'article-content'>
+				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
+					<br>
+				</div>
+				<div class = 'article-picker'>
+					<h1>Почему птенцы детей рожают узбеков?</h1>
+					<p class = 'article-sub-text'>Или как мир несправедлив</p>
+				</div>
+			</div>
+		</div>
+		<div class = 'article-triple-separator'><br></div>
+
+		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
+			<div class = 'article-content'>
+				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
+					<br>
+				</div>
+				<div class = 'article-picker'>
+					<h1>Почему птенцы детей рожают узбеков?</h1>
+					<p class = 'article-sub-text'>Или как мир несправедлив</p>
+				</div>
+			</div>
+		</div>
+		<div class = 'article-one-separator'><br></div>
+
+		<!-- <h1>Контакты:</h1>
 		<p>
 			Telegram: <a  href = 'https://t.me/sidqdev'>@restylesidq</a> или <a  href = 'https://t.me/depozzyx'>@depozzyx</a><br>
 			Наш телеграм канал: <a  href = 'https://t.me/deposidqdev'>../dev</a><br>
 			Нет телеграма – скачай!<br>
 			<b style = 'font-size: 110%;' id = 'changelog-open'>Changelog / История изменений: <a  onclick="show_changelog()" >открыть</a></b>
-		</p>
-		<div id = 'changelog'>
-			<h1>May 13, 2020</h1>
-			<p>
-				Багфиксы.<br>
-				Добавлен магазин. В нём можно купить цвета для ников.<br>
-				Добавлено отображение цветов в чате и в окошке аккаунта
-			</p>
-		</div>
+		</p> -->
+		
 	</div>
 
 

@@ -28,6 +28,9 @@ body{
 		height: 0px;
 		/*text-decoration: underline;*/
 	}
+	#wrapper .article a{
+		background-color: #f3f3f3;
+	}
 	#wrapper a:hover{
 		color: #fff;
 		background-color: #333;
@@ -54,7 +57,18 @@ body{
 .article-card{
 	background-color: #f3f3f3;
 	background-image: none;
-}
+	/*max-height: 400px;
+	overflow-x: hidden;
+	overflow-y: scroll;*/
+}	
+	.article-card h1{
+		max-height: 120px;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+	.article-card h1::-webkit-scrollbar {
+	  display: none;
+	}
 	.article-card-image{
 		background-color: #333;
 		background-image: none;
@@ -62,14 +76,33 @@ body{
 		margin: 5px; 
 		line-height: 1500%;
 	}
+	.article-card:hover{
+		transform: translateY(5px);
+	}
 	.article-content{
 		background: none;
 		color: #333;
+	}
+	@media screen and (min-width: 0px) and (max-width: 300px) {
+		.article-sub-text{
+			display: block;
+		}
+	}
+	@media screen and (min-width: 300px) and (max-width: 500px) {
+		.article-sub-text{
+			display: block;
+		}
+	}
+	@media screen and (min-width: 500px) and (max-width: 600px) {
+		.article-sub-text{
+			display:block;
+		}
 	}
 
 
 #changelog{
 	font-family: sans-serif;
+	margin-top: 3%;
 	padding: 10px;
 	padding-top: 0.5px;
 	background-color: #f3f3f3;
