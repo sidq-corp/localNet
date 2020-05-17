@@ -111,7 +111,7 @@
 	}
 
 /* ARTICLE */
-.article-one{
+/*.article-one{
 	width: 100%;
 	height: 20%;
 	background-image: url('images/art1.jpg');
@@ -127,7 +127,6 @@
 	background-size: 120%;
 	background-position: center;
 	margin-bottom: 3%;
-	/*margin-right: 3%;*/
 	float: left;
 	
 }	
@@ -179,7 +178,7 @@
 		margin-left: 3%;
 		font-family: 'Proxima Semibold';
 	}
-
+*/
 
 
 @media screen and (min-width: 0px) and (max-width: 300px) {

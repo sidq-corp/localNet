@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>LocalNet</title>
+	<title>localnet</title>
 	<meta charset="utf-8" content="width=device-width, initial-scale=1" name="viewport">
+
+	<meta name="description" content="Сайт для общения и залипания, который может работать без постоянного подключения к Интернету"> 
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" type="image/png" href="favicon.png">
+
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/stars.css">
 	<script src="js/index.js"></script>

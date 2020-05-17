@@ -223,7 +223,7 @@ function build_wrapper_color(){
 	for (var i = 0; i < items_colors.length; i++) {
 		obj = items_colors[i]
 		inner = inner + `
-			<div class = 'article article-triple' onclick="buy_gui('c_${i}')" style = 'height: 20%; background-image: none; background-color: ${obj.get_color()};'>
+			<div class = 'article article-triple-shop article-triple' onclick="buy_gui('c_${i}')" style = 'height: 20%; background-image: none; background-color: ${obj.get_color()};'>
 				<div class = 'article-content'>
 					<div class = 'article-picker article-shadow'>
 						<h1>${obj.get_name()}</h1>
@@ -246,7 +246,7 @@ function build_wrapper_nameplate(){
 	for (var i = 0; i < items_np.length; i++) {
 		obj = items_np[i]
 		inner = inner + `
-			<div class = 'article article-triple' onclick="buy_gui('n_${i}')" style = 'height: 20%; background-image: none; background-color: ${obj.color};'>
+			<div class = 'article article-triple article-triple-shop' onclick="buy_gui('n_${i}')" style = 'height: 20%; background-image: none; background-color: ${obj.color};'>
 				<div class = 'article-content'>
 					<div class = 'article-picker article-shadow'>
 						<h1>${obj.name}</h1>

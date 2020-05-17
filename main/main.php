@@ -40,10 +40,17 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
-	<title><?php echo $name; ?></title>
-	
+	<title>Главная - <?php echo $name; ?></title>
+
+	<meta name="description" content="Сайт для общения и залипания, который может работать без постоянного подключения к Интернету"> 
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="icon" type="image/png" href="../favicon.png">
+
+	<link rel="stylesheet" href="../css/article.css">
 	<link rel="stylesheet" href="../css/global.css">
 	<link rel="stylesheet" href="../css/main.css">
+	
+
 	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
 	<script type="text/javascript" src="../js/ajax_script.js"></script>
   	<script type="text/javascript" src="../js/ajax.js"></script>
@@ -150,6 +157,12 @@
 				    </form>
 				</div>
 			</div>
+
+			<a href = '../veronika/veronika.php'>
+				<div class='gchat-title' style = 'line-height: 400%; margin-top: 3%;' onclick = 'lchat_check()'>
+					Чат с Вероникой
+				</div>
+			</a>
 
 		</div>
 	</div>

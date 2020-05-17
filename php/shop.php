@@ -10,15 +10,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Залипалки</title>
+	<title>Магазин - <?php echo $name; ?></title>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
 
-	<link rel="stylesheet" href="../css/shop.css">
 	<link rel="stylesheet" href="../css/global.css">
-	<script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="../css/article.css">
+	<link rel="stylesheet" href="../css/shop.css">
+	
+	<meta name="description" content="Сайт для общения и залипания, который может работать без постоянного подключения к Интернету"> 
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="icon" type="image/png" href="../favicon.png">
 
 	<script src="../js/shop.js"></script>
 	<script src="../js/global.js"></script>
+	<script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body onload="global_init();">

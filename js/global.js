@@ -269,26 +269,30 @@ function header_insert(){
 
 function gui_insert(){
 	existing = document.getElementById('gui-container').innerHTML
-	newhtml = gui + existing + gui2
-	document.getElementById('gui-container').innerHTML = newhtml
-}
-gui = `	<div id="gui-bg" onclick="close_gui()"></div>
+
+	gui = `	<div id="gui-bg" onclick="close_gui()"></div>
 		<div id="gui-account" class = 'gui' style = "display: none;">
 			<div class="gui_title">
 				Аккаунт
 			</div>
 
 			<div class = "generic_form">
-				<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">`
-					
-gui2 = `		</div>
+				<div id="help_div" style = "margin-top: 3%; margin-bottom: 17%">
+					${existing}
+        		</div>
 
 				<button onclick="gui_account_check()" class="gui-but gui-but-small">Вернуться</button>
 				<div id="help_div" style = "margin-top: 3%;">
-					<a href='/'><p>Выйти</p></a>
+					<!--<a href='../php/about.php'><p style='margin-bottom: 5px;'>О проэкте</p></a>-->
+					<a href='/'><p style='margin-top: 0px;'>Выйти</p></a>
 				</div>
 			</div>
 		</div>`
+
+	newhtml = gui
+	document.getElementById('gui-container').innerHTML = newhtml
+}
+
 
 header =`<div id = "header-placeholder">
 			<div style = "display: none;">
@@ -297,9 +301,9 @@ header =`<div id = "header-placeholder">
 		</div>
 		<div id = "phone-header-menu">
 			<div id = "phone-header-top">
-				<a href="../veronika/veronika.php">
+				<a href="../php/media.php">
 					<div class = "phone-header-top-item">
-						<!-- <b>[</b>NEW<b>]</b> --> Вероника
+						Локал <b>Мedia</b>
 					</div>
 				</a>
 				<a href="../php/games.php">
@@ -343,13 +347,14 @@ header =`<div id = "header-placeholder">
 		<div id = "header-menu">
 			<!-- <div id = "header-items"> -->
 				<a href="/main/main.php"><div id = "header-logo"></div></a>
-				<a href="../veronika/veronika.php">
+				<a href="../php/media.php">
 					<div class = "header-item header-item-a">
 						<div class = "header-picker">
-							Вероника
+							Локал <b>Media</b>
 						</div>
 					</div>
 				</a>
+
 				<a href="../php/games.php">
 					<div class = "header-item header-item-a">
 						<div class = "header-picker">

@@ -9,6 +9,10 @@
 <head>
 	<title>Запись - <?php echo $login; ?></title>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+	
+	<meta name="description" content="Сайт для общения и залипания, который может работать без постоянного подключения к Интернету"> 
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="icon" type="image/png" href="../favicon.png">
 
 	<link rel="stylesheet" href="../css/artic.css">
 	<link rel="stylesheet" href="../css/global.css">

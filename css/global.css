@@ -163,7 +163,12 @@ body{
 		color: inherit;
 		text-decoration: inherit;
 	}
+	.header-skew{
+		font-family: 'Proxima Black';
+		transform: skewX(-12deg) translateY(0%);
+	}
 	.header-item b{
+		/*background-color: #e401cf;*/
 		color: #e401cf;
 	}
 	.header-item-a:hover, .phone-header-top-item:hover{

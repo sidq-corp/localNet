@@ -7,9 +7,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Залипалки</title>
+	<title>Залипалки - <?php echo $name; ?></title>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
 
+	<meta name="description" content="Сайт для общения и залипания, который может работать без постоянного подключения к Интернету"> 
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="icon" type="image/png" href="../favicon.png">
+
+	<link rel="stylesheet" href="../css/article.css">
 	<link rel="stylesheet" href="../css/games.css">
 	<link rel="stylesheet" href="../css/global.css">
 

@@ -70,6 +70,7 @@ function check_focus(elem){
 	standingby = 0
 }
 function check_blur_log(elem){
+
 	str = document.getElementById(elem).value
 	if (str.length >= 6) {
 		oks.set(elem, 1);
@@ -80,12 +81,14 @@ function check_blur_log(elem){
 	}
 }	
 function check_all_oks_log(){
+		
 	for (var [key, value] of oks) {
 		if (value == 0){
 			document.getElementById('fake_check_log').style.opacity = '0.5';
 			document.getElementById('check_log').style.display = 'none';
 			document.getElementById('check_log').style.opacity = '0.5';
 			document.getElementById('fake_check_log').style.display = 'block';
+			console.log('not ok')
 			standingby = 0
 			return
 		}

@@ -12,12 +12,13 @@
 
 	<meta name="description" content="Сайт для общения и залипания, который может работать без постоянного подключения к Интернету"> 
 	<link rel="shortcut icon" href="../favicon.ico">
-	<link rel="icon" type="image/png" href="../favicon.png">
+	<link rel="icon" type="image/png" href="../favicon-media.png">
 
-	<link rel="stylesheet" href="../css/about.css">
+	<link rel="stylesheet" href="../css/article.css">
+	<link rel="stylesheet" href="../css/media.css">
 	<link rel="stylesheet" href="../css/global.css">
 
-	<script src="../js/about.js"></script>
+	<script src="../js/media.js"></script>
 	<script src="../js/global.js"></script>
 	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
@@ -37,6 +38,45 @@
 
 
 	<div id = 'wrapper'>
+		<h2><b id = 'wrapper-logo'>Локал Media</b></h2>
+
+		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
+			<div class = 'article-content'>
+				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
+					<br>
+				</div>
+				<div class = 'article-picker'>
+					<h1>Почему птенцы детей рожают узбеков?</h1>
+					<p class = 'article-sub-text'>Или как мир несправедлив</p>
+				</div>
+			</div>
+		</div>
+		<div class = 'article-triple-separator'><br></div>
+		
+		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
+			<div class = 'article-content'>
+				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
+					<br>
+				</div>
+				<div class = 'article-picker'>
+					<h1>Почему птенцы детей рожают узбеков?</h1>
+					<p class = 'article-sub-text'>Или как мир несправедлив</p>
+				</div>
+			</div>
+		</div>
+		<div class = 'article-triple-separator'><br></div>
+		<div class = 'article article-triple article-card' onclick = 'goto_link("media-photo.php?id=1")'>
+			<div class = 'article-content'>
+				<div class = 'article-card-image' style = 'background-image: url(../css/images/art1.jpg);'>
+					<br>
+				</div>
+				<div class = 'article-picker'>
+					<h1>Почему птенцы детей рожают узбеков?</h1>
+					<p class = 'article-sub-text'>Или как мир несправедлив</p>
+				</div>
+			</div>
+		</div>
+
 		<h1>Для чего нужен localNet?</h1>
 		<p>
 			Этот сайт нужен для локального общения в сети без доступа к интернету. Помимо своей главной функции мы добаили на него достаточно много контента и функционала, что-бы можно было себя занять. Пентест, мирное сосуществование и анархия в одной wifi сети стало возможным благодаря нам. Для запуска достаточно просто скачать OpenServer и запустить сайт.
@@ -55,99 +95,13 @@
 			<b style = 'font-size: 110%;' id = 'changelog-open'>Changelog / История изменений: <a  onclick="show_changelog()" >открыть</a></b>
 		</p>
 		<div id = 'changelog'>
-			<h1>May 15 - May 16, 2020</h1>
-			<p>
-				Веронику унесли голуби с хэдера. Теперь на ее месте Локал Media.<br>
-				Начало Локал Media.
-			</p>
-			<h1>May 15 - May 16, 2020</h1>
-			<p>
-				Прокрастинация.
-			</p>
-			<h1>May 14, 2020</h1>
-			<p>
-				Доделан магазин. Теперь там можно купить префиксы.
-			</p>
 			<h1>May 13, 2020</h1>
 			<p>
 				Багфиксы.<br>
 				Добавлен магазин. В нём можно купить цвета для ников.<br>
 				Добавлено отображение цветов в чате и в окошке аккаунта
 			</p>
-			<h1>May 12, 2020</h1>
-			<p>
-				Обновлён локальный и глобальный чат. Теперь он красивый.
-			</p>
-			<h1>May 11, 2020</h1>
-			<p>
-				Дизайн подбора музыки сделан.<br>
-				Еб**ий плеер не работает из-за ошибки в currentTime. Он откачен до стандарта.
-			</p>
-			<h1>May 10, 2020</h1>
-			<p>
-				Закончен бекэнд поиска и добаления музыки.<br>
-				Начало разработки его дизайна. Начало разработки еб**его плеера для всего сайта.
-			</p>
-			<h1>May 9, 2020</h1>
-			<p>
-				Написан changelog.<br>
-				Система музыки добавлена в залипалки.
-			</p>
-			<h1>May 8, 2020</h1>
-			<p>
-				Пентест #3 - неудачный.<br>
-				Добавлена вкладка с играми, которая превратится позже в залипалки.<br>
-				Пишется система поиска вудио по параметрам.
-			</p>
-			<h1>May 6 - May 7, 2020</h1>
-			<p>
-				Теперь на артиклы можно заходить. Система унифицирована.<br>
-				Адаптация вероники.<br>
-				Модифицирован gui.<br>
-				Добавлена анимация localnet при загрузке. Сасно.
-			</p>
-			<h1>May 5, 2020</h1>
-			<p>
-				Дизайн главной страницы допилен.<br>
-				Хэдэр, гуи и некоторые другие универсальные блоки перенесены в global.js.<br>
-				Начало дизайна Вероники.<br>
-				Написание хэндлера под аудио.
-			</p>
-			<h1>May 4, 2020</h1>
-			<p>
-				Добавлены игры +- в это время, однако на них пока что нельзя зайти.<br>
-				Адаптация главной страницы.<br>
-				Какая-то х**ня с бэкэндом. Хз что там.
-			</p>
-			<h1>May 3, 2020</h1>
-			<p>
-				Главная страница почти сделана на пк. Адаптация.<br>
-				Начало системы денег. Баги.<br>
-				Заплатки дыр от пентестов. <br>
-				Добавлена +- в это время Вероника на сайт.
-			</p>
-			<h1>May 2, 2020</h1>
-			<p>
-				Пентест #2 - удачный.<br>
-				Заплатки дыр от пентестов. <br>
-				Чаты вероятно уже допилены.<br>
-				Первый gui аккаунта.<br>
-				Логин полностью сделан.
-			</p>
-			<h1>May 1, 2020</h1>
-			<p>
-				Первый пентест - удачный.<br>
-				Дизайн логина на пк допилен. Адаптация под телефоны.<br>
-				Начало дизайна чатов.
-			</p>
-			<h1>Apr 30, 2020</h1>
-			<p>
-				Первый коммит.<br>
-				Бэкэнд логина, начало его дизайна.<br>
-				Начало бэкэнда чатов.
-			</p>
 		</div>
-		<h2>С *сердечко* <b id = 'wrapper-logo'>localnet</b></h2>
 	</div>
 
 

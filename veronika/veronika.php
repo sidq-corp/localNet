@@ -7,10 +7,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Вероника младшая</title>
+	<title>Вероника - <?php echo $name; ?></title>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="../css/global.css">
+
+	<meta name="description" content="Сайт для общения и залипания, который может работать без постоянного подключения к Интернету"> 
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="icon" type="image/png" href="../favicon.png">
+
 	<script src="main.js"></script>
 	<script src="../js/global.js"></script>
 	<script type="text/javascript" src="https://kit.fontawesome.com/a076d05399.js"></script>
